@@ -106,7 +106,7 @@ body {
 }
 
 .room-info {
-    top:50px;
+    padding-top:50px;
     position: relative;
     text-align: center;
     margin: 10px 0;
@@ -142,7 +142,7 @@ body {
     border-radius: 50%;
     background: rgba(255, 215, 0, 0.3); /* Golden glow */
     animation: pulse 1.5s infinite;
-    z-index: 0;
+    z-index: -1;
 }
 
 .room-info h2 {
