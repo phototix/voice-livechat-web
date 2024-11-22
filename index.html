@@ -30,7 +30,7 @@
             font-weight: bold;
             margin-bottom: 10px;
         }
-        
+
         .gift-items {
             display: flex;
             justify-content: space-around;
@@ -178,6 +178,46 @@
             /* Text shadow for better visibility */
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for contrast */
 
+        }
+
+        /* Dialog Styles */
+        .dialog {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .dialog-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .dialog-content h2 {
+            margin-top: 0;
+        }
+
+        .dialog-content button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .dialog-content button:hover {
+            background-color: #45a049;
         }
 
         .chat-history {
@@ -337,6 +377,27 @@
         </div>
     </div>
 
+    <!-- Popup Dialog -->
+    <div id="welcome-dialog" class="dialog">
+        <div class="dialog-content">
+            <h2>Welcome to the Chat Room!</h2>
+            <p><strong>Chat Room Details:</strong></p>
+            <ul>
+                <li>Moderated by admins</li>
+                <li>Friendly discussions encouraged</li>
+                <li>Respect other members</li>
+            </ul>
+            <p><strong>Chat Room Rules:</strong></p>
+            <ul>
+                <li>No spamming</li>
+                <li>No offensive language</li>
+                <li>No sharing personal information</li>
+                <li>Be kind and respectful</li>
+            </ul>
+            <button id="close-btn">Okay</button>
+        </div>
+    </div>
+
     <!-- Gift Modal -->
     <div class="gift-modal" id="gift-modal">
         <div class="gift-modal-header">礼物</div>
@@ -448,6 +509,16 @@
             if (event.target === giftModal) {
                 giftModal.style.display = 'none';
             }
+        });
+
+        // Show the welcome dialog when the page loads
+        window.onload = function() {
+            document.getElementById('welcome-dialog').style.display = 'flex';
+        }
+
+        // Close the dialog when the "Okay" button is clicked
+        document.getElementById('close-btn').addEventListener('click', function() {
+            document.getElementById('welcome-dialog').style.display = 'none';
         });
     </script>
 
