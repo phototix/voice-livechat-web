@@ -84,19 +84,27 @@ body {
 }
 
 .header {
-    background: #f3f3f3;
-    padding: 10px;
+    background: rgba(0, 0, 0, 0.3); /* Transparent background with slight black tint */
+    padding: 10px 20px; /* Add more padding for spacing */
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-
-    /* Text outline effect */
-    -webkit-text-stroke: 1px white; /* Chrome, Safari */
-    text-stroke: 1px white; /* Standard */
+    color: white; /* White text for contrast */
+    position: fixed; /* Fixes the header at the top */
+    top: 0; /* Position at the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays on top */
+    backdrop-filter: blur(10px); /* Optional blur effect behind */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow to add depth */
+    
+    /* Text outline effect (optional) */
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5); /* Subtle stroke */
+    text-stroke: 1px rgba(0, 0, 0, 0.5); /* Standard */
 
     /* Text shadow for better visibility */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for contrast */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Subtle shadow for contrast */
 }
+
 .room-info {
     position: relative;
     text-align: center;
