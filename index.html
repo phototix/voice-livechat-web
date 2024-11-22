@@ -308,11 +308,11 @@
 </head>
 <body>
     <div class="chat-room" id="chat-room">
-        <div class="header">
+        <div class="header" id="room-title">
             壹馨一意 🌻 真人交友 - 聊天室
         </div>
         <div class="room-info">
-            <img src="assets/yishao-profile.png" alt="Host">
+            <img src="assets/host.png?version=1" alt="Host">
             <h2>主持人 (房主)</h2>
             <p id="room-id">ID: 96844131</p>
         </div>
@@ -432,7 +432,12 @@
                 const timestamp = new Date().getTime();
 
                 document.getElementById("room-id").innerText = `ID: ${data.room.id}`;
-                document.getElementById("chat-room").style.backgroundImage = `url(${data.room.background})`;
+                document.getElementById("room-title").innerText = data.room.title;
+
+                // Update Room Background
+                const roomBackground = document.getElementById("room-background");
+                roomBackground.style.background = `url('${roomData.room.background}') no-repeat center center`;
+                roomBackground.style.backgroundSize = "cover";
 
                 hostInfo.querySelector('img').src = data.host.photo;
                 hostInfo.querySelector('h2').textContent = `${data.host.name} (房主)`;
