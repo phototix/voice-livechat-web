@@ -190,7 +190,15 @@ body {
     height: 70px;
     position: relative;
     margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.user-slot span {
+    margin-top: 5px; /* Add some space between the image and text */
+    
     /* Text outline effect */
     -webkit-text-stroke: 1px white; /* Chrome, Safari */
     text-stroke: 1px white; /* Standard */
