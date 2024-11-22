@@ -273,12 +273,18 @@
             }
         });
 
-        // Attempt to resume audio playback on page load (for certain browsers)
-        document.addEventListener('DOMContentLoaded', () => {
-            backgroundRadio.play().catch(() => {
-                console.log('Autoplay blocked. Waiting for user interaction.');
+        // Enable playback on user interaction
+        const enablePlayback = () => {
+            backgroundRadio.muted = false; // Unmute by default
+            backgroundRadio.play().then(() => {
+                console.log('Audio playback started.');
+            }).catch((err) => {
+                console.error('Playback failed:', err);
             });
-        });
+            document.body.removeEventListener('click', enablePlayback); // Remove listener after activation
+        };
+
+        document.body.addEventListener('click', enablePlayback);
     </script>
 
 </body>
