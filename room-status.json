@@ -1,0 +1,49 @@
+{
+  "host": {
+    "status": "online",
+    "photo": "assets/yishao-profile.png",
+    "name": "壹韶"
+  },
+  "users": [
+    {
+      "status": "online",
+      "photo": "assets/qianman-profile-1.png",
+      "name": "壹都·芊蔓"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-2.png",
+      "name": "空"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-3.png",
+      "name": "空"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-4.png",
+      "name": "空"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-5.png",
+      "name": "空"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-6.png",
+      "name": "空"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-7.png",
+      "name": "空"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-boss.png",
+      "name": "老板"
+    }
+  ]
+}

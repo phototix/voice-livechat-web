@@ -436,6 +436,54 @@
     </audio>
 
     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Function to update the chat room UI based on JSON data
+            function updateRoomStatus(data) {
+                // Update host info
+                const hostInfo = document.querySelector('.room-info');
+                hostInfo.querySelector('img').src = data.host.photo;
+                hostInfo.querySelector('h2').textContent = `${data.host.name} (房主)`;
+                
+                // Loop through each user slot and update the status
+                const userSlots = document.querySelectorAll('.user-slot');
+                const users = data.users;
+
+                users.forEach((user, index) => {
+                    const userSlot = userSlots[index];
+                    const img = userSlot.querySelector('img');
+                    const span = userSlot.querySelector('span');
+
+                    // Update user slot based on user status
+                    img.src = user.photo;
+                    span.textContent = user.name;
+
+                    // If the user is offline, mark the slot as "空" (empty)
+                    if (user.status === "offline") {
+                        span.textContent = "空";
+                    }
+                });
+            }
+
+            // Fetch the JSON data and update the UI
+            function fetchRoomStatus() {
+                fetch('room-status.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        updateRoomStatus(data);
+                    })
+                    .catch(error => {
+                        console.error('Error loading room status:', error);
+                    });
+            }
+
+            // Continuously update room status every 10 seconds
+            setInterval(fetchRoomStatus, 10000);
+
+            // Initial fetch to load the status when the page is loaded
+            fetchRoomStatus();
+        });
+
+
         // Mute/Unmute functionality
         const muteBtn = document.getElementById('mute-btn');
         const backgroundRadio = document.getElementById('background-radio');
