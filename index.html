@@ -307,45 +307,45 @@
     </style>
 </head>
 <body>
-    <div class="chat-room">
+    <div class="chat-room" id="chat-room">
         <div class="header">
             壹馨一意 🌻 真人交友 - 聊天室
         </div>
         <div class="room-info">
             <img src="assets/yishao-profile.png" alt="Host">
-            <h2>壹韶 (房主)</h2>
-            <p>ID: 96844131</p>
+            <h2>主持人 (房主)</h2>
+            <p id="room-id">ID: 96844131</p>
         </div>
         <div class="user-slots">
             <!-- Active User Slots -->
             <div class="user-slot">
                 <img src="assets/seat-1.png" alt="Seat-1">
-                <span>空</span>
+                <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-2.png" alt="Seat-2">
-                <span>空</span>
+                <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-3.png" alt="Seat-3">
-                <span>空</span>
+                <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-4.png" alt="Seat-4">
-                <span>空</span>
+                <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-5.png" alt="Seat-5">
-                <span>空</span>
+                <span>虚位以待</span>
             </div>
             <!-- Empty Slots -->
             <div class="user-slot">
                 <img src="assets/seat-6.png" alt="Seat-6">
-                <span>空</span>
+                <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-7.png" alt="Seat-7">
-                <span>空</span>
+                <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-boss.png" alt="Seat-boss">
@@ -430,6 +430,10 @@
                 // Update host info
                 const hostInfo = document.querySelector('.room-info');
                 const timestamp = new Date().getTime();
+
+                document.getElementById("room-id").innerText = `ID: ${data.room.id}`;
+                document.getElementById("chat-room").style.backgroundImage = `url(${data.room.background})`;
+
                 hostInfo.querySelector('img').src = data.host.photo;
                 hostInfo.querySelector('h2').textContent = `${data.host.name} (房主)`;
                 
@@ -448,7 +452,7 @@
 
                     // If the user is offline, mark the slot as "空" (empty)
                     if (user.status === "offline") {
-                        span.textContent = "空";
+                        span.textContent = "虚位以待";
                     }
                 });
             }
