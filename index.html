@@ -272,6 +272,13 @@
                 muteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>'; // Mute Icon
             }
         });
+
+        // Attempt to resume audio playback on page load (for certain browsers)
+        document.addEventListener('DOMContentLoaded', () => {
+            backgroundRadio.play().catch(() => {
+                console.log('Autoplay blocked. Waiting for user interaction.');
+            });
+        });
     </script>
 
 </body>
