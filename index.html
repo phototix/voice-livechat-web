@@ -264,7 +264,7 @@
         userSlots.forEach(function (slot) {
             slot.addEventListener('click', function () {
                 const userId = slot.getAttribute('data-userid');
-                const user = roomData.users.find(u => u.userid === userId);
+                const user = data.users.find(u => u.userid === userId);
                 
                 if (user) {
                     // Populate the modal with user data
