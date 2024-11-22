@@ -132,19 +132,6 @@ body {
     z-index: 1;
 }
 
-.room-info .sound-waves {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background: rgba(255, 215, 0, 0.3); /* Golden glow */
-    animation: pulse 1.5s infinite;
-    z-index: -1;
-}
-
 .room-info h2 {
     margin: 5px 0;
     font-size: 16px;
@@ -163,6 +150,19 @@ body {
     font-size: 12px;
 }
 
+.room-info .sound-waves {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: rgba(255, 215, 0, 0.3); /* Golden glow */
+    animation: pulse 1.5s infinite;
+    z-index: -1;
+}
+
 /* Pulse animation for sound waves */
 @keyframes pulse {
     0% {
@@ -172,6 +172,28 @@ body {
     100% {
         transform: translate(-50%, -50%) scale(2);
         opacity: 0;
+    }
+}
+
+.room-info .sound-waves-2 {
+    position: absolute;
+    width: 100%;
+    height: 4px;  /* Adjust height for line appearance */
+    background: linear-gradient(to right, rgba(255, 215, 0, 0.3), rgba(255, 215, 0, 0)); /* Golden color with fade */
+    animation: line-wave 2s infinite ease-in-out;
+    z-index: -1;  /* Ensure it stays behind the avatar */
+    border-radius: 2px;
+}
+
+@keyframes line-wave {
+    0% {
+        transform: scaleX(0.1); /* Start with small line */
+    }
+    50% {
+        transform: scaleX(1); /* Expand the line */
+    }
+    100% {
+        transform: scaleX(0.1); /* Shrink the line */
     }
 }
 
