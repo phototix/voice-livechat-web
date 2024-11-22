@@ -191,6 +191,7 @@ body {
     margin-bottom: 5px;
 }
 .user-slot span {
+    position: absolute;
     font-size:12px;
     /* Text outline effect */
     -webkit-text-stroke: 1px white; /* Chrome, Safari */
