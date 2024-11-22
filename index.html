@@ -241,7 +241,7 @@
                 <input type="text" placeholder="Type a message...">
             </div>
             <button class="button" id="mute-btn">
-                <i class="fas fa-volume"></i>
+                <i class="fa fa-volume-up"></i>
             </button>
             <button class="button">
                 <i class="fas fa-comment"></i>
@@ -266,7 +266,7 @@
         muteBtn.addEventListener('click', () => {
             if (backgroundRadio.muted) {
                 backgroundRadio.muted = false;
-                muteBtn.innerHTML = '<i class="fas fa-volume"></i>'; // Unmute Icon
+                muteBtn.innerHTML = '<i class="fa fa-volume-up"></i>'; // Unmute Icon
             } else {
                 backgroundRadio.muted = true;
                 muteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>'; // Mute Icon
