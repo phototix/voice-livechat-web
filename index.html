@@ -199,36 +199,6 @@
                         span.textContent = "虚位以待";
                     }
                 });
-
-                userSlots.forEach(function (slot) {
-                    slot.addEventListener('click', function () {
-                        const userId = slot.getAttribute('data-userid');
-                        const user = data.users.find(u => u.userid === userId);
-                        
-                        if (user) {
-                            // Populate the modal with user data
-                            document.getElementById('profile-photo').src = user.photo;
-                            document.getElementById('profile-name').textContent = user.name;
-                            document.getElementById('profile-status').textContent = user.status === 'online' ? 'Status: Online' : 'Status: Offline';
-                            document.getElementById('profile-mic').textContent = `Mic: ${user.mic}`;
-                            
-                            // Show the modal
-                            document.getElementById('profile-modal').style.display = 'block';
-                        }
-                    });
-                });
-
-                // Close modal when clicking on close button
-                document.querySelector('.profile-modal .close').addEventListener('click', function () {
-                    document.getElementById('profile-modal').style.display = 'none';
-                });
-
-                // Close modal when clicking outside of modal content
-                window.addEventListener('click', function (event) {
-                    if (event.target === document.getElementById('profile-modal')) {
-                        document.getElementById('profile-modal').style.display = 'none';
-                    }
-                });
             }
 
             // Fetch the JSON data and update the UI
