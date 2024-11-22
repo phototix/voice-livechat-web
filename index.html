@@ -240,6 +240,9 @@
             <div class="chat-box">
                 <input type="text" placeholder="Type a message...">
             </div>
+            <button class="button" id="mute-btn">
+                <i class="fas fa-volume"></i>
+            </button>
             <button class="button">
                 <i class="fas fa-comment"></i>
             </button>
@@ -248,5 +251,28 @@
             </button>
         </div>
     </div>
+    
+    <!-- Internet Radio -->
+    <audio id="background-radio" autoplay loop>
+        <source src="https://icecast.walmradio.com:8443/jazz_opus" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        // Mute/Unmute functionality
+        const muteBtn = document.getElementById('mute-btn');
+        const backgroundRadio = document.getElementById('background-radio');
+
+        muteBtn.addEventListener('click', () => {
+            if (backgroundRadio.muted) {
+                backgroundRadio.muted = false;
+                muteBtn.innerHTML = '<i class="fas fa-volume"></i>'; // Unmute Icon
+            } else {
+                backgroundRadio.muted = true;
+                muteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>'; // Mute Icon
+            }
+        });
+    </script>
+
 </body>
 </html>
