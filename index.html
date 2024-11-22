@@ -196,6 +196,7 @@
             // Initial fetch to load the status when the page is loaded
             fetchRoomStatus();
 
+            const timestamp = new Date().getTime();
             // Function to dynamically load the chat history from the JSON file
             function loadChatHistory() {
                 fetch('chat-history.json?timestamp=${timestamp}')
@@ -230,8 +231,8 @@
             // Load chat history when the page is loaded
             loadChatHistory();
 
-            // Optionally, set an interval to reload the chat history periodically (e.g., every 10 seconds)
-            setInterval(loadChatHistory, 10000);
+            // Optionally, set an interval to reload the chat history periodically (e.g., every 5 seconds)
+            setInterval(loadChatHistory, 5000);
         });
 
 
