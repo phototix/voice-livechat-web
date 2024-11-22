@@ -91,8 +91,13 @@ body {
     font-weight: bold;
 }
 .room-info {
+    position: relative;
     text-align: center;
     margin: 10px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .room-info img {
     width: 50px;
