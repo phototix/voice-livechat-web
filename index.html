@@ -429,6 +429,7 @@
             function updateRoomStatus(data) {
                 // Update host info
                 const hostInfo = document.querySelector('.room-info');
+                const timestamp = new Date().getTime();
                 hostInfo.querySelector('img').src = data.host.photo;
                 hostInfo.querySelector('h2').textContent = `${data.host.name} (房主)`;
                 
@@ -454,7 +455,7 @@
 
             // Fetch the JSON data and update the UI
             function fetchRoomStatus() {
-                fetch('room-status.json')
+                fetch('room-status.json?timestamp=${timestamp}')
                     .then(response => response.json())
                     .then(data => {
                         updateRoomStatus(data);
@@ -472,7 +473,7 @@
 
             // Function to dynamically load the chat history from the JSON file
             function loadChatHistory() {
-                fetch('chat-history.json')
+                fetch('chat-history.json?timestamp=${timestamp}')
                     .then(response => response.json())
                     .then(data => {
                         const chatHistoryContainer = document.getElementById('chat-history');
