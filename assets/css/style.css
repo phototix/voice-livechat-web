@@ -89,6 +89,13 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+
+    /* Text outline effect */
+    -webkit-text-stroke: 1px white; /* Chrome, Safari */
+    text-stroke: 1px white; /* Standard */
+
+    /* Text shadow for better visibility */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for contrast */
 }
 .room-info {
     position: relative;
