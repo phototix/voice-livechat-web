@@ -19,6 +19,26 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 4185,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAAWRAAAAAAAAAAAAAAWRAAAAAAAABZEAAAAAAAADQAAAAjIHZvaWNlLWxpdmVjaGF0LXdlYgpXZWIgVUkgb2YgVm9pY2UgQ2hhdCBpbnRlcmZhY2UK",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -178,6 +198,39 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4185,
+								4185
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
