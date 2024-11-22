@@ -132,6 +132,20 @@
         Your browser does not support the audio element.
     </audio>
 
+    <!-- User Profile Modal -->
+    <div class="user-profile-modal" id="user-profile-modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeUserProfile()">&times;</span>
+            <div class="user-info">
+                <img src="assets/qianman-profile-1.jpg" alt="User Avatar">
+                <h2>壹韶</h2>
+                <p>Status: Online</p>
+                <p>Bio: A passionate developer from Malaysia.</p>
+                <!-- Add more user info as needed -->
+            </div>
+        </div>
+    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Function to update the chat room UI based on JSON data
@@ -353,6 +367,24 @@
 
         // Initialize state on load
         toggleSoundWaves();
+
+        // Function to open the user profile modal
+        function openUserProfile() {
+            document.getElementById("user-profile-modal").style.display = "block";
+        }
+
+        // Function to close the user profile modal
+        function closeUserProfile() {
+            document.getElementById("user-profile-modal").style.display = "none";
+        }
+
+        // Close the modal if clicked outside the modal content
+        window.onclick = function(event) {
+            if (event.target === document.getElementById("user-profile-modal")) {
+                closeUserProfile();
+            }
+        }
+
     </script>
 
 </body>
