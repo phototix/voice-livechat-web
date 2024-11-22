@@ -270,7 +270,7 @@
             </div>
         </div>
         <!-- Chat History -->
-        <div class="chat-history">
+        <div class="chat-history" id="chat-history">
             <div class="message">
                 <span>壹都·芊蔓:</span>
                 <p>大家好！很高兴来到这里。</p>
@@ -302,11 +302,11 @@
 
     <!-- Gift Modal -->
     <div class="gift-modal" id="gift-modal">
-        <div class="gift-modal-header">Select a Gift</div>
+        <div class="gift-modal-header">礼物</div>
         <div class="gift-items">
             <div class="gift-item" data-gift="rose-1">
                 <img src="assets/gifts/rose-1.png" alt="Rose">
-                <div>Rose</div>
+                <div>玫瑰</div>
             </div>
         </div>
     </div>
@@ -355,6 +355,7 @@
         const giftOverlay = document.getElementById('gift-overlay');
         const giftItems = document.querySelectorAll('.gift-item');
         const openModalBtn = document.getElementById('open-modal-btn');
+        const chatHistory = document.getElementById('chat-history');
 
         // Open modal
         openModalBtn.addEventListener('click', () => {
@@ -370,6 +371,12 @@
                 // Show overlay with selected gift
                 giftOverlay.querySelector('img').src = giftEffectSrc;
                 giftOverlay.style.display = 'flex';
+
+                // Add gift message to chat
+                const giftMessage = document.createElement('div');
+                giftMessage.classList.add('chat-message', 'gift');
+                giftMessage.textContent = `您送了一个 ${giftName.charAt(0).toUpperCase() + giftName.slice(1)} 给主持人！`;
+                chatHistory.appendChild(giftMessage);
 
                 // Hide modal
                 giftModal.style.display = 'none';
