@@ -5,9 +5,9 @@
     "id": "96844131"
   },
   "host": {
-    "status": "offline",
-    "photo": "assets/host.png",
-    "name": "主持人"
+    "status": "online",
+    "photo": "assets/yishao-profile.png",
+    "name": "壹韶"
   },
   "users": [
     {
