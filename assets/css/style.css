@@ -93,7 +93,7 @@ body {
 .room-info {
     position: relative;
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,9 +102,9 @@ body {
 
 .room-info .host-avatar {
     position: relative;
-    width: 60px; /* Adjust size as needed */
-    height: 60px;
-    margin-bottom: 10px;
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    margin-bottom: 5px;
 }
 
 .room-info .host-avatar img {
