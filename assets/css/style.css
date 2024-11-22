@@ -93,52 +93,67 @@ body {
 .room-info {
     position: relative;
     text-align: center;
-    margin: 10px 0;
-    overflow: hidden;
+    margin: 20px 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-}
-.room-info img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid #ffd700; /* Gold color for the host */
-}
-.room-info h2 {
-    margin: 5px 0;
-    font-size: 16px;
-
-    /* Text outline effect */
-    -webkit-text-stroke: 1px white; /* Chrome, Safari */
-    text-stroke: 1px white; /* Standard */
-    
-    /* Text shadow for better visibility */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for contrast */
-}
-.room-info p {
-    color: #888;
-    font-size: 12px;
+    justify-content: center;
 }
 
-.sound-waves {
-    position: absolute;
+.room-info .host-avatar {
+    position: relative;
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.room-info .host-avatar img {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
+    border: 3px solid #ffd700; /* Gold color for the host */
+    z-index: 1;
+}
+
+.room-info .sound-waves {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     background: rgba(255, 215, 0, 0.3); /* Golden glow */
     animation: pulse 1.5s infinite;
     z-index: 0;
 }
 
-/* Ripple effect */
+.room-info h2 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #fff;
+
+    /* Text outline effect */
+    -webkit-text-stroke: 1px white; /* Chrome, Safari */
+    text-stroke: 1px white; /* Standard */
+
+    /* Text shadow for better visibility */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for contrast */
+}
+
+.room-info p {
+    color: #888;
+    font-size: 12px;
+}
+
+/* Pulse animation for sound waves */
 @keyframes pulse {
     0% {
-        transform: scale(1);
+        transform: translate(-50%, -50%) scale(1);
         opacity: 1;
     }
     100% {
-        transform: scale(2);
+        transform: translate(-50%, -50%) scale(2);
         opacity: 0;
     }
 }
