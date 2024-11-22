@@ -14,6 +14,54 @@
             display: flex;
             flex-direction: column;
         }
+        /* Modal styles */
+        .gift-modal {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: white;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: none;
+            z-index: 1000;
+        }
+        .gift-modal-header {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .gift-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .gift-item {
+            text-align: center;
+            margin: 10px;
+        }
+        .gift-item img {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        /* Overlay styles */
+        .gift-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 999;
+        }
+        .gift-overlay img {
+            width: 150px;
+            height: 150px;
+        }
 
         .chat-room {
             flex: 1;
@@ -246,10 +294,26 @@
             <button class="button">
                 <i class="fas fa-comment"></i>
             </button>
-            <button class="button">
+            <button class="button" id="open-modal-btn">
                 <i class="fas fa-gift"></i>
             </button>
         </div>
+    </div>
+
+    <!-- Gift Modal -->
+    <div class="gift-modal" id="gift-modal">
+        <div class="gift-modal-header">Select a Gift</div>
+        <div class="gift-items">
+            <div class="gift-item" data-gift="rose">
+                <img src="assets/gifts/rose-1.png" alt="Rose">
+                <div>Rose</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gift Overlay -->
+    <div class="gift-overlay" id="gift-overlay">
+        <img src="" alt="Gift Effect">
     </div>
     
     <!-- Internet Radio -->
@@ -285,6 +349,44 @@
         };
 
         document.body.addEventListener('click', enablePlayback);
+
+        // Modal and Overlay functionality
+        const giftModal = document.getElementById('gift-modal');
+        const giftOverlay = document.getElementById('gift-overlay');
+        const giftItems = document.querySelectorAll('.gift-item');
+        const openModalBtn = document.getElementById('open-modal-btn');
+
+        // Open modal
+        openModalBtn.addEventListener('click', () => {
+            giftModal.style.display = 'block';
+        });
+
+        // Select gift and show overlay
+        giftItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const giftName = item.dataset.gift;
+                const giftImage = item.querySelector('img').src;
+
+                // Show overlay with selected gift
+                giftOverlay.querySelector('img').src = giftImage;
+                giftOverlay.style.display = 'flex';
+
+                // Hide modal
+                giftModal.style.display = 'none';
+
+                // Hide overlay after 3 seconds
+                setTimeout(() => {
+                    giftOverlay.style.display = 'none';
+                }, 3000);
+            });
+        });
+
+        // Close modal by clicking outside
+        window.addEventListener('click', (event) => {
+            if (event.target === giftModal) {
+                giftModal.style.display = 'none';
+            }
+        });
     </script>
 
 </body>
