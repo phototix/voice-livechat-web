@@ -137,10 +137,8 @@
                 document.getElementById("room-title").innerText = data.room.title;
 
                 const chatRoom = document.querySelector(".chat-room");
-
-                // Add a style tag dynamically for the ::before pseudo-element
-                const styleSheet = document.styleSheets[0];
-                styleSheet.insertRule(`
+                const style = document.createElement("style");
+                style.innerHTML = `
                   .chat-room::before {
                     content: "";
                     position: absolute;
@@ -153,7 +151,8 @@
                     filter: brightness(0.5);
                     z-index: -1;
                   }
-                `, styleSheet.cssRules.length);
+                `;
+                document.head.appendChild(style);
 
 
                 hostInfo.querySelector('img').src = data.host.photo;
