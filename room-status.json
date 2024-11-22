@@ -7,48 +7,67 @@
   "host": {
     "status": "online",
     "photo": "assets/yishao-profile.png",
-    "name": "壹韶"
+    "name": "壹韶",
+    "userid": "96844131",
+    "mic": "0"
+
   },
   "users": [
     {
       "status": "online",
       "photo": "assets/qianman-profile-1.jpg",
-      "name": "芊蔓"
+      "name": "芊蔓",
+      "userid": "96844131",
+      "mic": "1"
     },
     {
       "status": "online",
       "photo": "assets/xiner-profile.png",
-      "name": "馨儿"
+      "name": "馨儿",
+      "userid": "96844131",
+      "mic": "2"
     },
     {
       "status": "online",
       "photo": "assets/zhinian-profile.jpg",
-      "name": "凪卄"
+      "name": "凪卄",
+      "userid": "96844131",
+      "mic": "3"
     },
     {
       "status": "offline",
       "photo": "assets/seat-4.png",
-      "name": "空"
+      "name": "空",
+      "userid": "",
+      "mic": "4"
     },
     {
       "status": "offline",
       "photo": "assets/seat-5.png",
-      "name": "空"
+      "name": "空",
+      "userid": "",
+      "mic": "5"
     },
     {
       "status": "offline",
       "photo": "assets/seat-6.png",
-      "name": "空"
+      "name": "空",
+      "userid": "",
+      "mic": "6"
     },
     {
       "status": "offline",
       "photo": "assets/seat-7.png",
-      "name": "空"
+      "name": "空",
+      "userid": "",
+      "mic": "7"
     },
     {
       "status": "offline",
       "photo": "assets/seat-boss.png",
-      "name": "老板"
+      "name": "老板",
+      "userid": "",
+      "mic": "8"
     }
   ]
 }
