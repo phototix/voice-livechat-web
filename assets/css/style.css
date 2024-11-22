@@ -121,6 +121,7 @@ body {
     width: 50px; /* Adjust size as needed */
     height: 50px;
     margin-bottom: 5px;
+    z-index: 1;
 }
 
 .room-info .host-avatar img {
