@@ -192,7 +192,12 @@ body {
 }
 .user-slot span {
     position: absolute;
-    font-size:12px;
+    font-size: 12px;
+    color: #333;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
     /* Text outline effect */
     -webkit-text-stroke: 1px white; /* Chrome, Safari */
     text-stroke: 1px white; /* Standard */
