@@ -15,6 +15,7 @@
         </div>
         <div class="room-info">
             <img src="assets/host.png?version=1" alt="Host">
+            <div class="sound-waves"></div>
             <h2>主持人 (房主)</h2>
             <p id="room-id">ID: 96844131</p>
         </div>
@@ -326,6 +327,26 @@
         document.getElementById('close-btn').addEventListener('click', function() {
             document.getElementById('welcome-dialog').style.display = 'none';
         });
+
+        const audio = document.getElementById("background-radio");
+        const hostAvatar = document.querySelector(".room-info .sound-waves");
+
+        // Function to start/stop animation based on music playback
+        function toggleSoundWaves() {
+            if (!audio.paused && !audio.muted) {
+                hostAvatar.style.display = "block"; // Show sound waves
+            } else {
+                hostAvatar.style.display = "none"; // Hide sound waves
+            }
+        }
+
+        // Add event listeners
+        audio.addEventListener("play", toggleSoundWaves);
+        audio.addEventListener("pause", toggleSoundWaves);
+        audio.addEventListener("volumechange", toggleSoundWaves);
+
+        // Initialize state on load
+        toggleSoundWaves();
     </script>
 
 </body>
