@@ -106,7 +106,7 @@ body {
 }
 
 .room-info {
-    margin-top:50px;
+    top:50px;
     position: relative;
     text-align: center;
     margin: 10px 0;
