@@ -30,6 +30,7 @@
             font-weight: bold;
             margin-bottom: 10px;
         }
+        
         .gift-items {
             display: flex;
             justify-content: space-around;
@@ -339,6 +340,7 @@
     <!-- Gift Modal -->
     <div class="gift-modal" id="gift-modal">
         <div class="gift-modal-header">礼物</div>
+        <span class="close-button" onclick="closeModal()">&times;</span> 
         <div class="gift-items">
             <div class="gift-item" data-gift="rose-1">
                 <img src="assets/gifts/rose-1.png" alt="Rose">
@@ -422,6 +424,8 @@
                 giftMessage.textContent = `您送了一个 ${giftName.charAt(0).toUpperCase() + giftName.slice(1)} 给主持人！`;
                 chatHistory.appendChild(giftMessage);
 
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+
                 // Hide modal
                 giftModal.style.display = 'none';
 
@@ -431,6 +435,13 @@
                 }, 3000);
             });
         });
+
+        // Function to close the gift modal
+        function closeModal() {
+            if (event.target === giftModal) {
+                giftModal.style.display = 'none';
+            }
+        }
 
         // Close modal by clicking outside
         window.addEventListener('click', (event) => {
