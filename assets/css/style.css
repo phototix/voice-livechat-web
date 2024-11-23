@@ -257,6 +257,8 @@ body {
 .user-slot span {
     margin-top: 5px; /* Add some space between the image and text */
     
+    font-color: #FFFFFF;
+
     /* Text shadow for better visibility */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for contrast */
 }
