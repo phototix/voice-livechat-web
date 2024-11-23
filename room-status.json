@@ -21,10 +21,10 @@
       "mic": "1"
     },
     {
-      "status": "offline",
-      "photo": "assets/seat-2.png",
-      "name": "空",
-      "userid": "",
+      "status": "online",
+      "photo": "assets/xiner-profile.jpg",
+      "name": "馨儿",
+      "userid": "123456",
       "mic": "2"
     },
     {
