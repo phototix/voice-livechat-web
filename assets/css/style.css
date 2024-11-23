@@ -144,6 +144,8 @@ body {
 .room-info p {
     color: #888;
     font-size: 12px;
+    /* Text shadow for better visibility */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for contrast */
 }
 
 .room-info .sound-waves-1 {
