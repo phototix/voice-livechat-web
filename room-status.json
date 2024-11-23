@@ -28,10 +28,10 @@
       "mic": "2"
     },
     {
-      "status": "offline",
-      "photo": "assets/seat-3.png",
-      "name": "空",
-      "userid": "",
+      "status": "online",
+      "photo": "assets/daidai-profile.jpg",
+      "name": "袋袋",
+      "userid": "10002",
       "mic": "3"
     },
     {
