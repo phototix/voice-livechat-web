@@ -316,19 +316,21 @@
         };
 
         document.body.addEventListener('click', enablePlayback);
+
+        // Modal and Overlay functionality
+        const giftModal = document.getElementById('gift-modal');
+        const openModalBtn = document.getElementById('open-modal-btn');
+
+        // Open modal
+        openModalBtn.addEventListener('click', () => {
+            giftModal.style.display = 'block';
+        });
         
         function initializeGiftListeners() {
             // Modal and Overlay functionality
-            const giftModal = document.getElementById('gift-modal');
             const giftOverlay = document.getElementById('gift-overlay');
             const giftItems = document.querySelectorAll('.gift-items');
-            const openModalBtn = document.getElementById('open-modal-btn');
             const chatHistory = document.getElementById('chat-history');
-
-            // Open modal
-            openModalBtn.addEventListener('click', () => {
-                giftModal.style.display = 'block';
-            });
 
             console.log(giftItems);
 
