@@ -234,7 +234,7 @@
             // Function to dynamically load the chat history from the JSON file
             function loadChatHistory() {
                 const timestamp = new Date().getTime();
-                fetch('chat-history.json?timestamp=${timestamp}')
+                fetch(`chat-history.json?timestamp=${timestamp}`)
                     .then(response => response.json())
                     .then(data => {
                         const chatHistoryContainer = document.getElementById('chat-history');
