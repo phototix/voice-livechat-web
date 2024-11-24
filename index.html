@@ -110,19 +110,19 @@
         <div class="gift-modal-header">礼物</div>
         <span class="close-button" onclick="closeModal()">&times;</span> 
         <div class="gift-items">
-            <div class="gift-item" data-gift="rose-1">
+            <div class="gift-item" data-gift="rose-1" data-name="玫瑰" data-duration="3000">
                 <img src="assets/gifts/rose-1.png" alt="Rose">
                 <div>玫瑰</div>
             </div>
-            <div class="gift-item" data-gift="castle-01">
+            <div class="gift-item" data-gift="castle-01" data-name="城堡" data-duration="7000">
                 <img src="assets/gifts/castle-01.png" alt="Castle">
                 <div>城堡</div>
             </div>
-            <div class="gift-item" data-gift="ship-01">
+            <div class="gift-item" data-gift="ship-01" data-name="游轮" data-duration="7000">
                 <img src="assets/gifts/ship-01.png" alt="Ship">
                 <div>游轮</div>
             </div>
-            <div class="gift-item" data-gift="rocket-01">
+            <div class="gift-item" data-gift="rocket-01" data-name="火箭" data-duration="7000">
                 <img src="assets/gifts/rocket-01.png" alt="Rocket">
                 <div>火箭</div>
             </div>
@@ -307,6 +307,8 @@
         giftItems.forEach(item => {
             item.addEventListener('click', () => {
                 const giftName = item.dataset.gift;
+                const giftDisplay = item.dataset.name;
+                const giftDuration = item.dataset.duration;
                 const giftEffectSrc = `assets/gifts/${giftName}.gif`;
 
                 // Show overlay with selected gift
@@ -316,7 +318,7 @@
                 // Add gift message to chat
                 const giftMessage = document.createElement('div');
                 giftMessage.classList.add('message', 'gift');
-                giftMessage.textContent = `您送了一个 ${giftName.charAt(0).toUpperCase() + giftName.slice(1)} 给主持人！`;
+                giftMessage.textContent = `您送了一个 ${giftName.charAt(0).toUpperCase() + giftDisplay.slice(1)} 给主持人！`;
                 chatHistory.appendChild(giftMessage);
 
                 chatHistory.scrollTop = chatHistory.scrollHeight;
@@ -327,7 +329,7 @@
                 // Hide overlay after 3 seconds
                 setTimeout(() => {
                     giftOverlay.style.display = 'none';
-                }, 3000);
+                }, giftDuration);
             });
         });
 
