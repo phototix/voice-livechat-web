@@ -318,7 +318,7 @@
                 // Add gift message to chat
                 const giftMessage = document.createElement('div');
                 giftMessage.classList.add('message', 'gift');
-                giftMessage.textContent = `您送了一个 ${giftName.charAt(0).toUpperCase() + giftDisplay.slice(1)} 给主持人！`;
+                giftMessage.textContent = `您送了一个 ${giftDisplay} 给主持人！`;
                 chatHistory.appendChild(giftMessage);
 
                 chatHistory.scrollTop = chatHistory.scrollHeight;
