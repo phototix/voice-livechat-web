@@ -393,7 +393,7 @@
         }
 
         async function sendMessage() {
-            const textInput = document.getElementById("userInput");
+            const textInput = document.getElementById("textInput");
             const message = textInput.value.trim();
 
             if (!message) {
@@ -403,7 +403,7 @@
 
             try {
                 // Define the n8n webhook URL
-                const webhookUrl = "https://workflows.brandon.my/webhook-test/759ff311-066d-4176-956a-de178d0a420c";
+                const webhookUrl = "https://workflows.brandon.my/webhook/759ff311-066d-4176-956a-de178d0a420c";
 
                 // Send text to the webhook
                 const response = await fetch(webhookUrl, {
@@ -418,20 +418,17 @@
                     throw new Error(`Webhook error: ${response.statusText}`);
                 }
 
-                const data = await response.json();
+                // Parse the binary response
+                const blob = await response.blob();
 
-                // Get the audio file URL from the response
-                const audioUrl = data.audioUrl;
+                // Create a temporary URL for the binary audio
+                const audioUrl = URL.createObjectURL(blob);
 
-                if (audioUrl) {
-                    // Play the audio in the background
-                    const audioPlayer = document.getElementById("audioPlayer");
-                    audioPlayer.src = audioUrl;
-                    audioPlayer.style.display = "block";
-                    audioPlayer.play();
-                } else {
-                    alert("No audio URL returned from the webhook.");
-                }
+                // Play the audio in the background
+                const audioPlayer = document.getElementById("audioPlayer");
+                audioPlayer.src = audioUrl;
+                audioPlayer.style.display = "block";
+                audioPlayer.play();
 
             } catch (error) {
                 console.error("Error:", error);
