@@ -66,11 +66,12 @@
         </div>
         <div class="footer">
             <div class="chat-box">
-                <input type="text" placeholder="Type a message...">
+                <input type="text" placeholder="Type a message..." id="userInput">
             </div>
             <button onclick="sendMessage()">
                 <i class="fa fa-send"></i>
             </button>
+            <div class="messages" id="messages"></div>
             <button class="button" id="mute-btn">
                 <i class="fa fa-volume-up"></i>
             </button>
@@ -389,6 +390,71 @@
             if (event.target === document.getElementById("user-profile-modal")) {
                 closeUserProfile();
             }
+        }
+
+        import CONFIG from './config.js';
+
+        const messagesDiv = document.getElementById('messages');
+        const userInput = document.getElementById('userInput');
+
+        async function sendMessage() {
+            const userMessage = userInput.value.trim();
+            if (!userMessage) return;
+
+            // Display user message
+            appendMessage('User', userMessage, 'user');
+            userInput.value = '';
+
+            try {
+                // Send the message to ChatGPT API
+                const chatResponse = await fetch('https://api.openai.com/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${CONFIG.CHATGPT_API_KEY}`
+                    },
+                    body: JSON.stringify({
+                        model: "gpt-3.5-turbo",
+                        messages: [{ role: "user", content: userMessage }]
+                    })
+                });
+                const chatData = await chatResponse.json();
+                const botMessage = chatData.choices[0].message.content;
+
+                // Display ChatGPT's message
+                appendMessage('ChatGPT', botMessage, 'bot');
+
+                // Send ChatGPT's response to the n8n webhook
+                const webhookResponse = await fetch(CONFIG.N8N_WEBHOOK_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ text: botMessage })
+                });
+
+                const playbackData = await webhookResponse.json();
+                const audioFileUrl = playbackData.audioUrl;
+
+                // Play the audio in the background
+                playAudio(audioFileUrl);
+            } catch (error) {
+                console.error('Error:', error);
+                appendMessage('System', 'An error occurred. Please try again.', 'bot');
+            }
+        }
+
+        function appendMessage(sender, message, cssClass) {
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message', cssClass);
+            messageDiv.innerHTML = `<strong>${sender}:</strong> ${message}`;
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function playAudio(audioFileUrl) {
+            const audio = new Audio(audioFileUrl);
+            audio.play();
         }
 
     </script>
