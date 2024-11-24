@@ -410,6 +410,7 @@
             messageDiv.innerHTML = `<span>游客:</span><p>${message}</p>`;
             chatHistory.appendChild(messageDiv);
             chatHistory.scrollTop = chatHistory.scrollHeight; // Auto-scroll to the latest message
+            textInput.value = ""; // Clear the input
 
             try {
                 // Define the n8n webhook URL
@@ -439,7 +440,7 @@
                 speechAudio.style.display = "block";
 
                 // Lower radio volume to 20%
-                radio.volume = 0.2;
+                radio.volume = 0.15;
 
                 // Play speech audio and restore radio volume when it ends
                 speechAudio.play();
@@ -451,8 +452,6 @@
                 console.error("Error:", error);
                 alert("Something went wrong. Please try again.");
             }
-
-            textInput.value = ""; // Clear the input
         }
 
         // Event listener for the "Enter" key or "Send" button
