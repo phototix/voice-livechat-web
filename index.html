@@ -211,6 +211,7 @@
 
             // Fetch the JSON data and update the UI
             function fetchRoomStatus() {
+                const timestamp = new Date().getTime();
                 fetch('room-status.json?timestamp=${timestamp}')
                     .then(response => response.json())
                     .then(data => {
@@ -219,6 +220,8 @@
                     .catch(error => {
                         console.error('Error loading room status:', error);
                     });
+                    
+                console.log('Room Status updated. Timestamp: ${timestamp}');
             }
 
             // Continuously update room status every 3 seconds
