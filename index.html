@@ -397,11 +397,19 @@
             const message = textInput.value.trim();
             const radio = document.getElementById("background-radio");
             const speechAudio = document.getElementById("audioPlayer");
+            const chatHistory = document.getElementById("chat-history");
 
             if (!message) {
                 alert("Please enter a message.");
                 return;
             }
+
+            // Append user input to chat history
+            const messageDiv = document.createElement("div");
+            messageDiv.classList.add("message");
+            messageDiv.innerHTML = `<span>游客:</span><p>${message}</p>`;
+            chatHistory.appendChild(messageDiv);
+            chatHistory.scrollTop = chatHistory.scrollHeight; // Auto-scroll to the latest message
 
             try {
                 // Define the n8n webhook URL
