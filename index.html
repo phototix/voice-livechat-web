@@ -305,7 +305,7 @@
 
         // Select gift and show overlay
         giftItems.forEach(item => {
-            item.addEventListener('click', () => {
+            item.addEventListener('click', async () => {
                 const giftName = item.dataset.gift;
                 const giftDisplay = item.dataset.name;
                 const giftDuration = item.dataset.duration;
@@ -323,10 +323,53 @@
 
                 chatHistory.scrollTop = chatHistory.scrollHeight;
 
+                // Send gift message to the webhook
+                try {
+                    const webhookUrl = "https://workflows.brandon.my/webhook/759ff311-066d-4176-956a-de178d0a420c";
+                    const text = `游客送你了一个 "${giftDisplay}" 礼物！`;
+
+                    const response = await fetch(webhookUrl, {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({ text })
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`Webhook error: ${response.statusText}`);
+                    }
+
+                    // Parse the binary response
+                    const blob = await response.blob();
+
+                    // Create a temporary URL for the binary audio
+                    const audioUrl = URL.createObjectURL(blob);
+
+                    // Lower radio volume to 20%
+                    const radio = document.getElementById("background-radio");
+                    radio.volume = 0.15;
+
+                    // Play the returned audio
+                    const speechAudio = document.getElementById("audioPlayer");
+                    speechAudio.src = audioUrl;
+                    speechAudio.style.display = "block";
+                    speechAudio.play();
+
+                    // Restore radio volume when audio ends
+                    speechAudio.onended = () => {
+                        radio.volume = 1.0; // Restore to 100%
+                    };
+
+                    console.log("Gift message sent and audio played successfully.");
+                } catch (error) {
+                    console.error("Error sending gift message or playing audio:", error);
+                }
+
                 // Hide modal
                 giftModal.style.display = 'none';
 
-                // Hide overlay after 3 seconds
+                // Hide overlay after specified duration
                 setTimeout(() => {
                     giftOverlay.style.display = 'none';
                 }, giftDuration);
@@ -402,7 +445,7 @@
             const chatHistory = document.getElementById("chat-history");
 
             if (!message) {
-                alert("Please enter a message.");
+                console.log("Please enter a message.");
                 return;
             }
 
