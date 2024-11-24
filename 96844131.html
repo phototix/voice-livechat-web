@@ -287,6 +287,7 @@
         // Enable playback on user interaction
         const enablePlayback = () => {
             backgroundRadio.muted = false; // Unmute by default
+            backgroundRadio.volume = 0.7;
             backgroundRadio.play().then(() => {
                 console.log('Audio playback started.');
             }).catch((err) => {
@@ -368,7 +369,7 @@
 
                     // Restore radio volume when audio ends
                     speechAudio.onended = () => {
-                        radio.volume = 1.0; // Restore to 100%
+                        radio.volume = 0.7; // Restore to 100%
                     };
 
                     console.log("Gift message sent and audio played successfully.");
@@ -498,7 +499,7 @@
                 // Play speech audio and restore radio volume when it ends
                 speechAudio.play();
                 speechAudio.onended = () => {
-                    radio.volume = 1.0; // Restore to 100%
+                    radio.volume = 0.7; // Restore to 100%
                 };
 
             } catch (error) {
