@@ -441,11 +441,18 @@
 
             } catch (error) {
                 console.error("Error:", error);
-                alert("Something went wrong. Please try again.");
             }
 
             textInput.value = ""; // Clear the input
         }
+
+        // Event listener for the "Enter" key or "Send" button
+        document.getElementById("textInput").addEventListener("keydown", (event) => {
+            if (event.key === "Enter") {
+                event.preventDefault(); // Prevent default form submission
+                sendMessage();
+            }
+        });
 
     </script>
 
