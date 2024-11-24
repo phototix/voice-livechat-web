@@ -111,7 +111,7 @@
     <div class="gift-modal" id="gift-modal">
         <div class="gift-modal-header">礼物</div>
         <span class="close-button" onclick="closeModal()">&times;</span> 
-        <div class="gift-items" id="gift-items"></div>
+        <div class="gift-item" id="gift-item"></div>
     </div>
 
     <!-- Gift Overlay -->
@@ -251,7 +251,7 @@
             // Load chat history when the page is loaded
             loadChatHistory();
 
-            const giftsContainer = document.getElementById('gift-items'); // Target the container for gifts
+            const giftsContainer = document.getElementById('gift-item'); // Target the container for gifts
 
             // Load the JSON data
             fetch('assets/gifts/gifts.json')
@@ -330,7 +330,7 @@
         });
 
         console.log(giftItems);
-        
+
         // Select gift and show overlay
         giftItems.forEach(item => {
             item.addEventListener('click', async () => {
