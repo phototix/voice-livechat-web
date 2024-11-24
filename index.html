@@ -323,6 +323,9 @@
 
                 chatHistory.scrollTop = chatHistory.scrollHeight;
 
+                // Hide modal
+                giftModal.style.display = 'none';
+
                 // Send gift message to the webhook
                 try {
                     const webhookUrl = "https://workflows.brandon.my/webhook/759ff311-066d-4176-956a-de178d0a420c";
@@ -365,9 +368,6 @@
                 } catch (error) {
                     console.error("Error sending gift message or playing audio:", error);
                 }
-
-                // Hide modal
-                giftModal.style.display = 'none';
 
                 // Hide overlay after specified duration
                 setTimeout(() => {
