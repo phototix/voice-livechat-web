@@ -220,7 +220,7 @@
                     .catch(error => {
                         console.error('Error loading room status:', error);
                     });
-                    
+
                 console.log('Room Status updated. Timestamp: ${timestamp}');
             }
 
@@ -230,9 +230,10 @@
             // Initial fetch to load the status when the page is loaded
             fetchRoomStatus();
 
-            const timestamp = new Date().getTime();
+            
             // Function to dynamically load the chat history from the JSON file
             function loadChatHistory() {
+                const timestamp = new Date().getTime();
                 fetch('chat-history.json?timestamp=${timestamp}')
                     .then(response => response.json())
                     .then(data => {
