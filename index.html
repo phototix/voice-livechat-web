@@ -395,6 +395,8 @@
         async function sendMessage() {
             const textInput = document.getElementById("textInput");
             const message = textInput.value.trim();
+            const radio = document.getElementById("background-radio");
+            const speechAudio = document.getElementById("speech-audio");
 
             if (!message) {
                 alert("Please enter a message.");
@@ -424,11 +426,18 @@
                 // Create a temporary URL for the binary audio
                 const audioUrl = URL.createObjectURL(blob);
 
-                // Play the audio in the background
-                const audioPlayer = document.getElementById("audioPlayer");
-                audioPlayer.src = audioUrl;
-                audioPlayer.style.display = "block";
-                audioPlayer.play();
+                // Play the speech audio
+                speechAudio.src = audioUrl;
+                speechAudio.style.display = "block";
+
+                // Lower radio volume to 20%
+                radio.volume = 0.2;
+
+                // Play speech audio and restore radio volume when it ends
+                speechAudio.play();
+                speechAudio.onended = () => {
+                    radio.volume = 1.0; // Restore to 100%
+                };
 
             } catch (error) {
                 console.error("Error:", error);
