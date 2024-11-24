@@ -250,6 +250,42 @@
 
             // Load chat history when the page is loaded
             loadChatHistory();
+
+            const giftsContainer = document.getElementById('gift-items'); // Target the container for gifts
+
+            // Load the JSON data
+            fetch('assets/gifts/gifts.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to load gifts.json');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Generate HTML for each gift
+                    data.gifts.forEach(gift => {
+                        const giftItem = document.createElement('div');
+                        giftItem.classList.add('gift-item');
+                        giftItem.setAttribute('data-gift', gift.id);
+                        giftItem.setAttribute('data-name', gift.name);
+                        giftItem.setAttribute('data-duration', gift.duration);
+
+                        const giftImage = document.createElement('img');
+                        giftImage.src = gift.image;
+                        giftImage.alt = gift.name;
+
+                        const giftName = document.createElement('div');
+                        giftName.textContent = gift.name;
+
+                        giftItem.appendChild(giftImage);
+                        giftItem.appendChild(giftName);
+                        giftsContainer.appendChild(giftItem);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading gifts:', error);
+                });
+                
         });
 
 
