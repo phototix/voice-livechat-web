@@ -363,6 +363,7 @@
                     const speechAudio = document.getElementById("audioPlayer");
                     speechAudio.src = audioUrl;
                     speechAudio.style.display = "block";
+                    speechAudio.volume = 1.0;
                     speechAudio.play();
 
                     // Restore radio volume when audio ends
@@ -489,7 +490,7 @@
                 // Play the speech audio
                 speechAudio.src = audioUrl;
                 speechAudio.style.display = "block";
-                speechAudio.volume = 1;
+                speechAudio.volume = 1.0;
 
                 // Lower radio volume to 20%
                 radio.volume = 0.15;
