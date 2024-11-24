@@ -285,7 +285,7 @@
                 .catch(error => {
                     console.error('Error loading gifts:', error);
                 });
-                
+
         });
 
 
@@ -329,6 +329,8 @@
             giftModal.style.display = 'block';
         });
 
+        console.log(giftItems);
+        
         // Select gift and show overlay
         giftItems.forEach(item => {
             item.addEventListener('click', async () => {
