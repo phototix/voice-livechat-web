@@ -392,69 +392,53 @@
             }
         }
 
-        import CONFIG from './config.js';
-
-        const messagesDiv = document.getElementById('messages');
-        const userInput = document.getElementById('userInput');
-
         async function sendMessage() {
-            const userMessage = userInput.value.trim();
-            if (!userMessage) return;
+            const textInput = document.getElementById("userInput");
+            const message = textInput.value.trim();
 
-            // Display user message
-            appendMessage('User', userMessage, 'user');
-            userInput.value = '';
+            if (!message) {
+                alert("Please enter a message.");
+                return;
+            }
 
             try {
-                // Send the message to ChatGPT API
-                const chatResponse = await fetch('https://api.openai.com/v1/chat/completions', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': `Bearer ${CONFIG.CHATGPT_API_KEY}`
-                    },
-                    body: JSON.stringify({
-                        model: "gpt-3.5-turbo",
-                        messages: [{ role: "user", content: userMessage }]
-                    })
-                });
-                const chatData = await chatResponse.json();
-                const botMessage = chatData.choices[0].message.content;
+                // Define the n8n webhook URL
+                const webhookUrl = "https://workflows.brandon.my/webhook-test/759ff311-066d-4176-956a-de178d0a420c";
 
-                // Display ChatGPT's message
-                appendMessage('ChatGPT', botMessage, 'bot');
-
-                // Send ChatGPT's response to the n8n webhook
-                const webhookResponse = await fetch(CONFIG.N8N_WEBHOOK_URL, {
-                    method: 'POST',
+                // Send text to the webhook
+                const response = await fetch(webhookUrl, {
+                    method: "POST",
                     headers: {
-                        'Content-Type': 'application/json'
+                        "Content-Type": "application/json"
                     },
-                    body: JSON.stringify({ text: botMessage })
+                    body: JSON.stringify({ text: message })
                 });
 
-                const playbackData = await webhookResponse.json();
-                const audioFileUrl = playbackData.audioUrl;
+                if (!response.ok) {
+                    throw new Error(`Webhook error: ${response.statusText}`);
+                }
 
-                // Play the audio in the background
-                playAudio(audioFileUrl);
+                const data = await response.json();
+
+                // Get the audio file URL from the response
+                const audioUrl = data.audioUrl;
+
+                if (audioUrl) {
+                    // Play the audio in the background
+                    const audioPlayer = document.getElementById("audioPlayer");
+                    audioPlayer.src = audioUrl;
+                    audioPlayer.style.display = "block";
+                    audioPlayer.play();
+                } else {
+                    alert("No audio URL returned from the webhook.");
+                }
+
             } catch (error) {
-                console.error('Error:', error);
-                appendMessage('System', 'An error occurred. Please try again.', 'bot');
+                console.error("Error:", error);
+                alert("Something went wrong. Please try again.");
             }
-        }
 
-        function appendMessage(sender, message, cssClass) {
-            const messageDiv = document.createElement('div');
-            messageDiv.classList.add('message', cssClass);
-            messageDiv.innerHTML = `<strong>${sender}:</strong> ${message}`;
-            messagesDiv.appendChild(messageDiv);
-            messagesDiv.scrollTop = messagesDiv.scrollHeight;
-        }
-
-        function playAudio(audioFileUrl) {
-            const audio = new Audio(audioFileUrl);
-            audio.play();
+            textInput.value = ""; // Clear the input
         }
 
     </script>
