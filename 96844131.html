@@ -281,6 +281,7 @@
                         giftItem.appendChild(giftName);
                         giftsContainer.appendChild(giftItem);
                     });
+                    initializeGiftListeners();
                 })
                 .catch(error => {
                     console.error('Error loading gifts:', error);
@@ -317,93 +318,95 @@
 
         document.body.addEventListener('click', enablePlayback);
 
-        // Modal and Overlay functionality
-        const giftModal = document.getElementById('gift-modal');
-        const giftOverlay = document.getElementById('gift-overlay');
-        const giftItems = document.querySelectorAll('.gift-items');
-        const openModalBtn = document.getElementById('open-modal-btn');
-        const chatHistory = document.getElementById('chat-history');
+        function initializeGiftListeners() {
+            // Modal and Overlay functionality
+            const giftModal = document.getElementById('gift-modal');
+            const giftOverlay = document.getElementById('gift-overlay');
+            const giftItems = document.querySelectorAll('.gift-items');
+            const openModalBtn = document.getElementById('open-modal-btn');
+            const chatHistory = document.getElementById('chat-history');
 
-        // Open modal
-        openModalBtn.addEventListener('click', () => {
-            giftModal.style.display = 'block';
-        });
+            // Open modal
+            openModalBtn.addEventListener('click', () => {
+                giftModal.style.display = 'block';
+            });
 
-        console.log(giftItems);
+            console.log(giftItems);
 
-        // Select gift and show overlay
-        giftItems.forEach(item => {
-            item.addEventListener('click', async () => {
-                const giftName = item.dataset.gift;
-                const giftDisplay = item.dataset.name;
-                const giftDuration = item.dataset.duration;
-                const giftEffectSrc = `assets/gifts/${giftName}.gif`;
+            // Select gift and show overlay
+            giftItems.forEach(item => {
+                item.addEventListener('click', async () => {
+                    const giftName = item.dataset.gift;
+                    const giftDisplay = item.dataset.name;
+                    const giftDuration = item.dataset.duration;
+                    const giftEffectSrc = `assets/gifts/${giftName}.gif`;
 
-                // Show overlay with selected gift
-                giftOverlay.querySelector('img').src = giftEffectSrc;
-                giftOverlay.style.display = 'flex';
+                    // Show overlay with selected gift
+                    giftOverlay.querySelector('img').src = giftEffectSrc;
+                    giftOverlay.style.display = 'flex';
 
-                // Add gift message to chat
-                const giftMessage = document.createElement('div');
-                giftMessage.classList.add('message', 'gift');
-                giftMessage.textContent = `您送了一个 ${giftDisplay} 给主持人！`;
-                chatHistory.appendChild(giftMessage);
+                    // Add gift message to chat
+                    const giftMessage = document.createElement('div');
+                    giftMessage.classList.add('message', 'gift');
+                    giftMessage.textContent = `您送了一个 ${giftDisplay} 给主持人！`;
+                    chatHistory.appendChild(giftMessage);
 
-                chatHistory.scrollTop = chatHistory.scrollHeight;
+                    chatHistory.scrollTop = chatHistory.scrollHeight;
 
-                // Hide modal
-                giftModal.style.display = 'none';
+                    // Hide modal
+                    giftModal.style.display = 'none';
 
-                // Send gift message to the webhook
-                try {
-                    const webhookUrl = "https://workflows.brandon.my/webhook/759ff311-066d-4176-956a-de178d0a420c";
-                    const text = `游客送你了一个 "${giftDisplay}" 礼物！`;
+                    // Send gift message to the webhook
+                    try {
+                        const webhookUrl = "https://workflows.brandon.my/webhook/759ff311-066d-4176-956a-de178d0a420c";
+                        const text = `游客送你了一个 "${giftDisplay}" 礼物！`;
 
-                    const response = await fetch(webhookUrl, {
-                        method: "POST",
-                        headers: {
-                            "Content-Type": "application/json"
-                        },
-                        body: JSON.stringify({ text })
-                    });
+                        const response = await fetch(webhookUrl, {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify({ text })
+                        });
 
-                    if (!response.ok) {
-                        throw new Error(`Webhook error: ${response.statusText}`);
+                        if (!response.ok) {
+                            throw new Error(`Webhook error: ${response.statusText}`);
+                        }
+
+                        // Parse the binary response
+                        const blob = await response.blob();
+
+                        // Create a temporary URL for the binary audio
+                        const audioUrl = URL.createObjectURL(blob);
+
+                        // Lower radio volume to 20%
+                        const radio = document.getElementById("background-radio");
+                        radio.volume = 0.15;
+
+                        // Play the returned audio
+                        const speechAudio = document.getElementById("audioPlayer");
+                        speechAudio.src = audioUrl;
+                        speechAudio.style.display = "block";
+                        speechAudio.volume = 1.0;
+                        speechAudio.play();
+
+                        // Restore radio volume when audio ends
+                        speechAudio.onended = () => {
+                            radio.volume = 0.7; // Restore to 100%
+                        };
+
+                        console.log("Gift message sent and audio played successfully.");
+                    } catch (error) {
+                        console.error("Error sending gift message or playing audio:", error);
                     }
 
-                    // Parse the binary response
-                    const blob = await response.blob();
-
-                    // Create a temporary URL for the binary audio
-                    const audioUrl = URL.createObjectURL(blob);
-
-                    // Lower radio volume to 20%
-                    const radio = document.getElementById("background-radio");
-                    radio.volume = 0.15;
-
-                    // Play the returned audio
-                    const speechAudio = document.getElementById("audioPlayer");
-                    speechAudio.src = audioUrl;
-                    speechAudio.style.display = "block";
-                    speechAudio.volume = 1.0;
-                    speechAudio.play();
-
-                    // Restore radio volume when audio ends
-                    speechAudio.onended = () => {
-                        radio.volume = 0.7; // Restore to 100%
-                    };
-
-                    console.log("Gift message sent and audio played successfully.");
-                } catch (error) {
-                    console.error("Error sending gift message or playing audio:", error);
-                }
-
-                // Hide overlay after specified duration
-                setTimeout(() => {
-                    giftOverlay.style.display = 'none';
-                }, giftDuration);
+                    // Hide overlay after specified duration
+                    setTimeout(() => {
+                        giftOverlay.style.display = 'none';
+                    }, giftDuration);
+                });
             });
-        });
+        }
 
         // Function to close the gift modal
         function closeModal() {
