@@ -15,23 +15,23 @@
   "users": [
     {
       "status": "online",
-      "photo": "assets/zhinian-profile.jpg",
-      "name": "凪卄",
+      "photo": "assets/xiner-profile.jpeg",
+      "name": "馨儿",
       "userid": "96844132",
       "mic": "1"
     },
     {
-      "status": "online",
-      "photo": "assets/xiner-profile.jpeg",
-      "name": "馨儿",
-      "userid": "123456",
+      "status": "offline",
+      "photo": "assets/seat-2.png",
+      "name": "空",
+      "userid": "",
       "mic": "2"
     },
     {
-      "status": "online",
-      "photo": "assets/daidai-profile.jpg",
-      "name": "袋袋",
-      "userid": "10002",
+      "status": "offline",
+      "photo": "assets/seat-3.png",
+      "name": "空",
+      "userid": "",
       "mic": "3"
     },
     {
