@@ -77,8 +77,8 @@
             <button class="button" id="mute-btn">
                 <i class="fa fa-volume-up"></i>
             </button>
-            <button class="button">
-                <i class="fas fa-comment"></i>
+            <button class="button" onclick="gotoHome()">
+                <i class="fas fa-home"></i>
             </button>
             <button class="button" id="open-modal-btn">
                 <i class="fas fa-gift"></i>
@@ -267,6 +267,11 @@
 
             // Load chat history when the page is loaded
             loadChatHistory();
+
+            function gotoHome(){
+                window.location="/";
+            }
+
         });
 
 
