@@ -165,7 +165,7 @@
                 document.getElementById("room-id").innerText = `ID: ${data.room.id}`;
                 document.getElementById("room-title").innerText = data.room.title;
                 document.getElementById("host-profile-image").src = data.host.photo;
-                document.getElementById("host-profile-name").src = `${data.host.name} (主持人)`;
+                document.getElementById("host-profile-name").innerText = `${data.host.name} (主持人)`;
 
                 const chatRoom = document.querySelector(".chat-room");
                 const style = document.createElement("style");
