@@ -268,10 +268,6 @@
             // Load chat history when the page is loaded
             loadChatHistory();
 
-            function gotoHome(){
-                window.location="/";
-            }
-
         });
 
 
@@ -394,6 +390,10 @@
             if (event.target === giftModal) {
                 giftModal.style.display = 'none';
             }
+        }
+
+        function gotoHome(){
+            window.location="/";
         }
 
         // Close modal by clicking outside

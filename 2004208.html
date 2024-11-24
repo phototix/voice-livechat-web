@@ -267,10 +267,6 @@
 
             // Load chat history when the page is loaded
             loadChatHistory();
-
-            function gotoHome(){
-                window.location="/";
-            }
             
         });
 
@@ -386,6 +382,10 @@
                 }, giftDuration);
             });
         });
+
+        function gotoHome(){
+            window.location="/";
+        }
 
         // Function to close the gift modal
         function closeModal() {
