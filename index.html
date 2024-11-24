@@ -396,7 +396,7 @@
             const textInput = document.getElementById("textInput");
             const message = textInput.value.trim();
             const radio = document.getElementById("background-radio");
-            const speechAudio = document.getElementById("speech-audio");
+            const speechAudio = document.getElementById("audioPlayer");
 
             if (!message) {
                 alert("Please enter a message.");
@@ -441,6 +441,7 @@
 
             } catch (error) {
                 console.error("Error:", error);
+                alert("Something went wrong. Please try again.");
             }
 
             textInput.value = ""; // Clear the input
