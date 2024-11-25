@@ -333,6 +333,19 @@
             }
         };
 
+        // Periodically check if the radio is playing
+        const checkRadioPlayback = () => {
+            if (backgroundRadio.paused || backgroundRadio.readyState < 3) {
+                console.warn('Radio is not playing. Trying fallback...');
+                tryFallbackURL();
+            } else {
+                console.log('Radio is playing.');
+            }
+        };
+
+        // Check playback every 5 seconds
+        setInterval(checkRadioPlayback, 5000);
+
         // Modal and Overlay functionality
         const giftModal = document.getElementById('gift-modal');
         const giftOverlay = document.getElementById('gift-overlay');
