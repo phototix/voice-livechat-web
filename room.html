@@ -221,7 +221,7 @@
             function fetchRoomStatus() {
                 const timestamp = new Date().getTime();
                 const id = getQueryParam('id');
-                fetch(`${id}-room-status.json?timestamp=${timestamp}`)  // Use backticks here
+                fetch(`cache/${id}-room-status.json?timestamp=${timestamp}`)  // Use backticks here
                     .then(response => response.json())
                     .then(data => {
                         updateRoomStatus(data);
@@ -244,7 +244,7 @@
             function loadChatHistory() {
                 const timestamp = new Date().getTime();
                 const id = getQueryParam('id');
-                fetch(`${id}-chat-history.json?timestamp=${timestamp}`)
+                fetch(`cache/${id}-chat-history.json?timestamp=${timestamp}`)
                     .then(response => response.json())
                     .then(data => {
                         const chatHistoryContainer = document.getElementById('chat-history');
