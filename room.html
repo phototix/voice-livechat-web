@@ -138,7 +138,7 @@
     
     <!-- Internet Radio -->
     <audio id="background-radio" autoplay loop>
-        <source src="https://stream.zeno.fm/xiv7xayor3gvv" type="audio/mpeg">
+        <source id="audio-source" src="https://stream.zeno.fm/xiv7xayor3gvv" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
@@ -170,6 +170,7 @@
 
                 document.getElementById("room-id").innerText = `ID: ${data.room.id}`;
                 document.getElementById("room-title").innerText = data.room.title;
+                document.getElementById("audio-source").src = data.room.radioURL;
                 document.getElementById("host-profile-image").src = data.host.photo;
                 document.getElementById("host-profile-name").innerText = `${data.host.name} (主持人)`;
 

@@ -1,6 +1,7 @@
 {
   "room": {
     "background": "assets/chatrooms/background-1.jpg",
+    "radioURL": "https://stream.zeno.fm/wdswxre1crvtv",
     "title": "凪卄的房间 🌻 聊天室",
     "id": "2004208"
   },
