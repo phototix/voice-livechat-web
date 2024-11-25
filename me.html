@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>壹韶APP - 我的</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), 
+                        url('assets/yishao-profile.jpg') no-repeat center center;
+            background-size: cover;
+            height: 200px;
+            position: relative;
+            color: white;
+        }
+        .header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid white;
+            position: absolute;
+            bottom: -50px;
+            left: 20px;
+        }
+        .user-info {
+            padding: 80px 20px 20px;
+            background-color: #fff;
+            text-align: left;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .user-info h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .user-info p {
+            color: #666;
+            font-size: 14px;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+        .stat {
+            text-align: center;
+            font-size: 14px;
+        }
+        .stat span {
+            display: block;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background-color: #2D294E;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+        }
+        .navbar a img {
+            width: 24px;
+            height: 24px;
+            filter: invert(1) brightness(2);
+            transition: filter 0.3s ease;
+        }
+
+        .navbar a.active img {
+            filter: invert(64%) sepia(85%) saturate(748%) hue-rotate(1deg) brightness(100%) contrast(101%);
+            /* Converts icon to the active link color (gold) */
+        }
+
+        .navbar a:hover img {
+            filter: invert(0.8) brightness(1.5); /* Slightly change on hover for effect */
+        }
+        .navbar a.active {
+            color: #FFD700; /* Active text color */
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="assets/yishao-profile.jpg" alt="User Avatar">
+    </div>
+    <div class="user-info">
+        <h1>壹韶</h1>
+        <p>ID: 22514053</p>
+    </div>
+    <div class="stats">
+        <div class="stat">
+            <span>0</span>
+            好友
+        </div>
+        <div class="stat">
+            <span>1</span>
+            关注
+        </div>
+        <div class="stat">
+            <span>1</span>
+            粉丝
+        </div>
+        <div class="stat">
+            <span>1</span>
+            收藏
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#"><img src="assets/apps/app-01.png" alt="航行"><br>航行</a>
+        <a href="/"><img src="assets/apps/app-02.png" alt="派對"><br>派對</a>
+        <a href="#"><img src="assets/apps/app-03.png" alt="訊息"><br>訊息</a>
+        <a href="#" class="active"><img src="assets/apps/app-04.png" alt="我的"><br>我的</a>
+    </div>
+
+</body>
+</html>
