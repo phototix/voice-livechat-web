@@ -17,77 +17,64 @@
             background-size: cover;
             height: 200px;
             position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
-
         .header .avatar {
-            width: 120px;
-            height: 120px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             border: 2px solid white;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            position: absolute;
+            bottom: -50px;
+            left: 20px;
         }
-
         .user-info {
-            text-align: center;
-            padding: 20px;
+            padding: 80px 20px 20px;
             background-color: #fff;
+            text-align: left;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-top: -50px; /* Fixes the space between header and user info */
+            position: relative;
         }
-
         .user-info h1 {
-            font-size: 26px;
             margin: 0;
-            font-weight: bold;
+            font-size: 24px;
             color: #333;
         }
-
         .user-info p {
-            font-size: 14px;
             color: #666;
+            font-size: 14px;
         }
-
         .badges {
-            margin-top: 10px;
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             gap: 10px;
+            margin-top: 10px;
         }
-
         .badge {
-            background-color: #f0f0f0;
-            border-radius: 15px;
             padding: 5px 10px;
+            background-color: #f0f0f0;
+            border-radius: 20px;
             font-size: 12px;
-            font-weight: bold;
-            color: #333;
+            color: #555;
             border: 1px solid #ddd;
         }
-
-        .badge.gold {
-            background-color: #ffd700;
-            color: #fff;
-        }
-
         .badge.vip {
-            background-color: #d4af37;
+            background-color: #ffcc00;
             color: #fff;
+            border: 1px solid #e5b800;
         }
-
-        .badge.active {
-            background-color: #4caf50;
+        .badge.special {
+            background-color: #4CAF50;
             color: #fff;
+            border: 1px solid #45a049;
         }
-
+        .badge.rank {
+            background-color: #3e8e41;
+            color: #fff;
+            border: 1px solid #356735;
+        }
         .badge.moderator {
             background-color: #3f51b5;
             color: #fff;
         }
-
         .badge.new-user {
             background-color: #ff4081;
             color: #fff;
@@ -241,11 +228,9 @@
         <h1>壹韶</h1>
         <p>ID: 96844131</p>
         <div class="badges">
-            <span class="badge gold">黄金会员</span>
-            <span class="badge vip">VIP</span>
-            <span class="badge active">活跃用户</span>
-            <span class="badge moderator">版主</span>
-            <span class="badge new-user">新用户</span>
+            <div class="badge vip">VIP</div>
+            <div class="badge special">贵族特权</div>
+            <div class="badge rank">至尊帝王</div>
         </div>
     </div>
     <div class="stats">
