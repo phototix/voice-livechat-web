@@ -28,6 +28,17 @@
             bottom: -50px;
             left: 20px;
         }
+        .avatar {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;  /* Adjust avatar size as needed */
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #fff;  /* Border for avatar */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
         .user-info {
             padding: 20px;
             background-color: #fff;
@@ -216,7 +227,7 @@
 </head>
 <body>
     <div class="header">
-        <img src="assets/yishao-profile.jpg" alt="User Avatar">
+        <img src="assets/yishao-profile.jpg" class="avatar" alt="User Avatar">
     </div>
     <div class="user-info">
         <h1>壹韶</h1>
