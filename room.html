@@ -313,24 +313,39 @@
 
         document.body.addEventListener('click', enablePlayback);
 
-        // Function to handle fallback to the hidden input URL
+        // Function to fetch radio URL from JSON file and update audio source
         const tryFallbackURL = () => {
-            backgroundRadioURL = document.getElementById("radio_url");
-            const newURL = backgroundRadioURL.value; // Get the URL from the hidden input
-            const audioSource = document.getElementById('audio-source');
+            const timestamp = new Date().getTime(); // Current timestamp for cache-busting
+            const jsonFilePath = `cache/${roomId}-room-status.json?timestamp=${timestamp}`;
 
-            if (newURL) {
-                console.log('Attempting fallback URL:', newURL);
-                audioSource.src = newURL; // Update source URL
-                backgroundRadio.load(); // Reload the audio element
-                backgroundRadio.play().then(() => {
-                    console.log('Fallback URL playback started.');
-                }).catch((err) => {
-                    console.error('Fallback playback failed:', err);
+            fetch(jsonFilePath)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.room && data.room.radioURL) {
+                        const newURL = data.room.radioURL;
+                        console.log('Fetched new radio URL:', newURL);
+
+                        // Update the audio source
+                        const audioSource = document.getElementById('audio-source');
+                        audioSource.src = newURL;
+                        backgroundRadio.load(); // Reload the audio element
+                        backgroundRadio.play().then(() => {
+                            console.log('Playback started with new radio URL.');
+                        }).catch(err => {
+                            console.error('Playback failed with new URL:', err);
+                        });
+                    } else {
+                        console.error('No radio URL found in the JSON file.');
+                    }
+                })
+                .catch(err => {
+                    console.error('Failed to fetch radio URL:', err);
                 });
-            } else {
-                console.error('No fallback URL provided.');
-            }
         };
 
         // Periodically check if the radio is playing
