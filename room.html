@@ -141,6 +141,7 @@
         <source id="audio-source" src="#" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+    <input type="hidden" id="radio_url">
 
     <!-- User Profile Modal -->
     <div class="user-profile-modal" id="user-profile-modal">
@@ -171,6 +172,7 @@
                 document.getElementById("room-id").innerText = `ID: ${data.room.id}`;
                 document.getElementById("room-title").innerText = data.room.title;
                 document.getElementById("audio-source").src = data.room.radioURL;
+                document.getElementById("radio_url").src = data.room.radioURL;
 
                 console.log("RadioURL:" + data.room.radioURL);
 
@@ -286,6 +288,7 @@
         // Mute/Unmute functionality
         const muteBtn = document.getElementById('mute-btn');
         const backgroundRadio = document.getElementById('background-radio');
+        const backgroundRadioURL = document.getElementById("radio_url").value;
 
         muteBtn.addEventListener('click', () => {
             if (backgroundRadio.muted) {
@@ -304,11 +307,31 @@
                 console.log('Audio playback started.');
             }).catch((err) => {
                 console.error('Playback failed:', err);
+                tryFallbackURL();
             });
             document.body.removeEventListener('click', enablePlayback); // Remove listener after activation
         };
 
         document.body.addEventListener('click', enablePlayback);
+
+        // Function to handle fallback to the hidden input URL
+        const tryFallbackURL = () => {
+            const newURL = backgroundRadioURL.value; // Get the URL from the hidden input
+            const audioSource = document.getElementById('audio-source');
+
+            if (newURL) {
+                console.log('Attempting fallback URL:', newURL);
+                audioSource.src = newURL; // Update source URL
+                backgroundRadio.load(); // Reload the audio element
+                backgroundRadio.play().then(() => {
+                    console.log('Fallback URL playback started.');
+                }).catch((err) => {
+                    console.error('Fallback playback failed:', err);
+                });
+            } else {
+                console.error('No fallback URL provided.');
+            }
+        };
 
         // Modal and Overlay functionality
         const giftModal = document.getElementById('gift-modal');
