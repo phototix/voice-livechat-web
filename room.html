@@ -315,6 +315,12 @@
 
         // Function to fetch radio URL from JSON file and update audio source
         const tryFallbackURL = () => {
+            // Function to get query parameter by name
+            function getQueryParam(name) {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get(name);
+            }
+            
             const id = getQueryParam('id');
             const timestamp = new Date().getTime(); // Current timestamp for cache-busting
             const jsonFilePath = `cache/${id}-room-status.json?timestamp=${timestamp}`;
