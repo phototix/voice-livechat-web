@@ -1,0 +1,28 @@
+{
+  "gifts": [
+    {
+      "id": "rose-1",
+      "name": "玫瑰",
+      "image": "assets/gifts/rose-1.png",
+      "duration": 2000
+    },
+    {
+      "id": "castle-01",
+      "name": "城堡",
+      "image": "assets/gifts/castle-01.png",
+      "duration": 5000
+    },
+    {
+      "id": "ship-01",
+      "name": "游轮",
+      "image": "assets/gifts/ship-01.png",
+      "duration": 6000
+    },
+    {
+      "id": "rocket-01",
+      "name": "火箭",
+      "image": "assets/gifts/rocket-01.png",
+      "duration": 5000
+    }
+  ]
+}

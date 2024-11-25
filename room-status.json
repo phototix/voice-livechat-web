@@ -1,7 +1,7 @@
 {
   "room": {
-    "background": "assets/chatrooms/background-5.jpg",
-    "title": "壹馨一意 🌻 真人交友 - 聊天室",
+    "background": "assets/chatrooms/background-3.jpg",
+    "title": "壹馨一意FM 🌻 聊天室",
     "id": "96844131"
   },
   "host": {
@@ -15,23 +15,23 @@
   "users": [
     {
       "status": "online",
-      "photo": "assets/qianman-profile-1.jpg",
-      "name": "芊蔓",
+      "photo": "assets/xiner-profile.jpeg",
+      "name": "馨儿",
       "userid": "96844132",
       "mic": "1"
     },
     {
-      "status": "online",
-      "photo": "assets/xiner-profile.png",
-      "name": "馨儿",
-      "userid": "96844133",
+      "status": "offline",
+      "photo": "assets/seat-2.png",
+      "name": "空",
+      "userid": "",
       "mic": "2"
     },
     {
-      "status": "online",
-      "photo": "assets/zhinian-profile.jpg",
-      "name": "凪卄",
-      "userid": "96844134",
+      "status": "offline",
+      "photo": "assets/seat-3.png",
+      "name": "空",
+      "userid": "",
       "mic": "3"
     },
     {
