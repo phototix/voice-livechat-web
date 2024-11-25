@@ -29,18 +29,50 @@
             left: 20px;
         }
         .user-info {
-            padding: 80px 20px 20px;
+            padding: 20px;
             background-color: #fff;
-            text-align: left;
+            text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
         }
+
         .user-info h1 {
             margin: 0;
             font-size: 24px;
         }
+
         .user-info p {
             color: #666;
             font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .badge.gold {
+            background-color: #d4af37; /* Gold color */
+        }
+
+        .badge.vip {
+            background-color: #8b0000; /* Dark red for VIP */
+        }
+
+        .badge.active {
+            background-color: #32cd32; /* Lime green for active users */
         }
         .stats {
             display: flex;
@@ -189,6 +221,11 @@
     <div class="user-info">
         <h1>壹韶</h1>
         <p>ID: 96844131</p>
+        <div class="badges">
+            <span class="badge gold">黄金会员</span>
+            <span class="badge vip">VIP</span>
+            <span class="badge active">活跃用户</span>
+        </div>
     </div>
     <div class="stats">
         <div class="stat">
