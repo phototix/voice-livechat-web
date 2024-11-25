@@ -288,7 +288,6 @@
         // Mute/Unmute functionality
         const muteBtn = document.getElementById('mute-btn');
         const backgroundRadio = document.getElementById('background-radio');
-        const backgroundRadioURL = document.getElementById("radio_url").value;
 
         muteBtn.addEventListener('click', () => {
             if (backgroundRadio.muted) {
@@ -316,7 +315,7 @@
 
         // Function to handle fallback to the hidden input URL
         const tryFallbackURL = () => {
-            backgroundRadioURL = document.getElementById("radio_url").value;
+            backgroundRadioURL = document.getElementById("radio_url");
             const newURL = backgroundRadioURL.value; // Get the URL from the hidden input
             const audioSource = document.getElementById('audio-source');
 
