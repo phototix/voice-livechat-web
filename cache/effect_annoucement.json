@@ -1,6 +1,13 @@
 {
     "timestamp": 123456789,
     "messages": [
-        "Welcome to the live show!"
+        {
+            "text": "欢迎壹韶来到直播间！",
+            "avatar": "/assets/yishao-profile.png"
+        },
+        {
+            "text": "壹韶送了礼物给主持人！",
+            "avatar": "/assets/yishao-profile.png"
+        }
     ]
 }

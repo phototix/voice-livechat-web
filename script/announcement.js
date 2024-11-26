@@ -1,4 +1,4 @@
-// JavaScript to create a "飘屏" effect
+// JavaScript to create a "飘屏" effect with styled text and avatar
 (function () {
     const announcementUrl = '/cache/effect_annoucement.json'; // Update this path to your JSON file
     const checkInterval = 5000; // Interval to check for updates (in milliseconds)
@@ -34,28 +34,47 @@
         container.innerHTML = ''; // Clear previous announcements
 
         messages.forEach((message) => {
-            const messageElement = document.createElement('div');
-            messageElement.style.position = 'absolute';
-            messageElement.style.whiteSpace = 'nowrap';
-            messageElement.style.fontSize = '24px';
-            messageElement.style.fontWeight = 'bold';
-            messageElement.style.color = '#fff';
-            messageElement.style.textShadow = '2px 2px 4px rgba(0,0,0,0.7)';
-            messageElement.style.background = 'rgba(0,0,0,0.5)';
-            messageElement.style.padding = '5px 10px';
-            messageElement.style.borderRadius = '5px';
-            messageElement.style.top = `${Math.random() * 50}px`;
-            messageElement.style.left = '100%';
+            const { text, avatar } = message; // Expecting message object with `text` and `avatar` properties
 
-            messageElement.innerText = message;
+            // Create wrapper for avatar and message
+            const messageWrapper = document.createElement('div');
+            messageWrapper.style.position = 'absolute';
+            messageWrapper.style.display = 'flex';
+            messageWrapper.style.alignItems = 'center';
+            messageWrapper.style.whiteSpace = 'nowrap';
+            messageWrapper.style.fontSize = '18px';
+            messageWrapper.style.fontWeight = 'bold';
+            messageWrapper.style.color = '#fff';
+            messageWrapper.style.padding = '5px 10px';
+            messageWrapper.style.borderRadius = '20px';
+            messageWrapper.style.background = 'linear-gradient(90deg, #6200ea, #00c4ff)';
+            messageWrapper.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.5)';
+            messageWrapper.style.top = `${Math.random() * 50}px`;
+            messageWrapper.style.left = '100%';
 
-            container.appendChild(messageElement);
+            // Create avatar image
+            const avatarImage = document.createElement('img');
+            avatarImage.src = avatar;
+            avatarImage.style.width = '30px';
+            avatarImage.style.height = '30px';
+            avatarImage.style.borderRadius = '50%';
+            avatarImage.style.marginRight = '10px';
+
+            // Create message text
+            const messageText = document.createElement('span');
+            messageText.innerText = text;
+
+            // Append avatar and text to wrapper
+            messageWrapper.appendChild(avatarImage);
+            messageWrapper.appendChild(messageText);
+
+            container.appendChild(messageWrapper);
 
             // Animate the message
             const startLeft = window.innerWidth;
-            const endLeft = -messageElement.offsetWidth;
+            const endLeft = -messageWrapper.offsetWidth;
 
-            const animation = messageElement.animate(
+            const animation = messageWrapper.animate(
                 [{ left: `${startLeft}px` }, { left: `${endLeft}px` }],
                 {
                     duration: 10000,
@@ -65,7 +84,7 @@
             );
 
             // Remove the message after animation ends
-            animation.onfinish = () => messageElement.remove();
+            animation.onfinish = () => messageWrapper.remove();
         });
     }
 
