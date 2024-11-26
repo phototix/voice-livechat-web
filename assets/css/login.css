@@ -114,7 +114,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .popup-content img {
-    max-width: 200px;
+    max-width: 90%;
     height: auto;
     margin-bottom: 10px;
 }
