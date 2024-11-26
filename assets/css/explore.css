@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1f1538;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #110824;
+}
+.header .time {
+    font-size: 18px;
+}
+.content {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.cards {
+    display: flex;
+    gap: 10px;
+}
+.card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6bc5d2, #3b90d6);
+    color: white;
+    text-align: center;
+}
+.hot-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+.item {
+    padding: 15px;
+    background: #2b213e;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #2D294E;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.navbar a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1) brightness(2);
+    transition: filter 0.3s ease;
+}
+
+.navbar a.active img {
+    filter: invert(64%) sepia(85%) saturate(748%) hue-rotate(1deg) brightness(100%) contrast(101%);
+    /* Converts icon to the active link color (gold) */
+}
+
+.navbar a:hover img {
+    filter: invert(0.8) brightness(1.5); /* Slightly change on hover for effect */
+}
+.navbar a.active {
+    color: #FFD700; /* Active text color */
+    border-radius: 8px;
+}
