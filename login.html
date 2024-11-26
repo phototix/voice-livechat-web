@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>壹韶APP - 登录/注册</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #2a2438, #161616);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .logo {
+            margin-top: 50px;
+        }
+
+        .logo img {
+            width: 120px;
+            height: auto;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #d0d0d0;
+        }
+
+        .form {
+            margin-top: 20px;
+        }
+
+        .form input {
+            display: block;
+            width: calc(100% - 20px);
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+
+        .form input[type="text"],
+        .form input[type="password"] {
+            background: #252525;
+            color: white;
+        }
+
+        .form button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 25px;
+            border: none;
+            background: linear-gradient(to right, #6d3eff, #8a60ff);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form button:hover {
+            opacity: 0.9;
+        }
+
+        .quick-login {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .login-options {
+            margin-top: 30px;
+        }
+
+        .login-options img {
+            width: 40px;
+            height: auto;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .agreement {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #888;
+        }
+
+        .agreement a {
+            color: #8a60ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="assets/logo.png" alt="壹韶APP">
+        </div>
+        <h1>登录/注册 更精彩的壹韶APP</h1>
+        <form class="form">
+            <input type="text" placeholder="请输入手机号" required>
+            <div style="display: flex; justify-content: space-between;">
+                <input type="text" placeholder="请输入密码" style="flex: 1; margin-right: 10px;" required>
+            </div>
+            <button type="submit">登录</button>
+        </form>
+        <p class="quick-login">一键登录</p>
+        <div class="login-options">
+            <img src="icon-keke.png" alt="微信">
+        </div>
+        <p class="agreement">
+            请阅读并同意 <a href="#">用户协议</a> 和 <a href="#">隐私政策</a>
+        </p>
+    </div>
+</body>
+</html>
