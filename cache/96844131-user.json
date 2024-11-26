@@ -5,12 +5,13 @@
     "username": "96844131",
     "role": "superadmin",
     "password": "naiiI9DUGVXXHApAryxMqA==",
-    "vip": "VIP12",
-    "special": "贵族特权 V",
+    "vip": "VIP1",
+    "special": "贵族特权",
     "rank": "至尊帝王",
     "friends": "0",
     "follows": "1",
     "fans": "1",
     "saved": "1",
-    "balance": "1,000,000"
+    "unread": "1",
+    "balance": "1000"
 }

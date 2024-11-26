@@ -30,3 +30,56 @@ function handleLogout() {
 
 // Run session check on every page load
 checkLoginSession();
+
+// Function to fetch user data and update unread message bubble
+function updateUnreadMessages() {
+    // Parse cookies to get userID
+    const cookies = document.cookie.split('; ').reduce((acc, curr) => {
+        const [key, value] = curr.split('=');
+        acc[key] = value;
+        return acc;
+    }, {});
+    const userID = cookies.userLoggedIn;
+
+    // Check if userID exists
+    if (!userID) {
+        console.error("User ID not found in cookies.");
+        return;
+    }
+
+    // Fetch user profile data
+    const timestamp = new Date().getTime();
+    fetch(`/cache/${userID}-user.json?timestamp=${timestamp}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to fetch user profile data: ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(userData => {
+            // Check if the "unread" property exists and is greater than 0
+            if (userData.unread && parseInt(userData.unread) > 0) {
+                // Select the "訊息" navigation link
+                const messageNavLink = document.querySelector('.navbar a[href="#"]');
+
+                if (messageNavLink) {
+                    // Check if the bubble already exists, if not, create it
+                    let bubble = messageNavLink.querySelector('.bubble');
+                    if (!bubble) {
+                        bubble = document.createElement('div');
+                        bubble.className = 'bubble';
+                        messageNavLink.appendChild(bubble);
+                    }
+                    // Update the bubble with the unread message count
+                    bubble.textContent = userData.unread;
+                }
+            }
+        })
+        .catch(error => {
+            console.error("Error fetching user data:", error);
+        });
+}
+
+// Call the function to update unread messages
+updateUnreadMessages();
+
