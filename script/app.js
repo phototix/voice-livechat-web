@@ -59,16 +59,16 @@ function updateUnreadMessages() {
         .then(userData => {
             // Check if the "unread" property exists and is greater than 0
             if (userData.unread && parseInt(userData.unread) > 0) {
-                // Select the "訊息" navigation link
-                const messageNavLink = document.querySelector('.navbar a[href="#"]');
+                // Select the chat navigation link
+                const chatNavLink = document.querySelector('.navbar .chat_status');
 
-                if (messageNavLink) {
+                if (chatNavLink) {
                     // Check if the bubble already exists, if not, create it
-                    let bubble = messageNavLink.querySelector('.bubble');
+                    let bubble = chatNavLink.querySelector('.bubble');
                     if (!bubble) {
                         bubble = document.createElement('div');
                         bubble.className = 'bubble';
-                        messageNavLink.appendChild(bubble);
+                        chatNavLink.appendChild(bubble);
                     }
                     // Update the bubble with the unread message count
                     bubble.textContent = userData.unread;
