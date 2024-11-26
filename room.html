@@ -173,6 +173,7 @@
                 document.getElementById("room-title").innerText = data.room.title;
                 document.getElementById("audio-source").src = data.room.radioURL;
                 document.getElementById("radio_url").src = data.room.radioURL;
+                document.title = data.room.title;
 
                 console.log("RadioURL:" + data.room.radioURL);
 
