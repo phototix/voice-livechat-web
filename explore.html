@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Interface</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #1f1538;
+            color: white;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #110824;
+        }
+        .header .time {
+            font-size: 18px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .cards {
+            display: flex;
+            gap: 10px;
+        }
+        .card {
+            flex: 1;
+            padding: 15px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #6bc5d2, #3b90d6);
+            color: white;
+            text-align: center;
+        }
+        .hot-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        .item {
+            padding: 15px;
+            background: #2b213e;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background: #110824;
+            padding: 10px 0;
+        }
+        .footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="time">10:12</div>
+        <div class="status">
+            <span>WiFi</span> | 
+            <span>Battery</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="section">
+            <h2>热门</h2>
+            <div class="cards">
+                <div class="card">可可星球 净网行动</div>
+                <div class="card" style="background: linear-gradient(135deg, #f4b7c5, #ea869b);">结婚 心动梦幻婚礼</div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>可可严选</h2>
+            <div class="hot-content">
+                <div class="item">星好拍拍 ✨全麦滴</div>
+                <div class="item">月亮湾</div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>热门派对</h2>
+            <div class="hot-content">
+                <div class="item">初恋 姐怎么这么美</div>
+                <div class="item">星好拍拍 ✨全麦滴</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#" class="active"><img src="assets/apps/app-01.png" alt="航行"><br>航行</a>
+        <a href="/"><img src="assets/apps/app-02.png" alt="派對"><br>派對</a>
+        <a href="chat.html"><img src="assets/apps/app-03.png" alt="訊息"><br>訊息</a>
+        <a href="me.html"><img src="assets/apps/app-04.png" alt="我的"><br>我的</a>
+    </div>
+
+</body>
+</html>
