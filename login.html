@@ -37,9 +37,13 @@
             请阅读并同意 <a href="#">用户协议</a> 和 <a href="#">隐私政策</a>
         </p>
         <script>
-            // Example function to demonstrate MD5 hashing during form submission
+            // Event listener for form submission
+            document.getElementById('loginForm').addEventListener('submit', submitLogin);
+
             function submitLogin(event) {
-                event.preventDefault();  // Prevent default form submission
+                // Prevent the form from submitting normally
+                event.preventDefault();
+
                 var username = document.getElementById("username").value;
                 var password = document.getElementById("password").value;
 
