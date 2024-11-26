@@ -1,0 +1,215 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1E1C3A;
+}
+.header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), 
+                url('assets/yishao-profile.jpg') no-repeat center center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+.header .avatar {
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+}
+.user-info {
+    padding: 80px 20px 20px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.user-info h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+.user-info p {
+    color: #666;
+    font-size: 14px;
+}
+.badges {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.badge {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #555;
+    border: 1px solid #ddd;
+}
+.badge.vip {
+    background-color: #ffcc00;
+    color: #fff;
+    border: 1px solid #e5b800;
+}
+.badge.special {
+    background-color: #4CAF50;
+    color: #fff;
+    border: 1px solid #45a049;
+}
+.badge.rank {
+    background-color: #3e8e41;
+    color: #fff;
+    border: 1px solid #356735;
+}
+.badge.moderator {
+    background-color: #3f51b5;
+    color: #fff;
+}
+.badge.new-user {
+    background-color: #ff4081;
+    color: #fff;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #1E1C3A;
+    color:#FFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+.stat {
+    text-align: center;
+    font-size: 14px;
+}
+.stat span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #2D294E;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.navbar a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1) brightness(2);
+    transition: filter 0.3s ease;
+}
+
+.navbar a.active img {
+    filter: invert(64%) sepia(85%) saturate(748%) hue-rotate(1deg) brightness(100%) contrast(101%);
+    /* Converts icon to the active link color (gold) */
+}
+
+.navbar a:hover img {
+    filter: invert(0.8) brightness(1.5); /* Slightly change on hover for effect */
+}
+.navbar a.active {
+    color: #FFD700; /* Active text color */
+    border-radius: 8px;
+}
+.additional-info {
+    background-color: #1E1C3A;
+    color:#FFF;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 250px;
+}
+
+.vip-status {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vip-status h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #d4af37; /* Golden color */
+}
+
+.vip-status p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.vip-badge {
+    display: inline-block;
+    background-color: #d4af37;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.vip-badge span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.balance {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.balance div {
+    text-align: center;
+}
+
+.balance span {
+    font-size: 18px;
+    font-weight: bold;
+    color:#FFF;
+}
+
+.balance p {
+    font-size: 12px;
+    color:#FFF;
+    margin-top: 5px;
+}
+
+.settings {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.settings li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.settings a {
+    text-decoration: none;
+    color:#FFF;
+    font-size: 14px;
+    display: block;
+}
+
+.settings a:hover {
+    color: #007bff;
+}

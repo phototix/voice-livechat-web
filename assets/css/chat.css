@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #2D294E;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    position: relative; /* Add this to position the bubble correctly */
+}
+.navbar a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1) brightness(2);
+    transition: filter 0.3s ease;
+}
+.navbar a.active img {
+    filter: invert(64%) sepia(85%) saturate(748%) hue-rotate(1deg) brightness(100%) contrast(101%);
+}
+.navbar a:hover img {
+    filter: invert(0.8) brightness(1.5);
+}
+.navbar a.active {
+    color: #FFD700;
+    border-radius: 8px;
+}
+.navbar a .bubble {
+    position: absolute;
+    top: -5px; /* Adjust vertical position of the bubble */
+    right: -10px; /* Adjust horizontal position of the bubble */
+    background: #f50057;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.chat-list {
+    margin-bottom: 60px;
+}
+.chat-item {
+    padding: 10px;
+    background: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.chat-item img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.chat-item .details {
+    flex: 1;
+}
+.chat-item .details h4 {
+    margin: 0;
+    font-size: 16px;
+}
+.chat-item .details p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #777;
+}
+.chat-item .bubble {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #f50057;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
