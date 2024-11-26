@@ -119,7 +119,7 @@
                     document.querySelectorAll(".stat span")[3].textContent = data.saved;
 
                     document.querySelector(".vip-status h2").textContent = data.rank;
-                    document.querySelector(".vip-badge").innerHTML = `${data.special} <span>V</span>`;
+                    document.querySelector(".vip-badge").innerHTML = `${data.special}`;
 
                     const balanceElements = document.querySelectorAll(".balance div span");
                     balanceElements[0].textContent = data.balance;
