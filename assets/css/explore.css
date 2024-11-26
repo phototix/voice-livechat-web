@@ -5,18 +5,8 @@ body {
     background: #1f1538;
     color: white;
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background: #110824;
-}
-.header .time {
-    font-size: 18px;
-}
 .content {
-    padding: 20px;
+    padding: 0px;
 }
 .section {
     margin-bottom: 20px;
