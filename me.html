@@ -83,5 +83,52 @@
         <a href="#" class="active"><img src="assets/apps/app-04.png" alt="我的"><br>我的</a>
     </div>
 
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Fetch the user ID from the cookie
+        const cookies = document.cookie.split('; ').reduce((acc, curr) => {
+            const [key, value] = curr.split('=');
+            acc[key] = value;
+            return acc;
+        }, {});
+        const userID = cookies.userLoggedIn;
+
+        // Fetch the JSON file for the user
+        fetch(`cache/${userID}-user.json`)
+            .then(response => response.json())
+            .then(data => {
+                // Populate the HTML
+                document.querySelector(".header").style.backgroundImage = `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), 
+                    url('${data.profileImageURL}')`;
+
+                document.querySelector(".avatar").src = data.profileImageURL;
+                document.querySelector(".avatar").alt = `${data.name} Avatar`;
+
+                document.querySelector(".user-info h1").textContent = data.name;
+                document.querySelector(".user-info p").textContent = `ID: ${data.userID}`;
+
+                const badgesContainer = document.querySelector(".badges");
+                badgesContainer.innerHTML = `
+                    <div class="badge vip">${data.vip}</div>
+                    <div class="badge special">${data.special}</div>
+                    <div class="badge rank">${data.rank}</div>
+                `;
+
+                document.querySelectorAll(".stat span")[0].textContent = data.friends;
+                document.querySelectorAll(".stat span")[1].textContent = data.follows;
+                document.querySelectorAll(".stat span")[2].textContent = data.fans;
+                document.querySelectorAll(".stat span")[3].textContent = data.saved;
+
+                document.querySelector(".vip-status h2").textContent = data.rank;
+                document.querySelector(".vip-badge").innerHTML = `${data.special} <span>V</span>`;
+
+                const balanceElements = document.querySelectorAll(".balance div span");
+                balanceElements[0].textContent = data.balance;
+                balanceElements[1].textContent = data.balance;
+            })
+            .catch(err => console.error("Error loading user data:", err));
+    });
+    </script>
+
 </body>
 </html>
