@@ -217,8 +217,13 @@
                     span.textContent = user.name;
 
                     // If the user is offline, mark the slot as "空" (empty)
-                    if (user.status === "offline") {
+                    if (user.status === "offline" && (!user.userid || user.userid === "")) {
                         span.textContent = "虚位以待";
+                    }
+
+                    // If the user is offline, mark the slot as "空" (empty)
+                    if (user.status === "offline" && (user.userid) {
+                        span.textContent = user.name + "(挂机)";
                     }
                 });
             }
