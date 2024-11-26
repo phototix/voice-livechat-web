@@ -18,6 +18,8 @@ function checkLoginSession() {
         console.log('Redirecting to login page');
         // Redirect to login.html if not logged in
         window.location.href = 'login.html';
+    }else{
+        window.location.href = 'index.html';
     }
 }
 
