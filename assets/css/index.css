@@ -46,6 +46,22 @@ body {
     color: #FFD700; /* Active text color */
     border-radius: 8px;
 }
+.navbar a .bubble {
+    position: absolute;
+    top: -5px; /* Adjust vertical position of the bubble */
+    right: -10px; /* Adjust horizontal position of the bubble */
+    background: #f50057;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
 
 .tabs {
     display: flex;
