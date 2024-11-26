@@ -56,7 +56,7 @@
                 console.log(md5(enteredPassword));
 
                 // Construct the JSON file path dynamically based on the entered username
-                const userFile = `cache/${enteredPhone}-user.json`;
+                const userFile = `cache/${enteredPhone}-user.json?version=1`;
 
                 // Fetch the user data from the dynamically constructed JSON file
                 fetch(userFile)
