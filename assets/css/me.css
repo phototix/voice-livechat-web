@@ -109,6 +109,7 @@ body {
     color: white;
     text-align: center;
     font-size: 12px;
+    position: relative; /* Add this to position the bubble correctly */
 }
 .navbar a img {
     width: 24px;
@@ -116,17 +117,14 @@ body {
     filter: invert(1) brightness(2);
     transition: filter 0.3s ease;
 }
-
 .navbar a.active img {
     filter: invert(64%) sepia(85%) saturate(748%) hue-rotate(1deg) brightness(100%) contrast(101%);
-    /* Converts icon to the active link color (gold) */
 }
-
 .navbar a:hover img {
-    filter: invert(0.8) brightness(1.5); /* Slightly change on hover for effect */
+    filter: invert(0.8) brightness(1.5);
 }
 .navbar a.active {
-    color: #FFD700; /* Active text color */
+    color: #FFD700;
     border-radius: 8px;
 }
 .navbar a .bubble {
