@@ -1,6 +1,6 @@
 // JavaScript to create a "飘屏" effect with sequential display
 (function () {
-    const announcementUrl = '/path/to/effect_annoucement.json'; // Update this path to your JSON file
+    const announcementUrl = '/cache/effect_annoucement.json'; // Update this path to your JSON file
     const checkInterval = 5000; // Interval to check for updates (in milliseconds)
     let lastUpdateTimestamp = null;
     let messageQueue = [];
