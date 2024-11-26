@@ -36,26 +36,6 @@
         <p class="agreement">
             请阅读并同意 <a href="#">用户协议</a> 和 <a href="#">隐私政策</a>
         </p>
-        <script>
-            // Event listener for form submission
-            document.getElementById('loginForm').addEventListener('submit', submitLogin);
-
-            function submitLogin(event) {
-                // Prevent the form from submitting normally
-                event.preventDefault();
-
-                var username = document.getElementById("username").value;
-                var password = document.getElementById("password").value;
-
-                // Hash password with MD5
-                var hashedPassword = md5(password);
-
-                console.log("Username: " + username);
-                console.log("Hashed Password: " + hashedPassword);
-
-                // Proceed with login (e.g., send data to server)
-            }
-        </script>
     </div>
 </body>
 </html>
