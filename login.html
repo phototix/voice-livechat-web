@@ -11,6 +11,8 @@
         link.href = 'assets/css/login.css?version=' + new Date().getTime();
         document.head.appendChild(link);
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="script/login.js"></script>
 </head>
 <body>
     <div class="container">
@@ -21,7 +23,7 @@
         <div class="form">
             <input type="text" placeholder="请输入手机号" required id="phoneInput">
             <div style="display: flex; justify-content: space-between;">
-                <input type="text" placeholder="请输入密码" style="flex: 1; margin-right: 10px;" required id="passwordInput">
+                <input type="password" placeholder="请输入密码" style="flex: 1; margin-right: 10px;" required id="passwordInput">
             </div>
             <button type="submit" id="loginButton" onclick="submitLogin()">登录</button>
         </div>
@@ -34,8 +36,6 @@
         <p class="agreement">
             请阅读并同意 <a href="#">用户协议</a> 和 <a href="#">隐私政策</a>
         </p>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
-        <script src="script/login.js"></script>
         <script>
             // Example function to demonstrate MD5 hashing during form submission
             function submitLogin(event) {
