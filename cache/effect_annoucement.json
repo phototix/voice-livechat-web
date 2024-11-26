@@ -1,8 +1,6 @@
 {
     "timestamp": 123456789,
     "messages": [
-        "Welcome to the live show!",
-        "Today's special event starts at 8 PM.",
-        "Don't miss out on the exclusive deals!"
+        "Welcome to the live show!"
     ]
 }
