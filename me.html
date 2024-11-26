@@ -85,7 +85,6 @@
 
     <script>
     document.addEventListener("DOMContentLoaded", function () {
-        // Fetch the user ID from the cookie
         const cookies = document.cookie.split('; ').reduce((acc, curr) => {
             const [key, value] = curr.split('=');
             acc[key] = value;
@@ -93,41 +92,47 @@
         }, {});
         const userID = cookies.userLoggedIn;
 
-        const timestamp = new Date().getTime();
-        // Fetch the JSON file for the user
-        fetch(`cache/${userID}-user.json?timestamp=${timestamp}`)
-            .then(response => response.json())
-            .then(data => {
-                // Populate the HTML
-                document.querySelector(".header").style.backgroundImage = `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), 
-                    url('${data.profileImageURL}')`;
+        function updateProfile() {
+            const timestamp = new Date().getTime();
+            fetch(`cache/${userID}-user.json?timestamp=${timestamp}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.querySelector(".header").style.backgroundImage = `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), 
+                        url('${data.profileImageURL}')`;
 
-                document.querySelector(".avatar").src = data.profileImageURL;
-                document.querySelector(".avatar").alt = `${data.name} Avatar`;
+                    document.querySelector(".avatar").src = data.profileImageURL;
+                    document.querySelector(".avatar").alt = `${data.name} Avatar`;
 
-                document.querySelector(".user-info h1").textContent = data.name;
-                document.querySelector(".user-info p").textContent = `ID: ${data.userID}`;
+                    document.querySelector(".user-info h1").textContent = data.name;
+                    document.querySelector(".user-info p").textContent = `ID: ${data.userID}`;
 
-                const badgesContainer = document.querySelector(".badges");
-                badgesContainer.innerHTML = `
-                    <div class="badge vip">${data.vip}</div>
-                    <div class="badge special">${data.special}</div>
-                    <div class="badge rank">${data.rank}</div>
-                `;
+                    const badgesContainer = document.querySelector(".badges");
+                    badgesContainer.innerHTML = `
+                        <div class="badge vip">${data.vip}</div>
+                        <div class="badge special">${data.special}</div>
+                        <div class="badge rank">${data.rank}</div>
+                    `;
 
-                document.querySelectorAll(".stat span")[0].textContent = data.friends;
-                document.querySelectorAll(".stat span")[1].textContent = data.follows;
-                document.querySelectorAll(".stat span")[2].textContent = data.fans;
-                document.querySelectorAll(".stat span")[3].textContent = data.saved;
+                    document.querySelectorAll(".stat span")[0].textContent = data.friends;
+                    document.querySelectorAll(".stat span")[1].textContent = data.follows;
+                    document.querySelectorAll(".stat span")[2].textContent = data.fans;
+                    document.querySelectorAll(".stat span")[3].textContent = data.saved;
 
-                document.querySelector(".vip-status h2").textContent = data.rank;
-                document.querySelector(".vip-badge").innerHTML = `${data.special} <span>V</span>`;
+                    document.querySelector(".vip-status h2").textContent = data.rank;
+                    document.querySelector(".vip-badge").innerHTML = `${data.special} <span>V</span>`;
 
-                const balanceElements = document.querySelectorAll(".balance div span");
-                balanceElements[0].textContent = data.balance;
-                balanceElements[1].textContent = data.balance;
-            })
-            .catch(err => console.error("Error loading user data:", err));
+                    const balanceElements = document.querySelectorAll(".balance div span");
+                    balanceElements[0].textContent = data.balance;
+                    balanceElements[1].textContent = data.balance;
+                })
+                .catch(err => console.error("Error updating profile:", err));
+        }
+
+        // Initial profile load
+        updateProfile();
+
+        // Update profile every 3 seconds
+        setInterval(updateProfile, 3000);
     });
     </script>
 
