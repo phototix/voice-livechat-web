@@ -19,11 +19,11 @@
         </div>
         <h1>登录/注册 更精彩的壹韶APP</h1>
         <form class="form">
-            <input type="text" placeholder="请输入手机号" required>
+            <input type="text" placeholder="请输入手机号" required id="phoneInput">
             <div style="display: flex; justify-content: space-between;">
-                <input type="text" placeholder="请输入密码" style="flex: 1; margin-right: 10px;" required>
+                <input type="text" placeholder="请输入密码" style="flex: 1; margin-right: 10px;" required id="passwordInput">
             </div>
-            <button type="submit">登录</button>
+            <button type="submit" id="loginButton">登录</button>
         </form>
         <p class="quick-login">联系我</p>
         <a href="https://u.wechat.com/kIrRTjmDRFeDjtpA_7TT8Zs?s=2" target="_blank">
@@ -34,6 +34,8 @@
         <p class="agreement">
             请阅读并同意 <a href="#">用户协议</a> 和 <a href="#">隐私政策</a>
         </p>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+        <script src="script/login.js"></script>
     </div>
 </body>
 </html>
