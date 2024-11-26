@@ -5,25 +5,19 @@ function checkLoginSession() {
     // Simulate checking session storage for a logged-in user
     const userLoggedIn = sessionStorage.getItem('userLoggedIn');
 
+    // Log the session value for debugging
+    console.log('User Logged In:', userLoggedIn);
+
     // Pages that require login
     const restrictedPages = ['me.html', 'chat.html'];
     const currentPage = window.location.pathname.split('/').pop();
 
+    // If the page is restricted and the user is not logged in
     if (restrictedPages.includes(currentPage) && !userLoggedIn) {
+        // Log and debug redirection
+        console.log('Redirecting to login page');
         // Redirect to login.html if not logged in
         window.location.href = 'login.html';
-    }
-}
-
-// Function to handle login action
-function handleLogin(username, password) {
-    // Simulate login validation
-    if (username === 'user' && password === 'password') {
-        sessionStorage.setItem('userLoggedIn', true); // Mark as logged in
-        alert('Login successful!');
-        window.location.href = 'index.html'; // Redirect to homepage or any page
-    } else {
-        alert('Invalid credentials. Please try again.');
     }
 }
 
