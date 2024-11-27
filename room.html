@@ -193,8 +193,8 @@
                 document.getElementById("room-id").innerText = `ID: ${data.room.id}`;
                 document.getElementById("room-title").innerText = data.room.title;
                 document.getElementById("audio-source").src = data.room.radioURL;
-                document.getElementById("radio_url").src = data.room.radioURL;
-                document.getElementById("webhook_url").src = data.room.webhookURL;
+                document.getElementById("radio_url").value = data.room.radioURL;
+                document.getElementById("webhook_url").value = data.room.webhookURL;
                 document.title = data.room.title;
 
                 document.getElementById("host-profile-image").src = data.host.photo;
