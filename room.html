@@ -224,7 +224,11 @@
                 document.head.appendChild(style);
 
                 hostInfo.querySelector('img').src = data.host.photo;
-                hostInfo.querySelector('h2').textContent = `${data.host.name} (主持人)`;
+                if(data.room.roomType=="comm"){
+                    hostInfo.querySelector('h2').textContent = `${data.host.name} (大头)`;
+                }else{
+                    hostInfo.querySelector('h2').textContent = `${data.host.name} (主持人)`;
+                }
                 
                 // Loop through each user slot and update the status
                 const userSlots = document.querySelectorAll('.user-slot');
