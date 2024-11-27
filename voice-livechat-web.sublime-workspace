@@ -20,433 +20,440 @@
 	"buffers":
 	[
 		{
-			"file": "cache/96844131-user.json",
+			"file": "explore.html",
 			"settings":
 			{
-				"buffer_size": 384,
+				"buffer_size": 3332,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
-				[
-					3,
-					1,
-					"insert",
-					{
-						"characters": ","
-					},
-					"AQAAAHEBAAAAAAAAcgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAcQEAAAAAAABxAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"insert",
-					{
-						"characters": ",000"
-					},
-					"BAAAAHUBAAAAAAAAdgEAAAAAAAAAAAAAdgEAAAAAAAB3AQAAAAAAAAAAAAB3AQAAAAAAAHgBAAAAAAAAAAAAAHgBAAAAAAAAeQEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdQEAAAAAAAB1AQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					9,
-					1,
-					"insert",
-					{
-						"characters": "5"
-					},
-					"AQAAANQAAAAAAAAA1QAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA1AAAAAAAAADUAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					1,
-					"insert",
-					{
-						"characters": " V"
-					},
-					"AgAAAOwAAAAAAAAA7QAAAAAAAAAAAAAA7QAAAAAAAADuAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA7AAAAAAAAADsAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "script/announcement.js",
-			"settings":
-			{
-				"buffer_size": 3794,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					1,
-					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAASQsAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					4,
-					1,
-					"insert",
-					{
-						"characters": "cash"
-					},
-					"BQAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABUAAAAAAAAAAgAAABwYXRoL3RvL1QAAAAAAAAAVQAAAAAAAAAAAAAAVQAAAAAAAABWAAAAAAAAAAAAAABWAAAAAAAAAFcAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAUwAAAAAAAABbAAAAAAAAAAAAAAAAAPC/"
-				],
 				[
 					5,
-					3,
-					"left_delete",
-					null,
-					"AwAAAFYAAAAAAAAAVgAAAAAAAAABAAAAaFUAAAAAAAAAVQAAAAAAAAABAAAAc1QAAAAAAAAAVAAAAAAAAAABAAAAYQ",
-					"AQAAAAAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
 					1,
 					"insert",
 					{
-						"characters": "c"
+						"characters": "\n\n"
 					},
-					"AQAAAFQAAAAAAAAAVQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAAPC/"
+					"BQAAAJ0HAAAAAAAAngcAAAAAAAAAAAAAngcAAAAAAACmBwAAAAAAAAAAAACmBwAAAAAAAKcHAAAAAAAAAAAAAKcHAAAAAAAArwcAAAAAAAAAAAAAngcAAAAAAACeBwAAAAAAAAgAAAAgICAgICAgIA",
+					"AQAAAAAAAAABAAAAnQcAAAAAAACdBwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					7,
 					1,
-					"left_delete",
+					"reindent",
 					null,
-					"AQAAAFQAAAAAAAAAVAAAAAAAAAABAAAAYw",
-					"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAJ4HAAAAAAAApgcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAngcAAAAAAACeBwAAAAAAAAAAAAAAgFBA"
 				],
 				[
 					8,
 					1,
 					"insert",
 					{
-						"characters": "ache/."
+						"characters": "\n"
 					},
-					"BgAAAFQAAAAAAAAAVQAAAAAAAAAAAAAAVQAAAAAAAABWAAAAAAAAAAAAAABWAAAAAAAAAFcAAAAAAAAAAAAAAFcAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABZAAAAAAAAAAAAAABZAAAAAAAAAFoAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAKYHAAAAAAAApwcAAAAAAAAAAAAApwcAAAAAAACvBwAAAAAAAAAAAACwBwAAAAAAALAHAAAAAAAACAAAACAgICAgICAgngcAAAAAAACeBwAAAAAAAAgAAAAgICAgICAgIA",
+					"AQAAAAAAAAABAAAApgcAAAAAAACmBwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					9,
 					1,
+					"paste",
+					null,
+					"AQAAAKcHAAAAAAAA7ggAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApwcAAAAAAACnBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"indent",
+					null,
+					"BwAAAMAHAAAAAAAAxAcAAAAAAAAAAAAA5QcAAAAAAADpBwAAAAAAAAAAAAAYCAAAAAAAABwIAAAAAAAAAAAAAEQIAAAAAAAASAgAAAAAAAAAAAAAiAgAAAAAAACMCAAAAAAAAAAAAADhCAAAAAAAAOUIAAAAAAAAAAAAAPgIAAAAAAAA/AgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7ggAAAAAAADIBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAAoJAAAAAAAACwkAAAAAAAAAAAAACwkAAAAAAAAXCQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgkAAAAAAAAKCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"",
+					null,
+					"AQAAABcJAAAAAAAAGAkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFwkAAAAAAAAXCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
 					"left_delete",
 					null,
-					"AQAAAFkAAAAAAAAAWQAAAAAAAAABAAAALg",
-					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+					"AQAAABcJAAAAAAAAFwkAAAAAAAADAAAA44CK",
+					"AQAAAAAAAAABAAAAGAkAAAAAAAAYCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"",
+					null,
+					"AQAAABcJAAAAAAAAGAkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFwkAAAAAAAAXCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"",
+					null,
+					"AQAAABgJAAAAAAAAGQkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGAkAAAAAAAAYCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					2,
+					"left_delete",
+					null,
+					"AgAAABgJAAAAAAAAGAkAAAAAAAADAAAA44CBFwkAAAAAAAAXCQAAAAAAAAMAAADjgIo",
+					"AQAAAAAAAAABAAAAGQkAAAAAAAAZCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "<"
+					},
+					"AQAAABcJAAAAAAAAGAkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFwkAAAAAAAAXCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"close_tag",
+					{
+						"insert_slash": true
+					},
+					"AwAAABgJAAAAAAAAHQkAAAAAAAAAAAAACwkAAAAAAAALCQAAAAAAAAwAAAAgICAgICAgICAgICALCQAAAAAAABMJAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGAkAAAAAAAAYCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"paste",
+					null,
+					"AgAAAP8HAAAAAAAAHwgAAAAAAAAAAAAAHwgAAAAAAAAfCAAAAAAAAAoAAABwYXJ0eTEuanBn",
+					"AQAAAAAAAAABAAAACQgAAAAAAAD/BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"paste",
+					null,
+					"AgAAAIcIAAAAAAAAiwgAAAAAAAAAAAAAiwgAAAAAAACLCAAAAAAAAA8AAADovYnop5LpgYfliLDmhJs",
+					"AQAAAAAAAAABAAAAjAgAAAAAAACHCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": "\n<a"
+					},
+					"BQAAAL8HAAAAAAAAwAcAAAAAAAAAAAAAwAcAAAAAAADIBwAAAAAAAAAAAADIBwAAAAAAAMwHAAAAAAAAAAAAAMwHAAAAAAAAzQcAAAAAAAAAAAAAzQcAAAAAAADOBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvwcAAAAAAAC/BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"insert",
+					{
+						"characters": " hre"
+					},
+					"BAAAAM4HAAAAAAAAzwcAAAAAAAAAAAAAzwcAAAAAAADQBwAAAAAAAAAAAADQBwAAAAAAANEHAAAAAAAAAAAAANEHAAAAAAAA0gcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzgcAAAAAAADOBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert_completion",
+					{
+						"completion": "href=\"$1\">$0",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "href"
+					},
+					"AgAAAM8HAAAAAAAAzwcAAAAAAAADAAAAaHJlzwcAAAAAAADXBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0gcAAAAAAADSBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": "\n<"
+					},
+					"AwAAADcJAAAAAAAAOAkAAAAAAAAAAAAAOAkAAAAAAABECQAAAAAAAAAAAABECQAAAAAAAEUJAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANwkAAAAAAAA3CQAAAAAAAAAAAAAAoGVA"
+				],
+				[
+					43,
+					1,
+					"close_tag",
+					{
+						"insert_slash": true
+					},
+					"AwAAAEUJAAAAAAAASAkAAAAAAAAAAAAAOAkAAAAAAAA4CQAAAAAAAAwAAAAgICAgICAgICAgICA4CQAAAAAAAEAJAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARQkAAAAAAABFCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"indent",
+					null,
+					"CAAAANgHAAAAAAAA3AcAAAAAAAAAAAAAAQgAAAAAAAAFCAAAAAAAAAAAAABOCAAAAAAAAFIIAAAAAAAAAAAAAH4IAAAAAAAAgggAAAAAAAAAAAAAxQgAAAAAAADJCAAAAAAAAAAAAAAiCQAAAAAAACYJAAAAAAAAAAAAAD0JAAAAAAAAQQkAAAAAAAAAAAAAVAkAAAAAAABYCQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAkAAAAAAADkBwAAAAAAAAAAAAAAwFhA"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAGQJAAAAAAAAZQkAAAAAAAAAAAAAZQkAAAAAAABxCQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZAkAAAAAAABkCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"BAAAAL8HAAAAAAAAwAcAAAAAAAAAAAAAwAcAAAAAAADIBwAAAAAAAAAAAADIBwAAAAAAAMwHAAAAAAAAAAAAAHIJAAAAAAAAcgkAAAAAAAAMAAAAICAgICAgICAgICAg",
+					"AQAAAAAAAAABAAAAvwcAAAAAAAC/BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					54,
+					1,
+					"paste",
+					null,
+					"AQAAAOIHAAAAAAAA9gcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4gcAAAAAAADiBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					2,
+					"paste",
+					null,
+					"AwAAAL8HAAAAAAAAhQkAAAAAAAAAAAAAhQkAAAAAAACFCQAAAAAAAOcBAAAKICAgICAgICAgICAgCiAgICAgICAgICAgIDxhIGhyZWY9InJvb20uaHRtbD9pZD0xMDAyMDAxIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InBhcnR5LWl0ZW0iPgogICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJhc3NldHMvcm9vbXMvMTAwMjAwMS5wbmc/dmVyPTEuMCIgYWx0PSJQYXJ0eSI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icGFydHktZGV0YWlscyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InBhcnR5LXRpdGxlIj7lubLlqIfnmb7prYUg4p2k77iPIOelnuenmOWls+WYieizk+WHuuWgtDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJwYXJ0eS1tZXRhIj7kuqTlj4sgPHNwYW4gY2xhc3M9ImZpcmUtaWNvbiI+8J+UpSA0Njwvc3Bhbj48L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2E+hQkAAAAAAABLCwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhQkAAAAAAAC/BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"paste",
+					null,
+					"AgAAAJYKAAAAAAAAmgoAAAAAAAAAAAAAmgoAAAAAAACaCgAAAAAAACkAAADlubLlqIfnmb7prYUg4p2k77iPIOelnuenmOWls+WYieizk+WHuuWgtA",
+					"AQAAAAAAAAABAAAAlgoAAAAAAAClCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"paste",
+					null,
+					"AgAAANEKAAAAAAAA0woAAAAAAAAAAAAA0woAAAAAAADTCgAAAAAAAAYAAADkuqTlj4s",
+					"AQAAAAAAAAABAAAA0woAAAAAAADRCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AgAAAO8KAAAAAAAA8AoAAAAAAAAAAAAA8AoAAAAAAADwCgAAAAAAAAEAAAA2",
+					"AQAAAAAAAAABAAAA8AoAAAAAAADvCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					74,
+					1,
+					"paste",
+					null,
+					"AgAAAAYKAAAAAAAAKAoAAAAAAAAAAAAAKAoAAAAAAAAoCgAAAAAAACAAAABhc3NldHMvcm9vbXMvMTAwMjAwMS5wbmc/dmVyPTEuMA",
+					"AQAAAAAAAAABAAAAJgoAAAAAAAAGCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					86,
+					1,
+					"paste",
+					null,
+					"AgAAALUJAAAAAAAAvgkAAAAAAAAAAAAAvgkAAAAAAAC+CQAAAAAAAAcAAAAxMDAyMDAx",
+					"AQAAAAAAAAABAAAAtQkAAAAAAAC8CQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "assets/css/explore.css",
+			"settings":
+			{
+				"buffer_size": 2670,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAGMHAAAAAAAAZAcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwcAAAAAAABjBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AQAAAGQHAAAAAAAApwoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZAcAAAAAAABkBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					2,
+					"unindent",
+					null,
+					"RAAAAHIHAAAAAAAAcgcAAAAAAAAEAAAAICAgIIoHAAAAAAAAigcAAAAAAAAEAAAAICAgIKUHAAAAAAAApQcAAAAAAAAEAAAAICAgIKsHAAAAAAAAqwcAAAAAAAAEAAAAICAgIL0HAAAAAAAAvQcAAAAAAAAEAAAAICAgINQHAAAAAAAA1AcAAAAAAAAEAAAAICAgIPEHAAAAAAAA8QcAAAAAAAAEAAAAICAgIBQIAAAAAAAAFAgAAAAAAAAEAAAAICAgICwIAAAAAAAALAgAAAAAAAAEAAAAICAgIEMIAAAAAAAAQwgAAAAAAAAEAAAAICAgIGAIAAAAAAAAYAgAAAAAAAAEAAAAICAgIGYIAAAAAAAAZggAAAAAAAAEAAAAICAgIHwIAAAAAAAAfAgAAAAAAAAEAAAAICAgIJEIAAAAAAAAkQgAAAAAAAAEAAAAICAgIKcIAAAAAAAApwgAAAAAAAAEAAAAICAgIMQIAAAAAAAAxAgAAAAAAAAEAAAAICAgIOAIAAAAAAAA4AgAAAAAAAAEAAAAICAgIOYIAAAAAAAA5ggAAAAAAAAEAAAAICAgIPsIAAAAAAAA+wgAAAAAAAAEAAAAICAgIAwJAAAAAAAADAkAAAAAAAAEAAAAICAgIBIJAAAAAAAAEgkAAAAAAAAEAAAAICAgICUJAAAAAAAAJQkAAAAAAAAEAAAAICAgID4JAAAAAAAAPgkAAAAAAAAEAAAAICAgIFkJAAAAAAAAWQkAAAAAAAAEAAAAICAgIHUJAAAAAAAAdQkAAAAAAAAEAAAAICAgIHsJAAAAAAAAewkAAAAAAAAEAAAAICAgII0JAAAAAAAAjQkAAAAAAAAEAAAAICAgIKYJAAAAAAAApgkAAAAAAAAEAAAAICAgILsJAAAAAAAAuwkAAAAAAAAEAAAAICAgIMEJAAAAAAAAwQkAAAAAAAAEAAAAICAgINIJAAAAAAAA0gkAAAAAAAAEAAAAICAgIOsJAAAAAAAA6wkAAAAAAAAEAAAAICAgIAAKAAAAAAAAAAoAAAAAAAAEAAAAICAgIBoKAAAAAAAAGgoAAAAAAAAEAAAAICAgIHIHAAAAAAAAcgcAAAAAAAAEAAAAICAgIIYHAAAAAAAAhgcAAAAAAAAEAAAAICAgIJ0HAAAAAAAAnQcAAAAAAAAEAAAAICAgIJ8HAAAAAAAAnwcAAAAAAAAEAAAAICAgIK0HAAAAAAAArQcAAAAAAAAEAAAAICAgIMAHAAAAAAAAwAcAAAAAAAAEAAAAICAgINkHAAAAAAAA2QcAAAAAAAAEAAAAICAgIPgHAAAAAAAA+AcAAAAAAAAEAAAAICAgIAwIAAAAAAAADAgAAAAAAAAEAAAAICAgIB8IAAAAAAAAHwgAAAAAAAAEAAAAICAgIDgIAAAAAAAAOAgAAAAAAAAEAAAAICAgIDoIAAAAAAAAOggAAAAAAAAEAAAAICAgIEwIAAAAAAAATAgAAAAAAAAEAAAAICAgIF0IAAAAAAAAXQgAAAAAAAAEAAAAICAgIG8IAAAAAAAAbwgAAAAAAAAEAAAAICAgIIgIAAAAAAAAiAgAAAAAAAAEAAAAICAgIKAIAAAAAAAAoAgAAAAAAAAEAAAAICAgIKIIAAAAAAAAoggAAAAAAAAEAAAAICAgILMIAAAAAAAAswgAAAAAAAAEAAAAICAgIMAIAAAAAAAAwAgAAAAAAAAEAAAAICAgIMIIAAAAAAAAwggAAAAAAAAEAAAAICAgINEIAAAAAAAA0QgAAAAAAAAEAAAAICAgIOYIAAAAAAAA5ggAAAAAAAAEAAAAICAgIP0IAAAAAAAA/QgAAAAAAAAEAAAAICAgIBUJAAAAAAAAFQkAAAAAAAAEAAAAICAgIBcJAAAAAAAAFwkAAAAAAAAEAAAAICAgICUJAAAAAAAAJQkAAAAAAAAEAAAAICAgIDoJAAAAAAAAOgkAAAAAAAAEAAAAICAgIEsJAAAAAAAASwkAAAAAAAAEAAAAICAgIE0JAAAAAAAATQkAAAAAAAAEAAAAICAgIFoJAAAAAAAAWgkAAAAAAAAEAAAAICAgIG8JAAAAAAAAbwkAAAAAAAAEAAAAICAgIIAJAAAAAAAAgAkAAAAAAAAEAAAAICAgIJYJAAAAAAAAlgkAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAApwoAAAAAAAB+BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "\ncolor"
+					},
+					"BwAAANAIAAAAAAAA0QgAAAAAAAAAAAAA0QgAAAAAAADVCAAAAAAAAAAAAADVCAAAAAAAANYIAAAAAAAAAAAAANYIAAAAAAAA1wgAAAAAAAAAAAAA1wgAAAAAAADYCAAAAAAAAAAAAADYCAAAAAAAANkIAAAAAAAAAAAAANkIAAAAAAAA2ggAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0AgAAAAAAADQCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert_snippet",
+					{
+						"contents": ":$0;"
+					},
+					"AQAAANoIAAAAAAAA3AgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2ggAAAAAAADaCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "#FFF"
+					},
+					"BAAAANsIAAAAAAAA3AgAAAAAAAAAAAAA3AgAAAAAAADdCAAAAAAAAAAAAADdCAAAAAAAAN4IAAAAAAAAAAAAAN4IAAAAAAAA3wgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2wgAAAAAAADbCAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					18,
 					1,
 					"paste",
 					null,
-					"AgAAAAAAAAAAAAAA1A4AAAAAAAAAAAAA1A4AAAAAAADUDgAAAAAAAEsLAAAvLyBKYXZhU2NyaXB0IHRvIGNyZWF0ZSBhICLpo5jlsY8iIGVmZmVjdAooZnVuY3Rpb24gKCkgewogICAgY29uc3QgYW5ub3VuY2VtZW50VXJsID0gJy9jYWNoZS9lZmZlY3RfYW5ub3VjZW1lbnQuanNvbic7IC8vIFVwZGF0ZSB0aGlzIHBhdGggdG8geW91ciBKU09OIGZpbGUKICAgIGNvbnN0IGNoZWNrSW50ZXJ2YWwgPSA1MDAwOyAvLyBJbnRlcnZhbCB0byBjaGVjayBmb3IgdXBkYXRlcyAoaW4gbWlsbGlzZWNvbmRzKQogICAgbGV0IGxhc3RVcGRhdGVUaW1lc3RhbXAgPSBudWxsOwoKICAgIC8vIENyZWF0ZSBjb250YWluZXIgZm9yIGFubm91bmNlbWVudHMKICAgIGNvbnN0IGNvbnRhaW5lciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpOwogICAgY29udGFpbmVyLnN0eWxlLnBvc2l0aW9uID0gJ2ZpeGVkJzsKICAgIGNvbnRhaW5lci5zdHlsZS50b3AgPSAnMTBweCc7CiAgICBjb250YWluZXIuc3R5bGUubGVmdCA9ICcwJzsKICAgIGNvbnRhaW5lci5zdHlsZS53aWR0aCA9ICcxMDAlJzsKICAgIGNvbnRhaW5lci5zdHlsZS5wb2ludGVyRXZlbnRzID0gJ25vbmUnOwogICAgY29udGFpbmVyLnN0eWxlLnpJbmRleCA9ICc5OTk5JzsKICAgIGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoY29udGFpbmVyKTsKCiAgICAvLyBGZXRjaCBKU09OIGFuZCBkaXNwbGF5IGFubm91bmNlbWVudHMKICAgIGFzeW5jIGZ1bmN0aW9uIGZldGNoQW5ub3VuY2VtZW50cygpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKGFubm91bmNlbWVudFVybCwgeyBjYWNoZTogJ25vLWNhY2hlJyB9KTsKICAgICAgICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsKCiAgICAgICAgICAgIGlmICghbGFzdFVwZGF0ZVRpbWVzdGFtcCB8fCBkYXRhLnRpbWVzdGFtcCAhPT0gbGFzdFVwZGF0ZVRpbWVzdGFtcCkgewogICAgICAgICAgICAgICAgbGFzdFVwZGF0ZVRpbWVzdGFtcCA9IGRhdGEudGltZXN0YW1wOwogICAgICAgICAgICAgICAgc2hvd0Fubm91bmNlbWVudHMoZGF0YS5tZXNzYWdlcyB8fCBbXSk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlcnJvcikgewogICAgICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBmZXRjaGluZyBhbm5vdW5jZW1lbnRzOicsIGVycm9yKTsKICAgICAgICB9CiAgICB9CgogICAgLy8gU2hvdyBhbm5vdW5jZW1lbnRzIHdpdGggZmxvYXRpbmcgZWZmZWN0CiAgICBmdW5jdGlvbiBzaG93QW5ub3VuY2VtZW50cyhtZXNzYWdlcykgewogICAgICAgIGNvbnRhaW5lci5pbm5lckhUTUwgPSAnJzsgLy8gQ2xlYXIgcHJldmlvdXMgYW5ub3VuY2VtZW50cwoKICAgICAgICBtZXNzYWdlcy5mb3JFYWNoKChtZXNzYWdlKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IG1lc3NhZ2VFbGVtZW50ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2Jyk7CiAgICAgICAgICAgIG1lc3NhZ2VFbGVtZW50LnN0eWxlLnBvc2l0aW9uID0gJ2Fic29sdXRlJzsKICAgICAgICAgICAgbWVzc2FnZUVsZW1lbnQuc3R5bGUud2hpdGVTcGFjZSA9ICdub3dyYXAnOwogICAgICAgICAgICBtZXNzYWdlRWxlbWVudC5zdHlsZS5mb250U2l6ZSA9ICcyNHB4JzsKICAgICAgICAgICAgbWVzc2FnZUVsZW1lbnQuc3R5bGUuZm9udFdlaWdodCA9ICdib2xkJzsKICAgICAgICAgICAgbWVzc2FnZUVsZW1lbnQuc3R5bGUuY29sb3IgPSAnI2ZmZic7CiAgICAgICAgICAgIG1lc3NhZ2VFbGVtZW50LnN0eWxlLnRleHRTaGFkb3cgPSAnMnB4IDJweCA0cHggcmdiYSgwLDAsMCwwLjcpJzsKICAgICAgICAgICAgbWVzc2FnZUVsZW1lbnQuc3R5bGUuYmFja2dyb3VuZCA9ICdyZ2JhKDAsMCwwLDAuNSknOwogICAgICAgICAgICBtZXNzYWdlRWxlbWVudC5zdHlsZS5wYWRkaW5nID0gJzVweCAxMHB4JzsKICAgICAgICAgICAgbWVzc2FnZUVsZW1lbnQuc3R5bGUuYm9yZGVyUmFkaXVzID0gJzVweCc7CiAgICAgICAgICAgIG1lc3NhZ2VFbGVtZW50LnN0eWxlLnRvcCA9IGAke01hdGgucmFuZG9tKCkgKiA1MH1weGA7CiAgICAgICAgICAgIG1lc3NhZ2VFbGVtZW50LnN0eWxlLmxlZnQgPSAnMTAwJSc7CgogICAgICAgICAgICBtZXNzYWdlRWxlbWVudC5pbm5lclRleHQgPSBtZXNzYWdlOwoKICAgICAgICAgICAgY29udGFpbmVyLmFwcGVuZENoaWxkKG1lc3NhZ2VFbGVtZW50KTsKCiAgICAgICAgICAgIC8vIEFuaW1hdGUgdGhlIG1lc3NhZ2UKICAgICAgICAgICAgY29uc3Qgc3RhcnRMZWZ0ID0gd2luZG93LmlubmVyV2lkdGg7CiAgICAgICAgICAgIGNvbnN0IGVuZExlZnQgPSAtbWVzc2FnZUVsZW1lbnQub2Zmc2V0V2lkdGg7CgogICAgICAgICAgICBjb25zdCBhbmltYXRpb24gPSBtZXNzYWdlRWxlbWVudC5hbmltYXRlKAogICAgICAgICAgICAgICAgW3sgbGVmdDogYCR7c3RhcnRMZWZ0fXB4YCB9LCB7IGxlZnQ6IGAke2VuZExlZnR9cHhgIH1dLAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGR1cmF0aW9uOiAxMDAwMCwKICAgICAgICAgICAgICAgICAgICBpdGVyYXRpb25zOiAxLAogICAgICAgICAgICAgICAgICAgIGVhc2luZzogJ2xpbmVhcicsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICk7CgogICAgICAgICAgICAvLyBSZW1vdmUgdGhlIG1lc3NhZ2UgYWZ0ZXIgYW5pbWF0aW9uIGVuZHMKICAgICAgICAgICAgYW5pbWF0aW9uLm9uZmluaXNoID0gKCkgPT4gbWVzc2FnZUVsZW1lbnQucmVtb3ZlKCk7CiAgICAgICAgfSk7CiAgICB9CgogICAgLy8gU3RhcnQgY2hlY2tpbmcgZm9yIHVwZGF0ZXMKICAgIHNldEludGVydmFsKGZldGNoQW5ub3VuY2VtZW50cywgY2hlY2tJbnRlcnZhbCk7CgogICAgLy8gSW5pdGlhbCBmZXRjaAogICAgZmV0Y2hBbm5vdW5jZW1lbnRzKCk7Cn0pKCk7Cg",
-					"AQAAAAAAAAABAAAAAAAAAAAAAABHCwAAAAAAAAAAAAAAAPC/"
+					"AgAAAMIIAAAAAAAA7AkAAAAAAAAAAAAA7AkAAAAAAADsCQAAAAAAAGQAAAAucGFydHktdGl0bGUgewogICAgY29sb3I6I0ZGRjsKICAgIGZvbnQtc2l6ZTogMTZweDsKICAgIGZvbnQtd2VpZ2h0OiBib2xkOwogICAgbWFyZ2luLWJvdHRvbTogNXB4Owp9",
+					"AQAAAAAAAAABAAAAJgkAAAAAAADCCAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					26,
+					19,
 					1,
-					"sequence",
+					"insert",
 					{
-						"commands":
-						[
-						]
+						"characters": "\n"
 					},
-					"BgAAAG8AAAAAAAAAcAAAAAAAAAAIAAAAcGF0aC90by9vAAAAAAAAAHEAAAAAAAAAAQAAAGNvAAAAAAAAAHMAAAAAAAAAAgAAAGNhbwAAAAAAAAB0AAAAAAAAAAQAAABjYSdjbwAAAAAAAAB1AAAAAAAAAAUAAABjYSdjaG8AAAAAAAAAdAAAAAAAAAAGAAAAY2EnY2hl",
-					"AQAAAAAAAAABAAAAbwAAAAAAAAB3AAAAAAAAAAAAAAAAAPC/"
+					"AQAAAOwJAAAAAAAA7QkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AkAAAAAAADsCQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "5"
+					},
+					"AgAAAJIHAAAAAAAAkwcAAAAAAAAAAAAAkwcAAAAAAACTBwAAAAAAAAIAAAAyMA",
+					"AQAAAAAAAAABAAAAlAcAAAAAAACSBwAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					27,
 					1,
 					"insert",
 					{
-						"characters": "/"
+						"characters": "10"
 					},
-					"AQAAAHQAAAAAAAAAdQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdAAAAAAAAAB0AAAAAAAAAAAAAAAAAPC/"
+					"AwAAAIEHAAAAAAAAggcAAAAAAAAAAAAAggcAAAAAAACCBwAAAAAAAAEAAAA5ggcAAAAAAACDBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAggcAAAAAAACBBwAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
 		{
-			"file": "cache/effect_annoucement.json",
+			"file": "script/loader.js",
 			"settings":
 			{
-				"buffer_size": 267,
+				"buffer_size": 1347,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
 				[
-					7,
-					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAAvwAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"cut",
-					null,
-					"AQAAAFMAAAAAAAAAUwAAAAAAAABjAAAALAogICAgICAgICJUb2RheSdzIHNwZWNpYWwgZXZlbnQgc3RhcnRzIGF0IDggUE0uIiwKICAgICAgICAiRG9uJ3QgbWlzcyBvdXQgb24gdGhlIGV4Y2x1c2l2ZSBkZWFscyEi",
-					"AQAAAAAAAAABAAAAtgAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BAAAADkAAAAAAAAAOgAAAAAAAAAZAAAAV2VsY29tZSB0byB0aGUgbGl2ZSBzaG93ITkAAAAAAAAAOwAAAAAAAAABAAAAeTkAAAAAAAAAPQAAAAAAAAACAAAAeWk5AAAAAAAAADsAAAAAAAAABAAAAHlpJ3M",
-					"AQAAAAAAAAABAAAAOQAAAAAAAABSAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					28,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"CAAAADsAAAAAAAAAPAAAAAAAAAAAAAAAOwAAAAAAAAA9AAAAAAAAAAEAAABzOwAAAAAAAAA+AAAAAAAAAAIAAABzbzsAAAAAAAAAPwAAAAAAAAADAAAAc29uOwAAAAAAAABBAAAAAAAAAAQAAABzb25nOwAAAAAAAABCAAAAAAAAAAYAAABzb25nJ2c7AAAAAAAAAEMAAAAAAAAABwAAAHNvbmcnZ2U7AAAAAAAAAD0AAAAAAAAACAAAAHNvbmcnZ2Vp",
-					"AQAAAAAAAAABAAAAOwAAAAAAAAA7AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					30,
-					1,
-					"paste",
-					null,
-					"AgAAAAAAAAAAAAAAFAEAAAAAAAAAAAAAFAEAAAAAAAAUAQAAAAAAAE8AAAB7CiAgICAidGltZXN0YW1wIjogMTIzNDU2Nzg5LAogICAgIm1lc3NhZ2VzIjogWwogICAgICAgICLlo7npn7bpgIHnu5kiCiAgICBdCn0K",
-					"AQAAAAAAAAABAAAAAAAAAAAAAABHAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					35,
-					1,
-					"",
-					null,
-					"AQAAAHMAAAAAAAAAdAAAAAAAAAAUAAAAaHR0cHM6Ly9leGFtcGxlLmNvbS8",
-					"AQAAAAAAAAABAAAAhwAAAAAAAABzAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					36,
-					1,
-					"left_delete",
-					null,
-					"AQAAAHMAAAAAAAAAcwAAAAAAAAADAAAA44CB",
-					"AQAAAAAAAAABAAAAdAAAAAAAAAB0AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					37,
+					4,
 					1,
 					"insert",
 					{
-						"characters": "/assets/"
+						"characters": "?version=1"
 					},
-					"CAAAAHMAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB1AAAAAAAAAAAAAAB1AAAAAAAAAHYAAAAAAAAAAAAAAHYAAAAAAAAAdwAAAAAAAAAAAAAAdwAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHkAAAAAAAAAAAAAAHkAAAAAAAAAegAAAAAAAAAAAAAAegAAAAAAAAB7AAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAcwAAAAAAAABzAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					40,
-					1,
-					"paste",
-					null,
-					"AgAAAHsAAAAAAAAAjQAAAAAAAAAAAAAAjQAAAAAAAACNAAAAAAAAAAsAAABhdmF0YXIxLmpwZw",
-					"AQAAAAAAAAABAAAAewAAAAAAAACGAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					46,
-					1,
-					"paste",
-					null,
-					"AgAAANIAAAAAAAAA+AAAAAAAAAAAAAAA+AAAAAAAAAD4AAAAAAAAACsAAAAiYXZhdGFyIjogImh0dHBzOi8vZXhhbXBsZS5jb20vYXZhdGFyMi5qcGci",
-					"AQAAAAAAAAABAAAA0gAAAAAAAAD9AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					54,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BgAAAE8AAAAAAAAAUAAAAAAAAAAeAAAA5Lik5Lu25Lmd5Z2X5Lmd77yM5aW95L6/5a6c5ZWKTwAAAAAAAABRAAAAAAAAAAEAAABoTwAAAAAAAABSAAAAAAAAAAIAAABodU8AAAAAAAAAUwAAAAAAAAADAAAAaHVhTwAAAAAAAABVAAAAAAAAAAQAAABodWFuTwAAAAAAAABRAAAAAAAAAAYAAABodWFuJ3k",
-					"AQAAAAAAAAABAAAAWQAAAAAAAABPAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					58,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BAAAAFEAAAAAAAAAUgAAAAAAAAAAAAAAUQAAAAAAAABTAAAAAAAAAAEAAAB5UQAAAAAAAABVAAAAAAAAAAIAAAB5aVEAAAAAAAAAUwAAAAAAAAAEAAAAeWkncw",
-					"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					65,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BwAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAUwAAAAAAAABVAAAAAAAAAAEAAABsUwAAAAAAAABWAAAAAAAAAAIAAABsYVMAAAAAAAAAWAAAAAAAAAADAAAAbGFpUwAAAAAAAABZAAAAAAAAAAUAAABsYWknZFMAAAAAAAAAWgAAAAAAAAAGAAAAbGFpJ2RhUwAAAAAAAABVAAAAAAAAAAcAAABsYWknZGFv",
-					"AQAAAAAAAAABAAAAUwAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					75,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"CgAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVQAAAAAAAABXAAAAAAAAAAEAAAB6VQAAAAAAAABYAAAAAAAAAAIAAAB6aFUAAAAAAAAAWgAAAAAAAAADAAAAemhpVQAAAAAAAABbAAAAAAAAAAUAAAB6aGknYlUAAAAAAAAAXQAAAAAAAAAGAAAAemhpJ2JvVQAAAAAAAABeAAAAAAAAAAgAAAB6aGknYm8nalUAAAAAAAAAXwAAAAAAAAAJAAAAemhpJ2JvJ2ppVQAAAAAAAABgAAAAAAAAAAoAAAB6aGknYm8namlhVQAAAAAAAABYAAAAAAAAAAsAAAB6aGknYm8namlhbg",
-					"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					76,
-					1,
-					"",
-					null,
-					"AQAAAFgAAAAAAAAAWQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					91,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BAAAALkAAAAAAAAAugAAAAAAAAAeAAAA6ZmQ5pe25LyY5oOg77yM5b+r5p2l5oqi6LSt77yBuQAAAAAAAAC7AAAAAAAAAAEAAAB5uQAAAAAAAAC9AAAAAAAAAAIAAAB5abkAAAAAAAAAuwAAAAAAAAAEAAAAeWkncw",
-					"AQAAAAAAAAABAAAAwwAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					96,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BQAAALsAAAAAAAAAvAAAAAAAAAAAAAAAuwAAAAAAAAC9AAAAAAAAAAEAAABzuwAAAAAAAAC+AAAAAAAAAAIAAABzb7sAAAAAAAAAvwAAAAAAAAADAAAAc29uuwAAAAAAAAC8AAAAAAAAAAQAAABzb25n",
-					"AQAAAAAAAAABAAAAuwAAAAAAAAC7AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					99,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"AwAAALwAAAAAAAAAvQAAAAAAAAAAAAAAvAAAAAAAAAC+AAAAAAAAAAEAAABsvAAAAAAAAAC9AAAAAAAAAAIAAABsZQ",
-					"AQAAAAAAAAABAAAAvAAAAAAAAAC8AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					104,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BQAAAL0AAAAAAAAAvgAAAAAAAAAAAAAAvQAAAAAAAAC/AAAAAAAAAAEAAABsvQAAAAAAAADBAAAAAAAAAAIAAABsab0AAAAAAAAAwgAAAAAAAAAEAAAAbGknd70AAAAAAAAAvwAAAAAAAAAFAAAAbGknd3U",
-					"AQAAAAAAAAABAAAAvQAAAAAAAAC9AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					108,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BAAAAL8AAAAAAAAAwAAAAAAAAAAAAAAAvwAAAAAAAADBAAAAAAAAAAEAAABnvwAAAAAAAADCAAAAAAAAAAIAAABnZb8AAAAAAAAAwAAAAAAAAAADAAAAZ2Vp",
-					"AQAAAAAAAAABAAAAvwAAAAAAAAC/AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					118,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"CgAAAMAAAAAAAAAAwQAAAAAAAAAAAAAAwAAAAAAAAADCAAAAAAAAAAEAAAB6wAAAAAAAAADDAAAAAAAAAAIAAAB6aMAAAAAAAAAAxQAAAAAAAAADAAAAemh1wAAAAAAAAADGAAAAAAAAAAUAAAB6aHUnY8AAAAAAAAAAxwAAAAAAAAAGAAAAemh1J2NowAAAAAAAAADJAAAAAAAAAAcAAAB6aHUnY2hpwAAAAAAAAADKAAAAAAAAAAkAAAB6aHUnY2hpJ3LAAAAAAAAAAMsAAAAAAAAACgAAAHpodSdjaGkncmXAAAAAAAAAAMMAAAAAAAAACwAAAHpodSdjaGkncmVu",
-					"AQAAAAAAAAABAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					119,
-					1,
-					"",
-					null,
-					"AQAAAMMAAAAAAAAAxAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwwAAAAAAAADDAAAAAAAAAAAAAAAAAPC/"
+					"CgAAABkDAAAAAAAAGgMAAAAAAAAAAAAAGgMAAAAAAAAbAwAAAAAAAAAAAAAbAwAAAAAAABwDAAAAAAAAAAAAABwDAAAAAAAAHQMAAAAAAAAAAAAAHQMAAAAAAAAeAwAAAAAAAAAAAAAeAwAAAAAAAB8DAAAAAAAAAAAAAB8DAAAAAAAAIAMAAAAAAAAAAAAAIAMAAAAAAAAhAwAAAAAAAAAAAAAhAwAAAAAAACIDAAAAAAAAAAAAACIDAAAAAAAAIwMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGQMAAAAAAAAZAwAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
 		{
-			"file": "explore.html",
+			"file": "assets/css/index.css",
 			"settings":
 			{
-				"buffer_size": 2026,
-				"encoding": "UTF-8",
+				"buffer_size": 3391,
 				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					7,
-					1,
-					"paste",
-					null,
-					"AQAAAJcBAAAAAAAAgwIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAlwEAAAAAAACXAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					1,
-					"paste",
-					null,
-					"AgAAACICAAAAAAAALgIAAAAAAAAAAAAALgIAAAAAAAAuAgAAAAAAAAMAAABhcHA",
-					"AQAAAAAAAAABAAAAIgIAAAAAAAAlAgAAAAAAAAAAAAAAAPC/"
-				]
-			]
+			}
 		},
 		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3392,
+				"buffer_size": 4460,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"contents": "\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/brainvire-infotech-inc-1613510?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/1613510/image_128/Brainvire%20Infotech%20INC?unique=944a1f0\" class=\"img img-fluid\" alt=\"Brainvire Infotech INC\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/brainvire-infotech-inc-1613510?country_id=190\">Brainvire Infotech INC</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-alpha\">\n                      Certified v16\n                    </small>\n                    <small class=\"badge rounded-pill bg-beta\">\n                      Certified v15\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Brainvire Infotech INC</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        12 references » </b>\n                                    <span>Brainvire Infotech - an Odoo Gold Partner and Odoo-17-certified firm recognized for Outstanding Customer Satisfaction.\n<br>\n\n<br>\nSubject matter experts in retail, store solutions, manufacturing, jewelry, automobile, real estate, healthcare, education, logistics, infrastructure, and HIPPA.\n<br>\n\n<br>\nImplemented software solutions for leading brands like SimpleSafe, Block by Block Capital, XSEED, ECO, llaollao, K2 Venture Capital, VersaFleet, Star 360.\n<br>\n</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                    <h5 class=\"mt-4 mb-2 col-12\">\n                        <span>Silver</span> Resellers\n            <span class=\"badge text-white bg-primary rounded-pill px-2 py-1\">3</span>\n                    </h5>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/port-cities-singapore-pte-ltd-2302126?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/2302126/image_128/Port%20Cities%20Singapore%20Pte.%20Ltd.?unique=06024d8\" class=\"img img-fluid\" alt=\"Port Cities Singapore Pte. Ltd.\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/port-cities-singapore-pte-ltd-2302126?country_id=190\">Port Cities Singapore Pte. Ltd.</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-gamma\">\n                      Certified v17\n                    </small>\n                    <small class=\"badge rounded-pill bg-beta\">\n                      Certified v15\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Port Cities Singapore Pte. Ltd.</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        40 references » </b>\n                                    <span>Portcities is an IT consulting leader at Odoo Solutions. Established in Indonesia in 2015, our rapid expansion has taken us across Asia, Oceania, the Americas, and Europe.\n<br>\n</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/omnisoft-technologies-pte-ltd-6693799?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/6693799/image_128/OMNISOFT%20TECHNOLOGIES%20Pte.%20Ltd.?unique=156a983\" class=\"img img-fluid\" alt=\"OMNISOFT TECHNOLOGIES Pte. Ltd.\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/omnisoft-technologies-pte-ltd-6693799?country_id=190\">OMNISOFT TECHNOLOGIES Pte. Ltd.</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-gamma\">\n                      Certified v17\n                    </small>\n                    <small class=\"badge rounded-pill bg-alpha\">\n                      Certified v16\n                    </small>\n                    <small class=\"badge rounded-pill bg-beta\">\n                      Certified v15\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">OMNISOFT TECHNOLOGIES Pte. Ltd.</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        16 references » </b>\n                                    <span>\"Omnisoft Technologies Pte Ltd, an official Odoo partner, operates from offices in Singapore and Indonesia and employs a dedicated team of 30 professionals. We serve a diverse range of businesses, from individual entrepreneurs to corporations with over 100 employees across multiple companies. Our services extend from setting up e-commerce websites and F&amp;B industries to specialized sectors such as plantations. Our consultants are skilled in assessing and optimizing business processes to boost efficiency. Beyond Odoo web applications, we also develop custom mobile applications tailored to meet specific industry needs. Serving clients in both Singapore and Indonesia, we are well-versed in the unique business environments of each country. Experience the ease and power of Odoo for yourself—request your free demo today.\"</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/applivon-pte-ltd-1826698?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/1826698/image_128/Applivon%20Pte%20Ltd?unique=33a6e84\" class=\"img img-fluid\" alt=\"Applivon Pte Ltd\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/applivon-pte-ltd-1826698?country_id=190\">Applivon Pte Ltd</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-gamma\">\n                      Certified v17\n                    </small>\n                    <small class=\"badge rounded-pill bg-alpha\">\n                      Certified v16\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Applivon Pte Ltd</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        9 references » </b>\n                                    <span>Applivon's business is all about Apps. We develop and deliver niche App solutions that digitalise and simplify business workflow. Our cloud-base solutions include:\n<br>\n\n<br>\n1) Omni-Channel Management solutions for retailers/distributors/wholesalers, that connect to multiple marketplaces on a unified platform to increase sales and manage inventory centrally\n<br>\n\n<br>\n2) Workload Optimisation and Scheduling with Field Force Management, for businesses that are heavy laden with job/resource scheduling to mobile manage their employees and assignment of jobs intuitively\n<br>\n\n<br>\nIn Applivon, we respect, are committed and strive to become better for our customers. Armed with  more than 40 years of experience as a team, our consultants are proud to deliver.</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                    <h5 class=\"mt-4 mb-2 col-12\">\n                        <span>Ready</span> Resellers\n            <span class=\"badge text-white bg-primary rounded-pill px-2 py-1\">12</span>\n                    </h5>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/accentuate-pte-ltd-7677719?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/7677719/image_128/Accentuate%20Pte%20Ltd?unique=e303f99\" class=\"img img-fluid\" alt=\"Accentuate Pte Ltd\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/accentuate-pte-ltd-7677719?country_id=190\">Accentuate Pte Ltd</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-alpha\">\n                      Certified v16\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Accentuate Pte Ltd</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        9 references » </b>\n                                    <span>Unlock the full potential of your business with Accentuate!<br>\n<br>\nWith over 10 years of expertise in developing cost-effective systems for local SMEs, our team at Accentuate understands the unique requirements of small to medium-sized enterprises.<br>\n<br>\nAt Accentuate, we are more than just a software provider. Driven by our passion to help SMEs and start-ups to achieve their dreams, our team is dedicated to help your business to scale new heights. We offer a direct gateway to efficiency, scalability, and streamlined operations.<br>\n<br>\nA further piece of good news to share, there are also various government grants that you can tap on to defray the entire project cost, which usually includes the cost of the system,  customised training fees and local support fees.<br>\n<br>\n<br>\nContact us and elevate your business with a solution designed to meet your specific needs, all while keeping affordability and accessibility as our first priority.<br>\n</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/neu-media-technology-sg-pte-ltd-698503?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/698503/image_128/Neu%20Media%20Technology%20SG%20Pte.%20Ltd.?unique=27ecda1\" class=\"img img-fluid\" alt=\"Neu Media Technology SG Pte. Ltd.\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/neu-media-technology-sg-pte-ltd-698503?country_id=190\">Neu Media Technology SG Pte. Ltd.</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-alpha\">\n                      Certified v16\n                    </small>\n                    <small class=\"badge rounded-pill bg-beta\">\n                      Certified v15\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Neu Media Technology SG Pte. Ltd.</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        7 references » </b>\n                                    <span>Neu Media Technology solves real-world business problems by making IT work for business.<br>\n<br>\nHaving organically grown from our humble beginnings of developing customized software solutions, we have since established ourselves to be a trusted partner that provides complete business solutions to small and medium enterprises through supporting and improving the effectiveness of their day-to-day operations. Our solution includes Sales Management, Procurement Management, Inventory/Warehouse Management, Manufacturing, and Retail with complete administrative integration with key business operatives such as Human Resource Management and Financial Accounting.<br>\n<br>\n<br>\nWe serve clients with a few staff to larger companies with million dollar turnovers across a wide range of industries. One of our key clients includes Toshiba Global Commerce Solutions. That said, we strive to form the effective bridge between business and technology to help businesses leverage on technology to help them collaborate better, gather business intelligence and real-time data to make stronger management decisions, and ultimately give them the digital edge to compete more effectively in today’s evolving economy. </span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/serpent-consulting-services-asia-pacific-pte-ltd-11513707?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/11513707/image_128/Serpent%20Consulting%20Services%20Asia%20Pacific%20Pte.%20Ltd.?unique=1292f22\" class=\"img img-fluid\" alt=\"Serpent Consulting Services Asia Pacific Pte. Ltd.\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/serpent-consulting-services-asia-pacific-pte-ltd-11513707?country_id=190\">Serpent Consulting Services Asia Pacific Pte. Ltd.</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-alpha\">\n                      Certified v16\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Serpent Consulting Services Asia Pacific Pte. Ltd.</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        6 references » </b>\n                                    <span>𝗧𝗿𝘂𝘀𝘁𝗲𝗱 𝗣𝗮𝗿𝘁𝗻𝗲𝗿 𝘄𝗶𝘁𝗵 𝗢𝗱𝗼𝗼 𝗳𝗼𝗿 𝗘𝘅𝗰𝗲𝗽𝘁𝗶𝗼𝗻𝗮𝗹 𝗘𝗥𝗣 𝗦𝗲𝗿𝘃𝗶𝗰𝗲𝘀\n<br>\n\n<br>\nGlobal consulting firm SerpentCS providing Odoo ERP services since 2011, has its offices in India, Singapore, Belgium, Portugal, UAE, US &amp; Kenya. SerpentCS has extensive experience in ERP Implementation and serves a wide range of industries in 190+ countries.\n<br>\n\n<br>\n⦿ Excellence Award for industrial development\n<br>\n⦿ 3-time top 100 India SMEs awards winner\n<br>\n⦿ IT innovation Award 2017</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/dynamics-motion-pte-ltd-7263218?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/7263218/image_128/Dynamics%20Motion%20Pte.%20Ltd.?unique=8583dd4\" class=\"img img-fluid\" alt=\"Dynamics Motion Pte. Ltd.\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/dynamics-motion-pte-ltd-7263218?country_id=190\">Dynamics Motion Pte. Ltd.</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-alpha\">\n                      Certified v16\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Dynamics Motion Pte. Ltd.</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        4 references » </b>\n                                    <span>Dynamics Motion. is a technology company that specializes in software, hardware and service for business and industrial operation. Headquartered in SEA.Our company enable business units and shop floors to fine tune their productivity by leveraging digitalisations in business and manufacturing. Working closely with our customers we are reinventing their models to focus on value added services in the next leap forward.\n<br>\n\n<br>\nSingapore - Malaysia - Thailand - Philippines - Indonesia - Vietnam\n<br>\n\n<br>\n</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/captivea-singapore-10652507?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/10652507/image_128/Captivea%20Singapore?unique=2c77c5d\" class=\"img img-fluid\" alt=\"Captivea Singapore\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/captivea-singapore-10652507?country_id=190\">Captivea Singapore</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-gamma\">\n                      Certified v17\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Captivea Singapore</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        2 references » </b>\n                                    <span>World leader in Odoo integration\n<br>\nSince 2007, CAPTIVEA has been assisting Singaporean and international businesses in implementing and customizing their ERP, primarily Odoo, based on their size and industry.\n<br>\n\n<br>\nBased in Singapore, CAPTIVEA also has a presence in several countries across Europe, North America, and Asia and can provide 24/7 support.\n<br>\n\n<br>\n</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/level3-ai-pte-ltd-16189559?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/16189559/image_128/LEVEL3%20AI%20PTE%20LTD?unique=39eaaca\" class=\"img img-fluid\" alt=\"LEVEL3 AI PTE LTD\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/level3-ai-pte-ltd-16189559?country_id=190\">LEVEL3 AI PTE LTD</h5>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">LEVEL3 AI PTE LTD</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        2 references » </b>\n                                    <span>We help companies deploy GenAI chatbots in WhatsApp to increase sales conversion and customer satisfaction.</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/aarav-solutions-pte-ltd-13319237?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/13319237/image_128/Aarav%20Solutions%20Pte.%20Ltd.?unique=2df5160\" class=\"img img-fluid\" alt=\"Aarav Solutions Pte. Ltd.\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/aarav-solutions-pte-ltd-13319237?country_id=190\">Aarav Solutions Pte. Ltd.</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-gamma\">\n                      Certified v17\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Aarav Solutions Pte. Ltd.</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        1 reference » </b>\n                                    <span>Aarav Solutions is a global Product Engineering and IT Consulting services provider. Our clientele comes from a broad array of industries - Telecommunications, Banking &amp; Finance, Government, Power and Utilities among various other B2B segments. Our goal is to enable organizations in their digital transformation journey, leveraging our domain knowledge and software engineering proficiency.</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/mission-17192312?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/17192312/image_128/MISSION+?unique=4c2ea36\" class=\"img img-fluid\" alt=\"MISSION+\" loading=\"lazy\" data-lazy-loading-initial-min-height=\"\" style=\"min-height: 1px;\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/mission-17192312?country_id=190\">MISSION+</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-alpha\">\n                      Certified v16\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">MISSION+</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <b>\n                                        1 reference » </b>\n                                    \n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/falinwa-singapore-pte-ltd-13514638?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/13514638/image_128/Falinwa%20Singapore%20PTE.%20LTD.?unique=ef93a24\" class=\"img img-fluid\" alt=\"Falinwa Singapore PTE. LTD.\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/falinwa-singapore-pte-ltd-13514638?country_id=190\">Falinwa Singapore PTE. LTD.</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-gamma\">\n                      Certified v17\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Falinwa Singapore PTE. LTD.</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <span>Odoo Best APAC partner in 2023 and 2024. Falinwa Group is an international consulting firm expert in Finance, ERP integration and Business Intelligence. We are located in China, France, Indonesia, Vietnam, Japan and Singapore. Our teams are experts in Odoo ERP processes, made solutions for the management of all your departments, and develop all specific/made-to-measure ERP functions. </span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/humai-solutions-pte-ltd-14606747?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/14606747/image_128/HumAi%20Solutions%20Pte.%20Ltd.?unique=79de4e8\" class=\"img img-fluid\" alt=\"HumAi Solutions Pte. Ltd.\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/humai-solutions-pte-ltd-14606747?country_id=190\">HumAi Solutions Pte. Ltd.</h5>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">HumAi Solutions Pte. Ltd.</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    \n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/neogenius-engineering-solutions-enterprise-17928910?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/17928910/image_128/Neogenius%20Engineering%20Solutions%20Enterprise?unique=3deb916\" class=\"img img-fluid\" alt=\"Neogenius Engineering Solutions Enterprise\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/neogenius-engineering-solutions-enterprise-17928910?country_id=190\">Neogenius Engineering Solutions Enterprise</h5>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">Neogenius Engineering Solutions Enterprise</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    \n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n                <div class=\"col-12 mb-4\">\n                    <div class=\"card h-100 text-decoration-none\">\n                        <a class=\"text-decoration-none container row p-2\" aria-label=\"Go to reseller\" href=\"/partners/sg-soft-pte-ltd-16762873?country_id=190\">\n                            <div class=\"card-img-top col-12 col-md-4 text-center d-flex flex-column justify-content-around\" style=\"width: calc(128px + var(--gutter-x))\"><img src=\"https://odoocdn.com/web/image/res.partner/16762873/image_128/SG-Soft%20Pte.%20Ltd.?unique=3000cff\" class=\"img img-fluid\" alt=\"SG-Soft Pte. Ltd.\" loading=\"lazy\" style=\"\"></div>\n        <div class=\"card-body col-12 col-md-6\">\n                                <h5 class=\"card-title m-0\" href=\"/partners/sg-soft-pte-ltd-16762873?country_id=190\">SG-Soft Pte. Ltd.</h5>\n            <div>\n                    <small class=\"badge rounded-pill bg-gamma\">\n                      Certified v17\n                    </small>\n            </div>\n                                <small id=\"o_wcrm_partners_address\">\n        <div class=\"py-2\">\n    <address class=\"o_portal_address mb-0\">\n        <div class=\"css_non_editable_mode_hidden\">\n            --<span class=\"text-muted\">SG-Soft Pte. Ltd.</span>--\n        </div>\n        <div class=\"gap-2\" itemscope=\"itemscope\" itemtype=\"http://schema.org/PostalAddress\">\n\n        </div>\n        <div>\n\n        </div>\n    </address></div></small>\n                                <small class=\"o_wcrm_short_description text-muted overflow-hidden\">\n                                    <span>Why SGEEDE (SG-Soft): https://sgeede.com/sg/\n<br>\n• Multilingual Consultant - Proficient in English, Mandarin, Bahasa Indonesia, and Malay.\n<br>\n• Expert of Odoo Manufacturing,&nbsp;Website, E-com&nbsp;&amp; POS (integration with Tiktok, Lazada, Shopee, Whatsapp &amp; Tokopedia etc.)\n<br>\n• 14 Years of Odoo Development Experience - Extensive expertise in Odoo (Since OpenERP v5), from implementation to advanced development.</span>\n                                </small>\n                            </div>\n                        </a>\n                    </div>\n                </div>\n            <div class=\"navbar\">\n            </div>\n        </div>",
+			"settings":
+			{
+				"buffer_size": 37418,
 				"line_ending": "Windows"
 			},
 			"undo_stack":
@@ -456,88 +463,24 @@
 					1,
 					"paste",
 					null,
-					"AQAAAJIBAAAAAAAAhwIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAkgEAAAAAAACSAQAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "login.html",
-			"settings":
-			{
-				"buffer_size": 5330,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
+					"AQAAAAAAAAAAAAAAs54AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
 				[
-					3,
+					8,
 					1,
-					"paste",
+					"left_delete",
 					null,
-					"AQAAAJ0BAAAAAAAAkgIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnQEAAAAAAACdAQAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "me.html",
-			"settings":
-			{
-				"buffer_size": 5476,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
+					"AQAAABsAAAAAAAAAGwAAAAAAAAAQAAAAICAgICAgICAgICAgICAgIA",
+					"AQAAAAAAAAABAAAAKwAAAAAAAAAbAAAAAAAAAAAAAAAAAPC/"
+				],
 				[
-					3,
-					1,
-					"paste",
-					null,
-					"AQAAAJoBAAAAAAAAjwIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAmgEAAAAAAACaAQAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "room.html",
-			"settings":
-			{
-				"buffer_size": 24258,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					3,
-					1,
-					"paste",
-					null,
-					"AQAAAJgBAAAAAAAAjQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAmAEAAAAAAACYAQAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 10,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					7,
+					17,
 					1,
 					"cut",
 					null,
-					"AQAAAAoAAAAAAAAACgAAAAAAAAAIAAAACi9jYWNoZS8",
-					"AQAAAAAAAAABAAAAEgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAB6DAAAPGRpdiBjbGFzcz0icm93IG1iLTQiPgogICAgPGg1IGNsYXNzPSJtdC00IG1iLTIgY29sLTEyIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+R29sZDwvc3Bhbj4gUmVzZWxsZXJzCiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJiYWRnZSB0ZXh0LXdoaXRlIGJnLXByaW1hcnkgcm91bmRlZC1waWxsIHB4LTIgcHktMSI+Mjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L2g1PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29sLTEyIG1iLTQiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNhcmQgaC0xMDAgdGV4dC1kZWNvcmF0aW9uLW5vbmUiPgogICAgICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0idGV4dC1kZWNvcmF0aW9uLW5vbmUgY29udGFpbmVyIHJvdyBwLTIiIGFyaWEtbGFiZWw9IkdvIHRvIHJlc2VsbGVyIiBocmVmPSIvcGFydG5lcnMvYWxpdGVjLXB0ZS1sdGQtODUwNDYzP2NvdW50cnlfaWQ9MTkwIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNhcmQtaW1nLXRvcCBjb2wtMTIgY29sLW1kLTQgdGV4dC1jZW50ZXIgZC1mbGV4IGZsZXgtY29sdW1uIGp1c3RpZnktY29udGVudC1hcm91bmQiIHN0eWxlPSJ3aWR0aDogY2FsYygxMjhweCArIHZhcigtLWd1dHRlci14KSkiPjxpbWcgc3JjPSJodHRwczovL29kb29jZG4uY29tL3dlYi9pbWFnZS9yZXMucGFydG5lci84NTA0NjMvaW1hZ2VfMTI4L0FsaXRlYyUyMFB0ZSUyMEx0ZD91bmlxdWU9NzdkZjg0NiIgY2xhc3M9ImltZyBpbWctZmx1aWQiIGFsdD0iQWxpdGVjIFB0ZSBMdGQiIGxvYWRpbmc9ImxhenkiIHN0eWxlPSIiPjwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImNhcmQtYm9keSBjb2wtMTIgY29sLW1kLTYiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoNSBjbGFzcz0iY2FyZC10aXRsZSBtLTAiIGhyZWY9Ii9wYXJ0bmVycy9hbGl0ZWMtcHRlLWx0ZC04NTA0NjM/Y291bnRyeV9pZD0xOTAiPkFsaXRlYyBQdGUgTHRkPC9oNT4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8c21hbGwgY2xhc3M9ImJhZGdlIHJvdW5kZWQtcGlsbCBiZy1nYW1tYSI+CiAgICAgICAgICAgICAgICAgICAgICBDZXJ0aWZpZWQgdjE3CiAgICAgICAgICAgICAgICAgICAgPC9zbWFsbD4KICAgICAgICAgICAgICAgICAgICA8c21hbGwgY2xhc3M9ImJhZGdlIHJvdW5kZWQtcGlsbCBiZy1hbHBoYSI+CiAgICAgICAgICAgICAgICAgICAgICBDZXJ0aWZpZWQgdjE2CiAgICAgICAgICAgICAgICAgICAgPC9zbWFsbD4KICAgICAgICAgICAgICAgICAgICA8c21hbGwgY2xhc3M9ImJhZGdlIHJvdW5kZWQtcGlsbCBiZy1iZXRhIj4KICAgICAgICAgICAgICAgICAgICAgIENlcnRpZmllZCB2MTUKICAgICAgICAgICAgICAgICAgICA8L3NtYWxsPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c21hbGwgaWQ9Im9fd2NybV9wYXJ0bmVyc19hZGRyZXNzIj4KICAgICAgICA8ZGl2IGNsYXNzPSJweS0yIj4KICAgIDxhZGRyZXNzIGNsYXNzPSJvX3BvcnRhbF9hZGRyZXNzIG1iLTAiPgogICAgICAgIDxkaXYgY2xhc3M9ImNzc19ub25fZWRpdGFibGVfbW9kZV9oaWRkZW4iPgogICAgICAgICAgICAtLTxzcGFuIGNsYXNzPSJ0ZXh0LW11dGVkIj5BbGl0ZWMgUHRlIEx0ZDwvc3Bhbj4tLQogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImdhcC0yIiBpdGVtc2NvcGU9Iml0ZW1zY29wZSIgaXRlbXR5cGU9Imh0dHA6Ly9zY2hlbWEub3JnL1Bvc3RhbEFkZHJlc3MiPgoKICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2PgoKICAgICAgICA8L2Rpdj4KICAgIDwvYWRkcmVzcz48L2Rpdj48L3NtYWxsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzbWFsbCBjbGFzcz0ib193Y3JtX3Nob3J0X2Rlc2NyaXB0aW9uIHRleHQtbXV0ZWQgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA3NSByZWZlcmVuY2VzIMK7IDwvYj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+QUxJVEVDIGlzIGEgZGVkaWNhdGVkIE9kb28gc29sdXRpb24gcHJvdmlkZXIgYmFzZWQgaW4gU2luZ2Fwb3JlLCBNYWxheXNpYSBhbmQgQ2hpbmEuICAKPGJyPgpBcyBhIGdvbGQgcGFydG5lciBvZiBPZG9vIHNpbmNlIDIwMTYsIHdlIGFyZSBhcHByb3ZlZCB0byBvZmZpY2lhbGx5IGhlbHAgU0cgY2xpZW50cyB0byBoZWxwIGFwcGx5IGZvciBOVFVDIENUQyBhbmQgRURHIGdyYW50Lgo8YnI+Cgo8YnI+CllvdXIgT2RvbyBTaW5nYXBvcmUgR29sZCBwYXJ0bmVyIHRoYXQgaXMgUGVwcG9sLXJlYWR5LCBBbGl0ZWMgaXM6Cjxicj4KLSBUaGUgSU1EQSBhcHByb3ZlZCBPZG9vIGdvbGQgcGFydG5lciBmb3IgUFNHIGdyYW50IChjb3ZlcnMgQ1JNLCBTYWxlcywgSW52b2ljaW5nLCBQdXJjaGFzZSAmYW1wOyBJbnZlbnRvcnkgYXBwKQo8YnI+Ci0gU29sdXRpb24gYXBwcm92ZWQgZm9yIEludm9pY2VOb3cgKFNHIG5hdGlvbmFsd2lkZSBFLWludm9pY2luZyBtZXRob2QpCjxicj4KLSBJbnRlZ3JhdGVkIHdpdGggU2luZ3Bhc3MKPGJyPgotIEFwcHJvdmVkIHZlbmRvciBmb3IgU0cgTmF0aW9uYWwgQ291bmNpbCBvZiBTb2NpYWwgU2VydmljZQo8YnI+Cgo8YnI+CldlIGhlbHAgb3JnYW5pc2F0aW9ucyB0byBpbXByb3ZlIGFuZCBhZGFwdCB0aGVpciBrZXkgYnVzaW5lc3MgcHJvY2Vzc2VzIGJ5IHVzaW5nIGFkdmFuY2VkIEluZm9ybWF0aW9uIFRlY2hub2xvZ3kgJmFtcDsgT2RvbyBzb2Z0d2FyZS4gCjxicj4KCjxicj4KJmx0O3NjcmlwdCBpZD0ieGVyby1kb21haW4tbmFtZSIgeGVyby1kYXRhLW5hbWU9IjM4OTg1MjE2OTYxNDAzMDgtNTkyMCIgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHBzOi8vc2VvbmlmeS5jb20vYXBwL2pzX2NvbnRyb2xsZXIvY2xpZW50IiZndDsmbHQ7L3NjcmlwdCZndDsKPGJyPgo8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9zbWFsbD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8L2E+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4",
+					"AQAAAAAAAAABAAAAeQwAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		}
@@ -579,30 +522,35 @@
 	"expanded_folders":
 	[
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script"
 	],
 	"file_history":
 	[
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/.gitignore",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/1002001-room-status.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/142903999-room-status.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/2004208-room-status.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-room-status.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/room.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/index.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/1002001-chat-history.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/142903999-chat-history.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/login.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/me.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/chat.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/explore.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-user.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script/announcement.js",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/effect_annoucement.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script/loader.js",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/chat.css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/explore.css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/index.css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/me.css",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/room.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/me.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/explore.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/index.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/chat.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/login.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/login.css",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-user.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script/app.js",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/.gitignore",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script/login.js",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/2004208-room-status.json",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/README.md",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/style.css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/chat-history.json",
@@ -684,7 +632,7 @@
 	],
 	"find":
 	{
-		"height": 27.2
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -698,6 +646,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"party-title",
+			"party-title'",
 			"audio-source",
 			"additional-info",
 			"background",
@@ -732,118 +682,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "cache/96844131-user.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 384,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								215
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "script/announcement.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3794,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								117,
-								117
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "cache/effect_annoucement.json",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 267,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								196,
-								196
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "explore.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2026,
+						"buffer_size": 3332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								652,
-								407
+								2450,
+								2450
 							]
 						],
 						"settings":
@@ -856,10 +707,112 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/explore.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1923,
+								1923
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "script/loader.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								803,
+								803
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"stack_multiselect": false,
 					"type": "text"
 				},
@@ -869,15 +822,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3392,
+						"buffer_size": 4460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								647,
-								647
+								3170,
+								3136
 							]
 						],
 						"settings":
@@ -890,36 +843,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "login.html",
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5330,
+						"buffer_size": 37418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								658,
-								658
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -927,107 +879,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "me.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5476,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								655,
-								655
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "room.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 24258,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								653,
-								653
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10,
-								10
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				}
