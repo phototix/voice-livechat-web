@@ -1,6 +1,6 @@
 {
   "room": {
-    "background": "assets/chatrooms/comm-003.png",
+    "background": "assets/chatrooms/comm-008.jpg",
     "radioURL": "https://stream.zeno.fm/u87i3b2uvyauv",
     "webhookURL": "",
     "title": "干娇百魅 🌻 聊天室",
@@ -13,7 +13,6 @@
     "name": "干娇百魅",
     "userid": "1002001",
     "mic": "0"
-
   },
   "users": [
     {
