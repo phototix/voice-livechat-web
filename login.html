@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>壹韶APP - 登录/注册</title>
-    <script src="script/loader.js"></script>
+    <script>
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'script/loader.js?version=' + new Date().getTime();
+        document.head.appendChild(script);
+    </script>
     <script>
         var script = document.createElement('script');
         script.type = 'text/javascript';
