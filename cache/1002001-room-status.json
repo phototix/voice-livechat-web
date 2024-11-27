@@ -3,14 +3,14 @@
     "background": "assets/chatrooms/comm-008.jpg",
     "radioURL": "https://stream.zeno.fm/u87i3b2uvyauv",
     "webhookURL": "",
-    "title": "千娇百魅 🌻 聊天室",
+    "title": "音韵百魅 🌻 聊天室",
     "id": "1002001",
     "roomType": "comm"
   },
   "host": {
     "status": "online",
     "photo": "assets/rooms/1002001.png",
-    "name": "千娇百魅",
+    "name": "音韵百魅",
     "userid": "1002001",
     "mic": "0"
   },
