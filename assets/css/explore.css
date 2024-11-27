@@ -88,3 +88,38 @@ body {
     font-weight: bold;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+.party-list {
+    max-width: 90%;
+    margin: 20px auto;
+}
+.party-item {
+    display: flex;
+    align-items: center;
+    background-color: #29214c;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.party-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.party-details {
+    flex: 1;
+}
+.party-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.party-meta {
+    font-size: 14px;
+    color: #aaa;
+}
+.fire-icon {
+    font-size: 14px;
+    color: #f53;
+    margin-left: 5px;
+}
