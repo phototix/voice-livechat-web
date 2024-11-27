@@ -218,7 +218,6 @@
                 `;
                 document.head.appendChild(style);
 
-
                 hostInfo.querySelector('img').src = data.host.photo;
                 hostInfo.querySelector('h2').textContent = `${data.host.name} (主持人)`;
                 
@@ -468,6 +467,7 @@
                     };
 
                     console.log("Gift message sent and audio played successfully.");
+                    radio.volume = 1.0;
                 } catch (error) {
                     console.error("Error sending gift message or playing audio:", error);
                 }
