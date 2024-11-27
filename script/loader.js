@@ -30,7 +30,7 @@
     window.addEventListener('load', () => {
       setTimeout(() => {
         splashScreen.remove();
-      }, 3000); // Adjust time in milliseconds
+      }, 500); // Adjust time in milliseconds
     });
   }
 
