@@ -430,7 +430,7 @@
                 giftModal.style.display = 'none';
 
                 // Send gift message to the webhook
-                const getWebHookURL = document.getElementById('webhook_url');
+                const getWebHookURL = document.getElementById('webhook_url').value;
                 try {
                     const webhookUrl = getWebHookURL;
                     const text = `游客送你了一个 "${giftDisplay}" 礼物！`;
@@ -565,7 +565,7 @@
             chatHistory.scrollTop = chatHistory.scrollHeight; // Auto-scroll to the latest message
             textInput.value = ""; // Clear the input
 
-            const getWebHookURL = document.getElementById('webhook_url');
+            const getWebHookURL = document.getElementById('webhook_url').value;
             try {
                 // Define the n8n webhook URL
                 const webhookUrl = getWebHookURL;
