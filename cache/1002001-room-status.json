@@ -1,7 +1,7 @@
 {
   "room": {
     "background": "assets/chatrooms/comm-001.png",
-    "radioURL": "https://stream.zeno.fm/wdswxre1crvtv",
+    "radioURL": "https://stream.zeno.fm/u87i3b2uvyauv",
     "webhookURL": "",
     "title": "干娇百魅 🌻 聊天室",
     "id": "1002001"
@@ -31,7 +31,7 @@
     },
     {
       "status": "online",
-      "photo": "assets/avatar-002.jpg",
+      "photo": "assets/avatar-005.jpg",
       "name": "念宝",
       "userid": "300038891",
       "mic": "3"
