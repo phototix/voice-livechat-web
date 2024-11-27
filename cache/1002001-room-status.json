@@ -1,0 +1,74 @@
+{
+  "room": {
+    "background": "assets/chatrooms/comm-001.png",
+    "radioURL": "https://stream.zeno.fm/wdswxre1crvtv",
+    "title": "干娇百魅 🌻 聊天室",
+    "id": "1002001"
+  },
+  "host": {
+    "status": "online",
+    "photo": "assets/rooms/1002001.png",
+    "name": "干娇百魅",
+    "userid": "1002001",
+    "mic": "0"
+
+  },
+  "users": [
+    {
+      "status": "online",
+      "photo": "assets/yishao-profile.jpg",
+      "name": "糖糖 (主持)",
+      "userid": "142903999",
+      "mic": "1"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-2.png",
+      "name": "空",
+      "userid": "",
+      "mic": "2"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-3.png",
+      "name": "空",
+      "userid": "",
+      "mic": "3"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-4.png",
+      "name": "空",
+      "userid": "",
+      "mic": "4"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-5.png",
+      "name": "空",
+      "userid": "",
+      "mic": "5"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-6.png",
+      "name": "空",
+      "userid": "",
+      "mic": "6"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-7.png",
+      "name": "空",
+      "userid": "",
+      "mic": "7"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-boss.png",
+      "name": "老板",
+      "userid": "",
+      "mic": "8"
+    }
+  ]
+}
