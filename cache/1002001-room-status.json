@@ -4,7 +4,8 @@
     "radioURL": "https://stream.zeno.fm/u87i3b2uvyauv",
     "webhookURL": "",
     "title": "干娇百魅 🌻 聊天室",
-    "id": "1002001"
+    "id": "1002001",
+    "roomType": "comm"
   },
   "host": {
     "status": "online",

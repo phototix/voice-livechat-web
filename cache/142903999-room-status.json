@@ -4,7 +4,8 @@
     "radioURL": "https://stream.zeno.fm/xiv7xayor3gvv",
     "webhookURL": "",
     "title": "糖糖专属 🌻 聊天室",
-    "id": "142903999"
+    "id": "142903999",
+    "roomType": "personal"
   },
   "host": {
     "status": "online",

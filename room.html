@@ -198,7 +198,12 @@
                 document.title = data.room.title;
 
                 document.getElementById("host-profile-image").src = data.host.photo;
-                document.getElementById("host-profile-name").innerText = `${data.host.name} (主持人)`;
+
+                if(data.room.roomType=="comm"){
+                    document.getElementById("host-profile-name").innerText = `${data.host.name} (大头)`;
+                }else{
+                    document.getElementById("host-profile-name").innerText = `${data.host.name} (主持人)`;
+                }
 
                 const chatRoom = document.querySelector(".chat-room");
                 const style = document.createElement("style");
