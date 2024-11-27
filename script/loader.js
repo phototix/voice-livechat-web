@@ -19,7 +19,7 @@
     const splashImage = document.createElement('img');
     splashImage.src = '/assets/splash.jpg'; // Replace with your splash.jpg path
     splashImage.alt = 'Splash Screen';
-    splashImage.style.width = 'auto';
+    splashImage.style.width = '70%';
     splashImage.style.height = 'auto';
     splashScreen.appendChild(splashImage);
 
