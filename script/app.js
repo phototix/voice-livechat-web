@@ -83,3 +83,4 @@ function updateUnreadMessages() {
 // Call the function to update unread messages
 updateUnreadMessages();
 
+setInterval(updateUnreadMessages, 3000);

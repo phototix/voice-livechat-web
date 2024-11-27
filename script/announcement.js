@@ -1,8 +1,10 @@
-// JavaScript to create a "飘屏" effect with styled text and avatar
+// JavaScript to create a "飘屏" effect with sequential display
 (function () {
     const announcementUrl = '/cache/effect_annoucement.json'; // Update this path to your JSON file
     const checkInterval = 5000; // Interval to check for updates (in milliseconds)
     let lastUpdateTimestamp = null;
+    let messageQueue = [];
+    let isAnimating = false;
 
     // Create container for announcements
     const container = document.createElement('div');
@@ -14,7 +16,7 @@
     container.style.zIndex = '9999';
     document.body.appendChild(container);
 
-    // Fetch JSON and display announcements
+    // Fetch JSON and queue announcements
     async function fetchAnnouncements() {
         try {
             const response = await fetch(announcementUrl, { cache: 'no-cache' });
@@ -22,70 +24,74 @@
 
             if (!lastUpdateTimestamp || data.timestamp !== lastUpdateTimestamp) {
                 lastUpdateTimestamp = data.timestamp;
-                showAnnouncements(data.messages || []);
+                messageQueue.push(...(data.messages || []));
+                playNextMessage();
             }
         } catch (error) {
             console.error('Error fetching announcements:', error);
         }
     }
 
-    // Show announcements with floating effect
-    function showAnnouncements(messages) {
-        container.innerHTML = ''; // Clear previous announcements
+    // Display the next message in the queue
+    function playNextMessage() {
+        if (isAnimating || messageQueue.length === 0) return;
 
-        messages.forEach((message) => {
-            const { text, avatar } = message; // Expecting message object with `text` and `avatar` properties
+        const { text, avatar } = messageQueue.shift(); // Get the next message
+        isAnimating = true;
 
-            // Create wrapper for avatar and message
-            const messageWrapper = document.createElement('div');
-            messageWrapper.style.position = 'absolute';
-            messageWrapper.style.display = 'flex';
-            messageWrapper.style.alignItems = 'center';
-            messageWrapper.style.whiteSpace = 'nowrap';
-            messageWrapper.style.fontSize = '18px';
-            messageWrapper.style.fontWeight = 'bold';
-            messageWrapper.style.color = '#fff';
-            messageWrapper.style.padding = '5px 10px';
-            messageWrapper.style.borderRadius = '20px';
-            messageWrapper.style.background = 'linear-gradient(90deg, #6200ea, #00c4ff)';
-            messageWrapper.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.5)';
-            messageWrapper.style.top = `${Math.random() * 50}px`;
-            messageWrapper.style.left = '100%';
+        // Create wrapper for avatar and message
+        const messageWrapper = document.createElement('div');
+        messageWrapper.style.position = 'absolute';
+        messageWrapper.style.display = 'flex';
+        messageWrapper.style.alignItems = 'center';
+        messageWrapper.style.whiteSpace = 'nowrap';
+        messageWrapper.style.fontSize = '18px';
+        messageWrapper.style.fontWeight = 'bold';
+        messageWrapper.style.color = '#fff';
+        messageWrapper.style.padding = '5px 10px';
+        messageWrapper.style.borderRadius = '20px';
+        messageWrapper.style.background = 'linear-gradient(90deg, #6200ea, #00c4ff)';
+        messageWrapper.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.5)';
+        messageWrapper.style.top = '10px';
+        messageWrapper.style.left = '100%';
 
-            // Create avatar image
-            const avatarImage = document.createElement('img');
-            avatarImage.src = avatar;
-            avatarImage.style.width = '30px';
-            avatarImage.style.height = '30px';
-            avatarImage.style.borderRadius = '50%';
-            avatarImage.style.marginRight = '10px';
+        // Create avatar image
+        const avatarImage = document.createElement('img');
+        avatarImage.src = avatar;
+        avatarImage.style.width = '30px';
+        avatarImage.style.height = '30px';
+        avatarImage.style.borderRadius = '50%';
+        avatarImage.style.marginRight = '10px';
 
-            // Create message text
-            const messageText = document.createElement('span');
-            messageText.innerText = text;
+        // Create message text
+        const messageText = document.createElement('span');
+        messageText.innerText = text;
 
-            // Append avatar and text to wrapper
-            messageWrapper.appendChild(avatarImage);
-            messageWrapper.appendChild(messageText);
+        // Append avatar and text to wrapper
+        messageWrapper.appendChild(avatarImage);
+        messageWrapper.appendChild(messageText);
 
-            container.appendChild(messageWrapper);
+        container.appendChild(messageWrapper);
 
-            // Animate the message
-            const startLeft = window.innerWidth;
-            const endLeft = -messageWrapper.offsetWidth;
+        // Animate the message
+        const startLeft = window.innerWidth;
+        const endLeft = -messageWrapper.offsetWidth;
 
-            const animation = messageWrapper.animate(
-                [{ left: `${startLeft}px` }, { left: `${endLeft}px` }],
-                {
-                    duration: 10000,
-                    iterations: 1,
-                    easing: 'linear',
-                }
-            );
+        const animation = messageWrapper.animate(
+            [{ left: `${startLeft}px` }, { left: `${endLeft}px` }],
+            {
+                duration: 10000,
+                iterations: 1,
+                easing: 'linear',
+            }
+        );
 
-            // Remove the message after animation ends
-            animation.onfinish = () => messageWrapper.remove();
-        });
+        // Remove the message and play the next one
+        animation.onfinish = () => {
+            messageWrapper.remove();
+            isAnimating = false;
+            playNextMessage(); // Trigger the next message in the queue
+        };
     }
 
     // Start checking for updates
