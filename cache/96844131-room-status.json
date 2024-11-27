@@ -15,10 +15,10 @@
   },
   "users": [
     {
-      "status": "offline",
-      "photo": "assets/seat-1.png",
-      "name": "空",
-      "userid": "",
+      "status": "online",
+      "photo": "assets/xiner-profile.jpg?version=0.1",
+      "name": "馨儿",
+      "userid": "96844132",
       "mic": "1"
     },
     {
