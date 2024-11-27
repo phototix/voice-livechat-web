@@ -1,0 +1,74 @@
+{
+  "room": {
+    "background": "assets/chatrooms/background-1.jpg",
+    "radioURL": "https://stream.zeno.fm/xiv7xayor3gvv",
+    "title": "糖糖专属 🌻 聊天室",
+    "id": "142903999"
+  },
+  "host": {
+    "status": "online",
+    "photo": "assets/tangtang-profile.jpg",
+    "name": "糖糖",
+    "userid": "142903999",
+    "mic": "0"
+
+  },
+  "users": [
+    {
+      "status": "offline",
+      "photo": "assets/yishao-profile.jpg",
+      "name": "壹韶",
+      "userid": "96844131",
+      "mic": "1"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-2.png",
+      "name": "空",
+      "userid": "",
+      "mic": "2"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-3.png",
+      "name": "空",
+      "userid": "",
+      "mic": "3"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-4.png",
+      "name": "空",
+      "userid": "",
+      "mic": "4"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-5.png",
+      "name": "空",
+      "userid": "",
+      "mic": "5"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-6.png",
+      "name": "空",
+      "userid": "",
+      "mic": "6"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-7.png",
+      "name": "空",
+      "userid": "",
+      "mic": "7"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-boss.png",
+      "name": "老板",
+      "userid": "",
+      "mic": "8"
+    }
+  ]
+}
