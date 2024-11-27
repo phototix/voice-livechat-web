@@ -2,6 +2,7 @@
   "room": {
     "background": "assets/chatrooms/background-6.jpg",
     "radioURL": "https://stream.zeno.fm/xiv7xayor3gvv",
+    "webhookURL": "",
     "title": "糖糖专属 🌻 聊天室",
     "id": "142903999"
   },

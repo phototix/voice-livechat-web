@@ -2,6 +2,7 @@
   "room": {
     "background": "assets/chatrooms/background-2.jpg",
     "radioURL": "https://stream.zeno.fm/xiv7xayor3gvv",
+    "webhookURL": "https://workflows.brandon.my/webhook/759ff311-066d-4176-956a-de178d0a420c",
     "title": "壹馨一意FM 🌻 虚拟聊天室",
     "id": "96844131"
   },

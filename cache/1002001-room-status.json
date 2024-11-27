@@ -2,6 +2,7 @@
   "room": {
     "background": "assets/chatrooms/comm-001.png",
     "radioURL": "https://stream.zeno.fm/wdswxre1crvtv",
+    "webhookURL": "",
     "title": "干娇百魅 🌻 聊天室",
     "id": "1002001"
   },
@@ -16,51 +17,51 @@
   "users": [
     {
       "status": "online",
-      "photo": "assets/tangtang-profile.jpg",
-      "name": "糖糖 (主持)",
-      "userid": "142903999",
+      "photo": "assets/zhinian-profile.jpg",
+      "name": "凪卄 (主持)",
+      "userid": "2004208",
       "mic": "1"
     },
     {
-      "status": "offline",
-      "photo": "assets/seat-2.png",
-      "name": "空",
-      "userid": "",
+      "status": "online",
+      "photo": "assets/avatar-006.jpg",
+      "name": "极光",
+      "userid": "300204281",
       "mic": "2"
     },
     {
-      "status": "offline",
-      "photo": "assets/seat-3.png",
-      "name": "空",
-      "userid": "",
+      "status": "online",
+      "photo": "assets/avatar-002.jpg",
+      "name": "念宝",
+      "userid": "300038891",
       "mic": "3"
     },
     {
-      "status": "offline",
-      "photo": "assets/seat-4.png",
-      "name": "空",
-      "userid": "",
+      "status": "online",
+      "photo": "assets/avatar-001.jpg",
+      "name": "鹿苡",
+      "userid": "300058583",
       "mic": "4"
     },
     {
-      "status": "offline",
-      "photo": "assets/seat-5.png",
-      "name": "空",
-      "userid": "",
+      "status": "online",
+      "photo": "assets/avatar-003.jpg",
+      "name": "兔兔",
+      "userid": "300373193",
       "mic": "5"
     },
     {
-      "status": "offline",
-      "photo": "assets/seat-6.png",
-      "name": "空",
-      "userid": "",
+      "status": "online",
+      "photo": "assets/avatar-002.jpg",
+      "name": "菜菜",
+      "userid": "300231948",
       "mic": "6"
     },
     {
-      "status": "offline",
-      "photo": "assets/seat-7.png",
-      "name": "空",
-      "userid": "",
+      "status": "online",
+      "photo": "assets/avatar-004.jpg",
+      "name": "优米",
+      "userid": "300204170",
       "mic": "7"
     },
     {
