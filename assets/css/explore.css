@@ -113,7 +113,14 @@ body {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 5px;
+    color: white; /* Ensures default color is white */
+    text-decoration: none; /* Removes underline for links */
 }
+
+.party-title:visited {
+    color: white; /* Ensures color remains white after being clicked */
+}
+
 .party-meta {
     font-size: 14px;
     color: #aaa;
