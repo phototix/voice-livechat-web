@@ -476,7 +476,7 @@ ul {
     width: 100%; /* Same size as the avatar */
     height: 100%;
     border-radius: 50%; /* Match the avatar's shape */
-    z-index: 2;
+    z-index: 1;
     pointer-events: none; /* Ensure the frame doesn't interfere with interactions */
 }
 
@@ -486,6 +486,6 @@ ul {
     width: 110%; /* Same size as the avatar */
     height: 110%;
     border-radius: 50%; /* Match the avatar's shape */
-    z-index: 2;
+    z-index: 1;
     pointer-events: none; /* Ensure the frame doesn't interfere with interactions */
 }
