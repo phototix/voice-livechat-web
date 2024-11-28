@@ -677,7 +677,7 @@
                     headers: {
                         "Content-Type": "application/json"
                     },
-                    body: JSON.stringify({ text: message, roomId: roomId, hostName: roomSettings.host.name, hostTitle: roomSettings.host.title })
+                    body: JSON.stringify({ text: message, roomId: roomId, hostName: roomSettings.host.name, hostTitle: roomSettings.room.title })
                 });
 
                 if (!response.ok) {
