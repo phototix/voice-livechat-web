@@ -684,9 +684,9 @@
                     throw new Error(`Webhook error: ${response.statusText}`);
                 }
 
-                console.log(roomSettings.aiType);
+                console.log(roomSettings.room.aiType);
 
-                if (roomSettings && roomSettings.aiType === "audio") {
+                if (roomSettings && roomSettings.room.aiType === "audio") {
                     // Parse the binary response for audio
                     const blob = await response.blob();
 
@@ -705,7 +705,7 @@
                     speechAudio.onended = () => {
                         radio.volume = 1.0; // Restore to 100%
                     };
-                } else if (roomSettings && roomSettings.aiType === "text") {
+                } else if (roomSettings && roomSettings.room.aiType === "text") {
                     // Parse JSON response for text reply
                     const aiResponse = await response.json();
 
