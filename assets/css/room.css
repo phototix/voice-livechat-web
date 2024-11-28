@@ -472,10 +472,10 @@ ul {
 
 .host-avatar .avatar-frame {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Same size as the avatar */
-    height: 100%;
+    top: -13px;
+    left: -14px;
+    width: 170%; /* Same size as the avatar */
+    height: 170%;
     border-radius: 50%; /* Match the avatar's shape */
     z-index: 1;
     pointer-events: none; /* Ensure the frame doesn't interfere with interactions */
