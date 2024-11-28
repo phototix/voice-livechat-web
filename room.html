@@ -738,40 +738,50 @@
             const localCacheKey = `room-status-${roomId}`;
             const roomSettings = JSON.parse(localStorage.getItem(localCacheKey));
 
-            // Check if roomSettings exist and contain user data
-            if (roomSettings && roomSettings.user) {
-                const { frame, avatar } = roomSettings.user; // Extract avatar and frame data
-
-                // Host Avatar
+            // Check if roomSettings exist and contain users data
+            if (roomSettings && roomSettings.users) {
                 const hostAvatar = document.querySelector(".host-avatar");
-                if (hostAvatar) {
+                const hostData = roomSettings.users[0]; // Assuming the first user in the array is the host
+
+                // Apply host avatar and frame
+                if (hostAvatar && hostData) {
                     const hostAvatarImg = hostAvatar.querySelector(".avatar");
                     const hostFrameImg = hostAvatar.querySelector(".avatar-frame");
 
-                    hostAvatarImg.src = avatar || "assets/host.png"; // Default avatar if not provided
-                    if (frame) {
-                        hostFrameImg.src = frame;
+                    hostAvatarImg.src = hostData.photo || "assets/host.png"; // Default avatar if not provided
+                    if (hostData.frame) {
+                        hostFrameImg.src = `assets/frames/${hostData.frame}`;
                         hostFrameImg.style.display = "block";
                     } else {
                         hostFrameImg.style.display = "none";
                     }
                 }
 
-                // User Slots (if multiple users are supported)
+                // Apply user slots
                 const userSlots = document.querySelectorAll(".user-slot");
                 userSlots.forEach((slot, index) => {
-                    const userFrame = roomSettings[`user${index + 1}`]?.frame; // Support multiple users dynamically
-                    const userAvatar = roomSettings[`user${index + 1}`]?.avatar;
+                    const userData = roomSettings.users[index];
 
-                    const avatarImg = slot.querySelector(".avatar");
-                    const frameImg = slot.querySelector(".avatar-frame");
+                    if (userData) {
+                        const avatarImg = slot.querySelector(".avatar");
+                        const frameImg = slot.querySelector(".avatar-frame");
 
-                    avatarImg.src = userAvatar || "assets/seat-.png"; // Default user seat image if not provided
-                    if (userFrame) {
-                        frameImg.src = userFrame;
-                        frameImg.style.display = "block";
-                    } else {
-                        frameImg.style.display = "none";
+                        // Set avatar image or seat image based on mic value
+                        if (userData.mic) {
+                            // Seat is occupied, use mic value as seat number image
+                            avatarImg.src = `assets/seat-${userData.mic}.png`;
+                        } else {
+                            // If no mic (no seat), use the user photo or a default seat image
+                            avatarImg.src = userData.photo || "assets/seat.png";
+                        }
+
+                        // Apply frame if available
+                        if (userData.frame) {
+                            frameImg.src = `assets/frames/${userData.frame}`;
+                            frameImg.style.display = "block";
+                        } else {
+                            frameImg.style.display = "none";
+                        }
                     }
                 });
             }
