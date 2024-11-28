@@ -270,13 +270,12 @@
                 const localCacheKey = `room-status-${id}`;
                 const serverFilePath = `cache/${id}-room-status.json`;
 
-                // Try fetching from localStorage first
+                // Check local storage for cached data
                 const cachedData = localStorage.getItem(localCacheKey);
 
                 if (cachedData) {
-                    // Update UI with cached data
+                    console.log(`Loaded cached data for Room ID: ${id}`);
                     updateRoomStatus(JSON.parse(cachedData));
-                    console.log(`Room status loaded from local storage. Timestamp: ${timestamp}`);
                 }
 
                 // Check server for updates
@@ -285,26 +284,36 @@
                     const serverLastModified = response.headers.get('Last-Modified');
                     const localLastModified = localStorage.getItem(`${localCacheKey}-lastModified`);
 
+                    console.log(`Server Last-Modified: ${serverLastModified}, Local Last-Modified: ${localLastModified}`);
+
                     if (serverLastModified !== localLastModified) {
-                        const dataResponse = await fetch(serverFilePath);
+                        const dataResponse = await fetch(serverFilePath + `?timestamp=${timestamp}`);
                         if (dataResponse.ok) {
                             const data = await dataResponse.json();
-                            // Save new data to localStorage
+
+                            // Save to localStorage
                             localStorage.setItem(localCacheKey, JSON.stringify(data));
                             localStorage.setItem(`${localCacheKey}-lastModified`, serverLastModified);
-                            // Update UI with new data
+
+                            console.log('Updated local cache:', {
+                                key: localCacheKey,
+                                data: JSON.stringify(data),
+                                lastModified: serverLastModified,
+                            });
+
+                            // Update UI
                             updateRoomStatus(data);
-                            console.log(`Room status updated from server. Timestamp: ${timestamp}`);
                         } else {
-                            console.error('Failed to fetch room status from server.');
+                            console.error('Failed to fetch updated room status from server.');
                         }
                     } else {
-                        console.log(`Room status is up-to-date. No server updates found. Timestamp: ${timestamp}`);
+                        console.log('No updates detected on the server.');
                     }
                 } catch (error) {
                     console.error('Error checking or updating room status:', error);
                 }
             }
+
 
             // Function to fetch server data and update localStorage if needed
             async function updateLocalCache() {
