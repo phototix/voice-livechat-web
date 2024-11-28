@@ -482,9 +482,9 @@ ul {
 
 .user-slot .avatar-frame {
     position: absolute;
-    top: 0;
-    width: 100%; /* Same size as the avatar */
-    height: 100%;
+    top: -15px;
+    width: 110%; /* Same size as the avatar */
+    height: 110%;
     border-radius: 50%; /* Match the avatar's shape */
     z-index: 2;
     pointer-events: none; /* Ensure the frame doesn't interfere with interactions */
