@@ -9,7 +9,7 @@
     splashScreen.style.left = '0';
     splashScreen.style.width = '100%';
     splashScreen.style.height = '100%';
-    splashScreen.style.backgroundColor = '#000'; // Background color
+    splashScreen.style.backgroundColor = '#0d0b18'; // Background color
     splashScreen.style.display = 'flex';
     splashScreen.style.alignItems = 'center';
     splashScreen.style.justifyContent = 'center';
