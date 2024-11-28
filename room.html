@@ -312,6 +312,7 @@
 
                             // Update UI
                             updateRoomStatus(data);
+                            applyAvatarFrames();
                         } else {
                             console.error('Failed to fetch updated room status from server.');
                         }
@@ -362,7 +363,6 @@
             // Continuously update room status every 3 seconds
             setInterval(updateLocalCache, 3000);
             setInterval(fetchRoomStatus, 3000);
-            setInterval(applyAvatarFrames, 3000);
 
             // Initial fetch to load the status when the page is loaded
             fetchRoomStatus();
