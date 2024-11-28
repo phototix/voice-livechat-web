@@ -42,6 +42,7 @@
         <div class="room-info">
             <div class="host-avatar" onclick="openUserProfile()">
                 <img src="assets/host.png?version=1" alt="Host">
+                <img src="" alt="Frame" class="avatar-frame" style="display: none;">
                 <div class="sound-waves-1"></div>
             </div>
             <h2>主持人 (房主)</h2>
@@ -51,35 +52,43 @@
             <!-- Active User Slots -->
             <div class="user-slot">
                 <img src="assets/seat-1.png" alt="Seat-1">
+                <img src="" alt="Frame" class="avatar-frame" style="display: none;">
                 <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-2.png" alt="Seat-2">
+                <img src="" alt="Frame" class="avatar-frame" style="display: none;">
                 <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-3.png" alt="Seat-3">
+                <img src="" alt="Frame" class="avatar-frame" style="display: none;">
                 <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-4.png" alt="Seat-4">
+                <img src="" alt="Frame" class="avatar-frame" style="display: none;">
                 <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-5.png" alt="Seat-5">
+                <img src="" alt="Frame" class="avatar-frame" style="display: none;">
                 <span>虚位以待</span>
             </div>
             <!-- Empty Slots -->
             <div class="user-slot">
                 <img src="assets/seat-6.png" alt="Seat-6">
+                <img src="" alt="Frame" class="avatar-frame" style="display: none;">
                 <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-7.png" alt="Seat-7">
+                <img src="" alt="Frame" class="avatar-frame" style="display: none;">
                 <span>虚位以待</span>
             </div>
             <div class="user-slot">
                 <img src="assets/seat-boss.png" alt="Seat-boss">
+                <img src="" alt="Frame" class="avatar-frame" style="display: none;">
                 <span>老板</span>
             </div>
         </div>
@@ -722,6 +731,51 @@
             }
         }
 
+        // Apply avatar frames based on localStorage
+        function applyAvatarFrames() {
+            // Retrieve the room ID and local storage key
+            const roomId = getQueryParam('id');
+            const localCacheKey = `room-status-${roomId}`;
+            const roomSettings = JSON.parse(localStorage.getItem(localCacheKey));
+
+            // Check if roomSettings exist and contain user data
+            if (roomSettings && roomSettings.user) {
+                const { frame, avatar } = roomSettings.user; // Extract avatar and frame data
+
+                // Host Avatar
+                const hostAvatar = document.querySelector(".host-avatar");
+                if (hostAvatar) {
+                    const hostAvatarImg = hostAvatar.querySelector(".avatar");
+                    const hostFrameImg = hostAvatar.querySelector(".avatar-frame");
+
+                    hostAvatarImg.src = avatar || "assets/host.png"; // Default avatar if not provided
+                    if (frame) {
+                        hostFrameImg.src = frame;
+                        hostFrameImg.style.display = "block";
+                    } else {
+                        hostFrameImg.style.display = "none";
+                    }
+                }
+
+                // User Slots (if multiple users are supported)
+                const userSlots = document.querySelectorAll(".user-slot");
+                userSlots.forEach((slot, index) => {
+                    const userFrame = roomSettings[`user${index + 1}`]?.frame; // Support multiple users dynamically
+                    const userAvatar = roomSettings[`user${index + 1}`]?.avatar;
+
+                    const avatarImg = slot.querySelector(".avatar");
+                    const frameImg = slot.querySelector(".avatar-frame");
+
+                    avatarImg.src = userAvatar || "assets/seat-" + ${index + 1} + ".png"; // Default user seat image if not provided
+                    if (userFrame) {
+                        frameImg.src = userFrame;
+                        frameImg.style.display = "block";
+                    } else {
+                        frameImg.style.display = "none";
+                    }
+                });
+            }
+        }
 
         // Event listener for the "Enter" key or "Send" button
         document.getElementById("textInput").addEventListener("keydown", (event) => {
@@ -730,6 +784,8 @@
                 sendMessage();
             }
         });
+
+        document.addEventListener("DOMContentLoaded", applyAvatarFramesFromLocalStorage);
 
     </script>
 
