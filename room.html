@@ -712,8 +712,8 @@
                     // Append AI text response to chat history
                     const aiMessageDiv = document.createElement("div");
                     aiMessageDiv.classList.add("message");
-                    aiMessageDiv.innerHTML = `<span>${aiResponse.hostName || "AI"}:</span><p>${aiResponse.reply || "..."}</p>`;
-                    console.log(`<span>${aiResponse.hostName || "AI"}:</span><p>${aiResponse.reply || "..."}</p>`);
+                    aiMessageDiv.innerHTML = `<span>${aiResponse.hostName || "AI"}:</span><p>${aiResponse.output || "..."}</p>`;
+                    console.log(`<span>${aiResponse.hostName || "AI"}:</span><p>${aiResponse.output || "..."}</p>`);
                     chatHistory.appendChild(aiMessageDiv);
                     chatHistory.scrollTop = chatHistory.scrollHeight; // Auto-scroll to the latest message
                 }
