@@ -2,7 +2,7 @@
   "room": {
     "background": "assets/chatrooms/background-6.jpg",
     "radioURL": "https://stream.zeno.fm/xiv7xayor3gvv",
-    "webhookURL": "",
+    "webhookURL": "https://workflows.brandon.my/webhook/28b88196-952c-4b5f-aef9-e68f1b744987",
     "title": "糖糖专属 🌻 聊天室",
     "id": "142903999",
     "roomType": "personal",
