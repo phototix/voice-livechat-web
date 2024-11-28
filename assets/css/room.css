@@ -480,7 +480,7 @@ ul {
     pointer-events: none; /* Ensure the frame doesn't interfere with interactions */
 }
 
-.host-avatar .avatar-frame {
+.user-slot .avatar-frame {
     position: absolute;
     top: 0;
     width: 100%; /* Same size as the avatar */
