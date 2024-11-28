@@ -2,11 +2,11 @@
   "room": {
     "background": "assets/chatrooms/background-1.jpg",
     "radioURL": "https://stream.zeno.fm/wdswxre1crvtv",
-    "webhookURL": "https://workflows.brandon.my/webhook/30bf5fd9-8eea-4f67-8b3a-a3f41cbbe6a9",
+    "webhookURL": "https://workflows.brandon.my/webhook/28b88196-952c-4b5f-aef9-e68f1b744987",
     "title": "凪卄的房间 🌻 聊天室",
     "id": "2004208",
     "roomType": "personal",
-    "aiType": "audio"
+    "aiType": "text"
   },
   "host": {
     "status": "online",
