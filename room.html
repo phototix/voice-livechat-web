@@ -741,7 +741,7 @@
             // Check if roomSettings exist and contain users data
             if (roomSettings && roomSettings.users) {
                 const hostAvatar = document.querySelector(".host-avatar");
-                const hostData = roomSettings.users[0]; // Assuming the first user in the array is the host
+                const hostData = roomSettings.host; // Assuming the first user in the array is the host
 
                 // Apply host avatar and frame
                 if (hostAvatar && hostData) {
