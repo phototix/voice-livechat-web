@@ -2,7 +2,7 @@
   "room": {
     "background": "assets/chatrooms/comm-008.jpg",
     "radioURL": "https://stream.zeno.fm/u87i3b2uvyauv",
-    "webhookURL": "https://workflows.brandon.my/webhook-test/28b88196-952c-4b5f-aef9-e68f1b744987",
+    "webhookURL": "https://workflows.brandon.my/webhook/28b88196-952c-4b5f-aef9-e68f1b744987",
     "title": "音韵百魅🪐聊天室",
     "id": "1002001",
     "roomType": "comm",
