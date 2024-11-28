@@ -640,24 +640,29 @@
             const speechAudio = document.getElementById("audioPlayer");
             const chatHistory = document.getElementById("chat-history");
 
+            // Check local cache for room settings
+            const roomId = getQueryParam('id');
+            const localCacheKey = `room-status-${roomId}`;
+            const roomSettings = JSON.parse(localStorage.getItem(localCacheKey));
+
             if (!message) {
                 console.log("Please enter a message.");
                 return;
             }
 
             // Append user input to chat history
-            const messageDiv = document.createElement("div");
-            messageDiv.classList.add("message");
-            messageDiv.innerHTML = `<span>游客:</span><p>${message}</p>`;
-            chatHistory.appendChild(messageDiv);
+            const userMessageDiv = document.createElement("div");
+            userMessageDiv.classList.add("message");
+            userMessageDiv.innerHTML = `<span>游客:</span><p>${message}</p>`;
+            chatHistory.appendChild(userMessageDiv);
             chatHistory.scrollTop = chatHistory.scrollHeight; // Auto-scroll to the latest message
             textInput.value = ""; // Clear the input
 
             try {
-                // Define the n8n webhook URL
-                const webhookUrl = document.getElementById('webhook_url').value;
+                // Define the AI webhook URL
+                const webhookUrl = document.getElementById("webhook_url").value;
 
-                // Send text to the webhook
+                // Send the message to the webhook
                 const response = await fetch(webhookUrl, {
                     method: "POST",
                     headers: {
@@ -670,29 +675,41 @@
                     throw new Error(`Webhook error: ${response.statusText}`);
                 }
 
-                // Parse the binary response
-                const blob = await response.blob();
+                if (roomSettings && roomSettings.aiType === "audio") {
+                    // Parse the binary response for audio
+                    const blob = await response.blob();
 
-                // Create a temporary URL for the binary audio
-                const audioUrl = URL.createObjectURL(blob);
+                    // Create a temporary URL for the binary audio
+                    const audioUrl = URL.createObjectURL(blob);
 
-                // Play the speech audio
-                speechAudio.src = audioUrl;
-                speechAudio.style.display = "block";
+                    // Play the speech audio
+                    speechAudio.src = audioUrl;
+                    speechAudio.style.display = "block";
 
-                // Lower radio volume to 20%
-                radio.volume = 0.15;
+                    // Lower radio volume to 20%
+                    radio.volume = 0.15;
 
-                // Play speech audio and restore radio volume when it ends
-                speechAudio.play();
-                speechAudio.onended = () => {
-                    radio.volume = 1.0; // Restore to 100%
-                };
+                    // Play speech audio and restore radio volume when it ends
+                    speechAudio.play();
+                    speechAudio.onended = () => {
+                        radio.volume = 1.0; // Restore to 100%
+                    };
+                } else if (roomSettings && roomSettings.aiType === "text") {
+                    // Parse JSON response for text reply
+                    const aiResponse = await response.json();
 
+                    // Append AI text response to chat history
+                    const aiMessageDiv = document.createElement("div");
+                    aiMessageDiv.classList.add("message");
+                    aiMessageDiv.innerHTML = `<span>${aiResponse.hostName || "AI"}:</span><p>${aiResponse.reply || "..."}</p>`;
+                    chatHistory.appendChild(aiMessageDiv);
+                    chatHistory.scrollTop = chatHistory.scrollHeight; // Auto-scroll to the latest message
+                }
             } catch (error) {
                 console.error("Error:", error);
             }
         }
+
 
         // Event listener for the "Enter" key or "Send" button
         document.getElementById("textInput").addEventListener("keydown", (event) => {

@@ -5,7 +5,8 @@
     "webhookURL": "",
     "title": "糖糖专属 🌻 聊天室",
     "id": "142903999",
-    "roomType": "personal"
+    "roomType": "personal",
+    "aiType": "text"
   },
   "host": {
     "status": "online",
