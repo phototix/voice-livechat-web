@@ -766,7 +766,7 @@
                     const avatarImg = slot.querySelector(".avatar");
                     const frameImg = slot.querySelector(".avatar-frame");
 
-                    avatarImg.src = userAvatar || "assets/seat-" + ${index + 1} + ".png"; // Default user seat image if not provided
+                    avatarImg.src = userAvatar || "assets/seat-.png"; // Default user seat image if not provided
                     if (userFrame) {
                         frameImg.src = userFrame;
                         frameImg.style.display = "block";
@@ -785,7 +785,7 @@
             }
         });
 
-        document.addEventListener("DOMContentLoaded", applyAvatarFramesFromLocalStorage);
+        document.addEventListener("DOMContentLoaded", applyAvatarFrames);
 
     </script>
 
