@@ -481,6 +481,7 @@
 
         // Check playback every 2 seconds
         setInterval(checkRadioPlayback, 2000);
+        document.body.addEventListener('click', enableVisualization, { once: true });
 
         // Modal and Overlay functionality
         const giftModal = document.getElementById('gift-modal');
