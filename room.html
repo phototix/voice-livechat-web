@@ -633,6 +633,12 @@
             }
         }
 
+        // Function to get query parameter by name
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
         async function sendMessage() {
             const textInput = document.getElementById("textInput");
             const message = textInput.value.trim();
