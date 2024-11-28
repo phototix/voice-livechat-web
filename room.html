@@ -651,7 +651,7 @@
             const localCacheKey = `room-status-${roomId}`;
             const roomSettings = JSON.parse(localStorage.getItem(localCacheKey));
             if (roomSettings) {
-                console.log(`Loaded cached data for Chat in Room ID: ${id}`);
+                console.log(`Loaded cached data for Chat in Room ID: ${roomId}`);
             }
 
             if (!message) {
