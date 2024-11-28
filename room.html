@@ -596,26 +596,6 @@
             document.getElementById('welcome-dialog').style.display = 'none';
         });
 
-        const audio = document.getElementById("background-radio");
-        const hostAvatar = document.querySelector(".room-info .sound-waves-1");
-
-        // Function to start/stop animation based on music playback
-        function toggleSoundWaves() {
-            if (!audio.paused && !audio.muted) {
-                hostAvatar.style.display = "block"; // Show sound waves
-            } else {
-                hostAvatar.style.display = "none"; // Hide sound waves
-            }
-        }
-
-        // Add event listeners
-        audio.addEventListener("play", toggleSoundWaves);
-        audio.addEventListener("pause", toggleSoundWaves);
-        audio.addEventListener("volumechange", toggleSoundWaves);
-
-        // Initialize state on load
-        toggleSoundWaves();
-
         // Function to open the user profile modal
         function openUserProfile() {
             document.getElementById("user-profile-modal").style.display = "block";
@@ -731,6 +711,51 @@
             }
         });
 
+        const audio = document.getElementById('background-radio');
+        const avatar = document.getElementById('host-avatar');
+
+        // Create Audio Context and Analyser
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        const analyser = audioContext.createAnalyser();
+        const source = audioContext.createMediaElementSource(audio);
+        source.connect(analyser);
+        analyser.connect(audioContext.destination);
+
+        // Configure the Analyser Node
+        analyser.fftSize = 256; // Determines frequency data resolution
+        const bufferLength = analyser.frequencyBinCount; // Half of fftSize
+        const dataArray = new Uint8Array(bufferLength); // To hold frequency data
+
+        // Function to Update Avatar Based on Volume
+        const updateAvatar = () => {
+            analyser.getByteFrequencyData(dataArray);
+
+            // Calculate the average volume
+            let sum = 0;
+            for (let i = 0; i < bufferLength; i++) {
+                sum += dataArray[i];
+            }
+            const average = sum / bufferLength;
+
+            // Map volume to a scale (e.g., 1 to 1.5 for scaling)
+            const scale = 1 + (average / 255) * 0.5; // Adjust multiplier for effect strength
+            const glow = Math.floor((average / 255) * 50); // Glow intensity
+
+            // Apply CSS transformations to the avatar
+            avatar.style.transform = `scale(${scale})`;
+            avatar.style.boxShadow = `0 0 ${glow}px rgba(255, 255, 0, 0.8)`; // Glowing effect
+
+            // Continue the animation loop
+            requestAnimationFrame(updateAvatar);
+        };
+
+        // Start Visualization After User Interaction
+        const enableVisualization = () => {
+            audioContext.resume().then(() => {
+                updateAvatar(); // Start the visualization loop
+                console.log('Audio context resumed and visualization started.');
+            });
+        };
     </script>
 
 </body>
