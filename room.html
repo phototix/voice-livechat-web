@@ -681,6 +681,8 @@
                     throw new Error(`Webhook error: ${response.statusText}`);
                 }
 
+                console.log(roomSettings.aiType);
+
                 if (roomSettings && roomSettings.aiType === "audio") {
                     // Parse the binary response for audio
                     const blob = await response.blob();
