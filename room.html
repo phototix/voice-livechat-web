@@ -359,12 +359,10 @@
                 }
             }
 
-
             // Continuously update room status every 3 seconds
             setInterval(updateLocalCache, 3000);
-
-            // Continuously update room status every 3 seconds
             setInterval(fetchRoomStatus, 3000);
+            setInterval(applyAvatarFrames, 3000);
 
             // Initial fetch to load the status when the page is loaded
             fetchRoomStatus();
