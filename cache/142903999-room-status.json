@@ -1,6 +1,6 @@
 {
   "room": {
-    "background": "assets/chatrooms/background-6.jpg",
+    "background": "assets/chatrooms/background-1.jpg",
     "radioURL": "https://stream.zeno.fm/xiv7xayor3gvv",
     "webhookURL": "https://workflows.brandon.my/webhook/28b88196-952c-4b5f-aef9-e68f1b744987",
     "title": "糖糖专属 🌻 聊天室",
@@ -22,7 +22,7 @@
       "status": "offline",
       "photo": "assets/yishao-profile.jpg",
       "name": "壹韶",
-      "frame": "",
+      "frame": "vip-02.png",
       "userid": "96844131",
       "mic": "1"
     },
