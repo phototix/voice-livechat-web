@@ -762,6 +762,8 @@
                 userSlots.forEach((slot, index) => {
                     const userData = roomSettings.users[index];
 
+                    console.log(userData.mic);
+
                     if (userData) {
                         const avatarImg = slot.querySelector(".avatar");
                         const frameImg = slot.querySelector(".avatar-frame");
@@ -795,7 +797,7 @@
             }
         });
 
-        document.addEventListener("DOMContentLoaded", applyAvatarFrames);
+        document.addEventListener("DOMContentLoaded", applyAvatarFrames); setInterval(applyAvatarFrames, 5000);
 
     </script>
 

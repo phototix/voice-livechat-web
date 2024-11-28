@@ -12,6 +12,7 @@
     "status": "online",
     "photo": "assets/zhinian-profile.jpg",
     "name": "凪卄",
+    "frame": "",
     "userid": "2004208",
     "mic": "0"
 
@@ -21,6 +22,7 @@
       "status": "offline",
       "photo": "assets/yishao-profile.jpg",
       "name": "壹韶",
+      "frame": "",
       "userid": "96844131",
       "mic": "1"
     },
@@ -28,6 +30,7 @@
       "status": "offline",
       "photo": "assets/seat-2.png",
       "name": "空",
+      "frame": "",
       "userid": "",
       "mic": "2"
     },
@@ -35,6 +38,7 @@
       "status": "offline",
       "photo": "assets/seat-3.png",
       "name": "空",
+      "frame": "",
       "userid": "",
       "mic": "3"
     },
@@ -42,6 +46,7 @@
       "status": "offline",
       "photo": "assets/seat-4.png",
       "name": "空",
+      "frame": "",
       "userid": "",
       "mic": "4"
     },
@@ -49,6 +54,7 @@
       "status": "offline",
       "photo": "assets/seat-5.png",
       "name": "空",
+      "frame": "",
       "userid": "",
       "mic": "5"
     },
@@ -56,6 +62,7 @@
       "status": "offline",
       "photo": "assets/seat-6.png",
       "name": "空",
+      "frame": "",
       "userid": "",
       "mic": "6"
     },
@@ -63,6 +70,7 @@
       "status": "offline",
       "photo": "assets/seat-7.png",
       "name": "空",
+      "frame": "",
       "userid": "",
       "mic": "7"
     },
@@ -70,6 +78,7 @@
       "status": "offline",
       "photo": "assets/seat-boss.png",
       "name": "老板",
+      "frame": "",
       "userid": "",
       "mic": "8"
     }

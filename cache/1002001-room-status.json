@@ -12,6 +12,7 @@
     "status": "online",
     "photo": "assets/rooms/1002001.png",
     "name": "音韵百魅",
+    "frame": "",
     "userid": "1002001",
     "mic": "0"
   },
@@ -20,6 +21,7 @@
       "status": "online",
       "photo": "assets/zhinian-profile.jpg",
       "name": "凪卄🪐",
+      "frame": "",
       "userid": "2004208",
       "mic": "1"
     },
@@ -27,6 +29,7 @@
       "status": "online",
       "photo": "assets/avatar-006.jpg",
       "name": "极光🪐",
+      "frame": "",
       "userid": "300204281",
       "mic": "2"
     },
@@ -34,6 +37,7 @@
       "status": "online",
       "photo": "assets/avatar-004.jpg",
       "name": "优米🪐",
+      "frame": "",
       "userid": "300204170",
       "mic": "3"
     },
@@ -41,6 +45,7 @@
       "status": "online",
       "photo": "assets/avatar-001.jpg",
       "name": "鹿苡🪐",
+      "frame": "",
       "userid": "300058583",
       "mic": "4"
     },
@@ -48,6 +53,7 @@
       "status": "online",
       "photo": "assets/avatar-003.jpg",
       "name": "叮咚🪐",
+      "frame": "",
       "userid": "300373193",
       "mic": "5"
     },
@@ -55,6 +61,7 @@
       "status": "online",
       "photo": "assets/avatar-007.jpg",
       "name": "妮子🪐",
+      "frame": "",
       "userid": "300231948",
       "mic": "6"
     },
@@ -62,6 +69,7 @@
       "status": "online",
       "photo": "assets/avatar-008.jpg",
       "name": "念寶",
+      "frame": "",
       "userid": "300038891",
       "mic": "7"
     },
@@ -69,6 +77,7 @@
       "status": "online",
       "photo": "assets/langshu-profile-03.gif",
       "name": "崀🪐大叔",
+      "frame": "",
       "userid": "96844131",
       "mic": "8"
     }
