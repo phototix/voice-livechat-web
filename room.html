@@ -306,6 +306,44 @@
                 }
             }
 
+            // Function to fetch server data and update localStorage if needed
+            async function updateLocalCache() {
+                const roomId = getQueryParam('id');
+                if (!roomId) {
+                    console.error('Room ID is missing in the URL.');
+                    return;
+                }
+
+                const localCacheKey = `room-status-${roomId}`;
+                const serverFilePath = `cache/${roomId}-room-status.json`;
+
+                try {
+                    const response = await fetch(`${serverFilePath}?t=${Date.now()}`, { method: 'HEAD' });
+                    const serverLastModified = response.headers.get('Last-Modified');
+
+                    // Check if the file was modified since last fetch
+                    const localLastModified = localStorage.getItem(`${localCacheKey}-lastModified`);
+                    if (serverLastModified !== localLastModified) {
+                        const dataResponse = await fetch(serverFilePath);
+                        if (dataResponse.ok) {
+                            const data = await dataResponse.json();
+                            localStorage.setItem(localCacheKey, JSON.stringify(data));
+                            localStorage.setItem(`${localCacheKey}-lastModified`, serverLastModified);
+                            console.log(`Local cache updated for room ID: ${roomId}.`);
+                        } else {
+                            console.error('Failed to fetch the server file content.');
+                        }
+                    } else {
+                        console.log(`Local cache is up-to-date for room ID: ${roomId}.`);
+                    }
+                } catch (error) {
+                    console.error('Error checking or updating local cache:', error);
+                }
+            }
+
+
+            // Continuously update room status every 3 seconds
+            setInterval(updateLocalCache, 3000);
 
             // Continuously update room status every 3 seconds
             setInterval(fetchRoomStatus, 3000);
