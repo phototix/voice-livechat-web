@@ -674,6 +674,19 @@
             chatHistory.scrollTop = chatHistory.scrollHeight; // Auto-scroll to the latest message
             textInput.value = ""; // Clear the input
 
+            var volumeMatch = message.match(/volume to (\d+)/i);
+    
+            if (volumeMatch) {
+                var volume = parseInt(volumeMatch[1]);
+                var audioPlayer = document.getElementById("background-radio");
+                
+                // Map volume (0-10) to audio volume (0.0 - 1.0)
+                audioPlayer.volume = volume / 10;
+
+                // Optionally, you can send a message back in the chat that the volume was changed
+                console.log("Volume set to: " + audioPlayer.volume);
+            }
+
             try {
                 // Define the AI webhook URL
                 const webhookUrl = document.getElementById("webhook_url").value;
