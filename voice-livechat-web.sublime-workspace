@@ -23,6 +23,60 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "room.html",
+			"settings":
+			{
+				"buffer_size": 34816,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"BQAAANpvAAAAAAAA228AAAAAAAAAAAAA228AAAAAAADnbwAAAAAAAAAAAADnbwAAAAAAAOhvAAAAAAAAAAAAAOhvAAAAAAAA9G8AAAAAAAAAAAAA228AAAAAAADbbwAAAAAAAAwAAAAgICAgICAgICAgICA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADabwAAAAAAANpvAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					22,
+					1,
+					"paste",
+					null,
+					"AQAAAOhvAAAAAAAAt3EAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADobwAAAAAAAOhvAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					25,
+					2,
+					"indent",
+					null,
+					"EgAAACBwAAAAAAAAJHAAAAAAAAAAAAAAO3AAAAAAAAA/cAAAAAAAAAAAAABucAAAAAAAAHJwAAAAAAAAAAAAALlwAAAAAAAAvXAAAAAAAAAAAAAAxnAAAAAAAADKcAAAAAAAAAAAAAADcQAAAAAAAAdxAAAAAAAAAAAAADJxAAAAAAAANnEAAAAAAAAAAAAAkXEAAAAAAACVcQAAAAAAAAAAAADScQAAAAAAANZxAAAAAAAAAAAAACBwAAAAAAAAJHAAAAAAAAAAAAAAP3AAAAAAAABDcAAAAAAAAAAAAAB2cAAAAAAAAHpwAAAAAAAAAAAAAMVwAAAAAAAAyXAAAAAAAAAAAAAA1nAAAAAAAADacAAAAAAAAAAAAAAXcQAAAAAAABtxAAAAAAAAAAAAAEpxAAAAAAAATnEAAAAAAAAAAAAArXEAAAAAAACxcQAAAAAAAAAAAADycQAAAAAAAPZxAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC3cQAAAAAAACRwAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					55,
+					1,
+					"paste",
+					null,
+					"AgAAAPpvAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABcAAAAAAAAAUAAABpbnB1dA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD6bwAAAAAAAP9vAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 18,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -230,6 +284,73 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "room.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28700,
+								28700
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12032.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".gitignore",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
