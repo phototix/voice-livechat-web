@@ -20,10 +20,10 @@
   "users": [
     {
       "status": "offline",
-      "photo": "assets/yishao-profile.jpg",
-      "name": "壹韶",
-      "frame": "vip-02.png",
-      "userid": "96844131",
+      "photo": "assets/seat-1.png",
+      "name": "空",
+      "frame": "",
+      "userid": "",
       "mic": "1"
     },
     {
