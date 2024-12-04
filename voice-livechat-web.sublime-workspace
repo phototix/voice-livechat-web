@@ -24,60 +24,383 @@
 	"buffers":
 	[
 		{
-			"file": "room.html",
+			"file": "service-worker.js",
 			"settings":
 			{
-				"buffer_size": 34816,
+				"buffer_size": 1220,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
 				[
-					21,
+					7,
 					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"BQAAANpvAAAAAAAA228AAAAAAAAAAAAA228AAAAAAADnbwAAAAAAAAAAAADnbwAAAAAAAOhvAAAAAAAAAAAAAOhvAAAAAAAA9G8AAAAAAAAAAAAA228AAAAAAADbbwAAAAAAAAwAAAAgICAgICAgICAgICA",
-					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANpvAAAAAAAA2m8AAAAAAAAAAAAAAADwvw"
+					"left_delete",
+					null,
+					"AQAAALYAAAAAAAAAtgAAAAAAAAAZAAAACiAgICAgICAgIi9leHBsb3JlLmh0bWwiLA",
+					"AQAAAAAAAAABAAAAzwAAAAAAAAC2AAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					22,
+					10,
+					1,
+					"left_delete",
+					null,
+					"AQAAALYAAAAAAAAAtgAAAAAAAAAtAAAACiAgICAgICAgIi9sb2dpbi5odG1sIiwKICAgICAgICAiL3Jvb20uaHRtbCIs",
+					"AQAAAAAAAAABAAAA4wAAAAAAAAC2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"left_delete",
+					null,
+					"AQAAALYAAAAAAAAAtgAAAAAAAABEAAAACiAgICAgICAgIi9hc3NldHMvY3NzL2luZGV4LmNzcyIsCiAgICAgICAgIi9zY3JpcHQvYW5ub3VuY2VtZW50LmpzIiw",
+					"AQAAAAAAAAABAAAA+gAAAAAAAAC2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"left_delete",
+					null,
+					"AQAAALYAAAAAAAAAtgAAAAAAAABTAAAACiAgICAgICAgIi9zY3JpcHQvYXBwLmpzIiwKICAgICAgICAiL3NjcmlwdC9sb2FkZXIuanMiLAogICAgICAgICIvc2NyaXB0L2xvZ2luLmpzIiw",
+					"AQAAAAAAAAABAAAACQEAAAAAAAC2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
 					1,
 					"paste",
 					null,
-					"AQAAAOhvAAAAAAAAt3EAAAAAAAAAAAAA",
-					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOhvAAAAAAAA6G8AAAAAAAAAAAAAAADwvw"
-				],
-				[
-					25,
-					2,
-					"indent",
-					null,
-					"EgAAACBwAAAAAAAAJHAAAAAAAAAAAAAAO3AAAAAAAAA/cAAAAAAAAAAAAABucAAAAAAAAHJwAAAAAAAAAAAAALlwAAAAAAAAvXAAAAAAAAAAAAAAxnAAAAAAAADKcAAAAAAAAAAAAAADcQAAAAAAAAdxAAAAAAAAAAAAADJxAAAAAAAANnEAAAAAAAAAAAAAkXEAAAAAAACVcQAAAAAAAAAAAADScQAAAAAAANZxAAAAAAAAAAAAACBwAAAAAAAAJHAAAAAAAAAAAAAAP3AAAAAAAABDcAAAAAAAAAAAAAB2cAAAAAAAAHpwAAAAAAAAAAAAAMVwAAAAAAAAyXAAAAAAAAAAAAAA1nAAAAAAAADacAAAAAAAAAAAAAAXcQAAAAAAABtxAAAAAAAAAAAAAEpxAAAAAAAATnEAAAAAAAAAAAAArXEAAAAAAACxcQAAAAAAAAAAAADycQAAAAAAAPZxAAAAAAAAAAAAAA",
-					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALdxAAAAAAAAJHAAAAAAAAAAAAAAAADwvw"
-				],
-				[
-					55,
-					1,
-					"paste",
-					null,
-					"AgAAAPpvAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABcAAAAAAAAAUAAABpbnB1dA",
-					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPpvAAAAAAAA/28AAAAAAAAAAAAAAADwvw"
+					"AgAAAAAAAAAAAAAAxAQAAAAAAAAAAAAAxAQAAAAAAADEBAAAAAAAAJ8BAABzZWxmLmFkZEV2ZW50TGlzdGVuZXIoImluc3RhbGwiLCAoZXZlbnQpID0+IHsKICBldmVudC53YWl0VW50aWwoCiAgICBjYWNoZXMub3Blbigidm9pY2UtY2hhdC1jYWNoZSIpLnRoZW4oKGNhY2hlKSA9PiB7CiAgICAgIHJldHVybiBjYWNoZS5hZGRBbGwoWwogICAgICAgICIvIiwKICAgICAgICAiL2luZGV4Lmh0bWwiLAogICAgICAgICIvbWFuaWZlc3QuanNvbiIKICAgICAgXSk7CiAgICB9KQogICk7Cn0pOwoKc2VsZi5hZGRFdmVudExpc3RlbmVyKCJmZXRjaCIsIChldmVudCkgPT4gewogIGV2ZW50LnJlc3BvbmRXaXRoKAogICAgY2FjaGVzLm1hdGNoKGV2ZW50LnJlcXVlc3QpLnRoZW4oKHJlc3BvbnNlKSA9PiB7CiAgICAgIHJldHVybiByZXNwb25zZSB8fCBmZXRjaChldmVudC5yZXF1ZXN0KTsKICAgIH0pCiAgKTsKfSk7",
+					"AQAAAAAAAAABAAAAAAAAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
 		{
-			"file": "assets/css/room.css",
+			"file": "list.html",
 			"settings":
 			{
-				"buffer_size": 10423,
+				"buffer_size": 4488,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "?v="
+					},
+					"AwAAAOwQAAAAAAAA7RAAAAAAAAAAAAAA7RAAAAAAAADuEAAAAAAAAAAAAADuEAAAAAAAAO8QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7BAAAAAAAADsEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "90"
+					},
+					"AgAAAO8QAAAAAAAA8BAAAAAAAAAAAAAA8BAAAAAAAADxEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7xAAAAAAAADvEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"paste",
+					null,
+					"AgAAAGoQAAAAAAAAaREAAAAAAAAAAAAAaREAAAAAAABpEQAAAAAAAAoBAAAKICAgIDwvc2NyaXB0PgogICAgPHNjcmlwdD4KICAgICAgaWYgKCJzZXJ2aWNlV29ya2VyIiBpbiBuYXZpZ2F0b3IpIHsKICAgICAgICBuYXZpZ2F0b3Iuc2VydmljZVdvcmtlci5yZWdpc3RlcigiL3NlcnZpY2Utd29ya2VyLmpzP3Y9OTAiKS50aGVuKChyZWdpc3RyYXRpb24pID0+IHsKICAgICAgICAgIGNvbnNvbGUubG9nKCJTZXJ2aWNlIFdvcmtlciByZWdpc3RlcmVkIHdpdGggc2NvcGU6IiwgcmVnaXN0cmF0aW9uLnNjb3BlKTsKICAgICAgICB9KTsKICAgICAgfQ",
+					"AQAAAAAAAAABAAAAdBEAAAAAAABqEAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "login.html",
+			"settings":
+			{
+				"buffer_size": 5212,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "li"
+					},
+					"AwAAAPUOAAAAAAAA9g4AAAAAAAAAAAAA9g4AAAAAAAD2DgAAAAAAAAUAAABpbmRlePYOAAAAAAAA9w4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9Q4AAAAAAAD6DgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					2,
+					"left_delete",
+					null,
+					"AgAAAPYOAAAAAAAA9g4AAAAAAAABAAAAafUOAAAAAAAA9Q4AAAAAAAABAAAAbA",
+					"AQAAAAAAAAABAAAA9w4AAAAAAAD3DgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "explore"
+					},
+					"BwAAAPUOAAAAAAAA9g4AAAAAAAAAAAAA9g4AAAAAAAD3DgAAAAAAAAAAAAD3DgAAAAAAAPgOAAAAAAAAAAAAAPgOAAAAAAAA+Q4AAAAAAAAAAAAA+Q4AAAAAAAD6DgAAAAAAAAAAAAD6DgAAAAAAAPsOAAAAAAAAAAAAAPsOAAAAAAAA/A4AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9Q4AAAAAAAD1DgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "me.html",
+			"settings":
+			{
+				"buffer_size": 5361,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					8,
+					1,
+					"paste",
+					null,
+					"AgAAAA0KAAAAAAAAFgoAAAAAAAAAAAAAFgoAAAAAAAAWCgAAAAAAAAEAAAAv",
+					"AQAAAAAAAAABAAAADgoAAAAAAAANCgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1793,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAIwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AQAAAHAEAAAAAAAAPwYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcAQAAAAAAABwBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"indent",
+					null,
+					"CwAAAHEEAAAAAAAAdQQAAAAAAAAAAAAAnQQAAAAAAAChBAAAAAAAAAAAAADRBAAAAAAAANUEAAAAAAAAAAAAABgFAAAAAAAAHAUAAAAAAAAAAAAARgUAAAAAAABKBQAAAAAAAAAAAACoBQAAAAAAAKwFAAAAAAAAAAAAAL8FAAAAAAAAwwUAAAAAAAAAAAAA5wUAAAAAAADrBQAAAAAAAAAAAAA6BgAAAAAAAD4GAAAAAAAAAAAAAFIGAAAAAAAAVgYAAAAAAAAAAAAAYgYAAAAAAABmBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPwYAAAAAAAB1BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"left_delete",
+					null,
+					"AQAAACIDAAAAAAAAIgMAAAAAAAAbAAAACiAgICAgICAgICAgIGhlaWdodDogMTUwcHg7",
+					"AQAAAAAAAAABAAAAPQMAAAAAAAAiAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "70%"
+					},
+					"BAAAABwDAAAAAAAAHQMAAAAAAAAAAAAAHQMAAAAAAAAdAwAAAAAAAAUAAAAxNTBweB0DAAAAAAAAHgMAAAAAAAAAAAAAHgMAAAAAAAAfAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIQMAAAAAAAAcAwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "manifest.json",
+			"settings":
+			{
+				"buffer_size": 308,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					10,
+					1,
+					"paste",
+					null,
+					"AQAAAFMBAAAAAAAAqAIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUwEAAAAAAABTAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"paste",
+					null,
+					"AgAAAJABAAAAAAAAnAEAAAAAAAAAAAAAnAEAAAAAAACcAQAAAAAAADAAAABXZWxjb21lIHRvIOWjuemftkFQUCwgYW4gYW1hemluZyBhcHAgZXhwZXJpZW5jZS4",
+					"AQAAAAAAAAABAAAAvAEAAAAAAACQAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJsBAAAAAAAAmwEAAAAAAAADAAAA44CC",
+					"AQAAAAAAAAABAAAAnAEAAAAAAACcAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					2,
+					"right_delete",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAByAQAAewogICJuYW1lIjogIuWjuemftkFQUCIsCiAgInNob3J0X25hbWUiOiAi5aO56Z+2IiwKICAiZGVzY3JpcHRpb24iOiAi5aO56aao5LiA5oSP77yM54ix5L2g5bed5rWB5LiN5oGv44CCIiwKICAic3RhcnRfdXJsIjogIi9pbmRleC5odG1sIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAidGhlbWVfY29sb3IiOiAiIzAwMDAwMCIsCiAgIm9yaWVudGF0aW9uIjogInBvcnRyYWl0IiwKICAiaWNvbnMiOiBbCiAgICB7CiAgICAgICJzcmMiOiAiL2Fzc2V0cy9sb2dvLmpwZyIsCiAgICAgICJ0eXBlIjogImltYWdlL2pwZyIsCiAgICAgICJzaXplcyI6ICIyMjR4MjI0IgogICAgfQogIF0KfQAAAAAAAAAAAAAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAUgEAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "explore.html",
+			"settings":
+			{
+				"buffer_size": 3113,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "listhtm"
+					},
+					"CAAAABYLAAAAAAAAFwsAAAAAAAAAAAAAFwsAAAAAAAAXCwAAAAAAAAEAAAAvFwsAAAAAAAAYCwAAAAAAAAAAAAAYCwAAAAAAABkLAAAAAAAAAAAAABkLAAAAAAAAGgsAAAAAAAAAAAAAGgsAAAAAAAAbCwAAAAAAAAAAAAAbCwAAAAAAABwLAAAAAAAAAAAAABwLAAAAAAAAHQsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFwsAAAAAAAAWCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					3,
+					"left_delete",
+					null,
+					"AwAAABwLAAAAAAAAHAsAAAAAAAABAAAAbRsLAAAAAAAAGwsAAAAAAAABAAAAdBoLAAAAAAAAGgsAAAAAAAABAAAAaA",
+					"AQAAAAAAAAABAAAAHQsAAAAAAAAdCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAABoLAAAAAAAAGwsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGgsAAAAAAAAaCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAABoLAAAAAAAAGgsAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAGwsAAAAAAAAbCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": ".html"
+					},
+					"BQAAABoLAAAAAAAAGwsAAAAAAAAAAAAAGwsAAAAAAAAcCwAAAAAAAAAAAAAcCwAAAAAAAB0LAAAAAAAAAAAAAB0LAAAAAAAAHgsAAAAAAAAAAAAAHgsAAAAAAAAfCwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGgsAAAAAAAAaCwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "chat.html",
+			"settings":
+			{
+				"buffer_size": 1988,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AgAAAGgGAAAAAAAAcQYAAAAAAAAAAAAAcQYAAAAAAABxBgAAAAAAAAEAAAAv",
+					"AQAAAAAAAAABAAAAaQYAAAAAAABoBgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "list.php",
+			"settings":
+			{
+				"buffer_size": 4488,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAOwQAAAAAAAA8RAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7BAAAAAAAADsEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGoQAAAAAAAAahAAAAAAAAAbAAAACiAgICA8L3NjcmlwdD4KICAgIDxzY3JpcHQ+",
+					"AQAAAAAAAAABAAAAhRAAAAAAAABqEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					2,
+					"unindent",
+					null,
+					"CgAAAGsQAAAAAAAAaxAAAAAAAAAEAAAAICAgIJEQAAAAAAAAkRAAAAAAAAAEAAAAICAgIOoQAAAAAAAA6hAAAAAAAAAEAAAAICAgIDoRAAAAAAAAOhEAAAAAAAAEAAAAICAgIEIRAAAAAAAAQhEAAAAAAAAEAAAAICAgIGsQAAAAAAAAaxAAAAAAAAACAAAAICCPEAAAAAAAAI8QAAAAAAAABAAAACAgICDkEAAAAAAAAOQQAAAAAAAABAAAACAgICAwEQAAAAAAADARAAAAAAAABAAAACAgICA0EQAAAAAAADQRAAAAAAAAAgAAACAg",
+					"AQAAAAAAAAABAAAAWREAAAAAAABxEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					2,
+					"indent",
+					null,
+					"CgAAAGsQAAAAAAAAbxAAAAAAAAAAAAAAkxAAAAAAAACXEAAAAAAAAAAAAADsEAAAAAAAAPAQAAAAAAAAAAAAADwRAAAAAAAAQBEAAAAAAAAAAAAARBEAAAAAAABIEQAAAAAAAAAAAABrEAAAAAAAAG8QAAAAAAAAAAAAAJcQAAAAAAAAmxAAAAAAAAAAAAAA9BAAAAAAAAD4EAAAAAAAAAAAAABIEQAAAAAAAEwRAAAAAAAAAAAAAFQRAAAAAAAAWBEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANREAAAAAAABrEAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"indent",
+					null,
+					"AwAAAJcQAAAAAAAAmxAAAAAAAAAAAAAA+BAAAAAAAAD8EAAAAAAAAAAAAABQEQAAAAAAAFQRAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUxEAAAAAAACfEAAAAAAAAAAAAAAAAPC/"
+				]
 			]
 		}
 	],
@@ -117,23 +440,24 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css"
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web"
 	],
 	"file_history":
 	[
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/room.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/index.php",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script/loader.js",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/index.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/chat.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/explore.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/login.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/me.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/service-worker.js",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/manifest.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/1002001-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/2004208-room-status.json",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/room.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/chat.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/explore.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/index.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/login.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/me.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/room.css",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script/loader.js",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/142903999-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/explore.css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/index.css",
@@ -236,6 +560,7 @@
 		"height": 104.0,
 		"where_history":
 		[
+			"C:\\Users\\brandonchong\\Documents\\GitHub\\voice-livechat-web,<project filters>"
 		]
 	},
 	"find_state":
@@ -243,6 +568,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"eval",
 			"fetchRoomStatus",
 			"setInterval",
 			"3000",
@@ -291,19 +617,53 @@
 			[
 				{
 					"buffer": 0,
-					"file": "room.html",
+					"file": "service-worker.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34816,
+						"buffer_size": 1220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28700,
-								28700
+								1220,
+								1220
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4479,
+								4479
 							]
 						],
 						"settings":
@@ -316,29 +676,28 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12032.0,
+						"translation.y": 1566.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "assets/css/room.css",
-					"selected": true,
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "login.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10423,
+						"buffer_size": 5212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1632,
-								1601
+								3836,
+								3836
 							]
 						],
 						"settings":
@@ -346,7 +705,41 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "me.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2582,
+								2582
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -354,7 +747,176 @@
 						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								799,
+								799
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "manifest.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "explore.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2847,
+								2838
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "chat.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1649,
+								1649
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "list.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4457,
+								4202
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -422,6 +984,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Users\\brandonchong\\OneDrive\\Documents\\TCG-Solo.sublime-workspace"
+			]
 		],
 		"width": 380.0
 	},
