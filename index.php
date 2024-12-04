@@ -113,13 +113,11 @@
         function closeDialog() {
             document.getElementById('dialog-overlay').style.display = 'none';
         }
-    </script>
-    <script>
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/service-worker.js?v=90").then((registration) => {
-          console.log("Service Worker registered with scope:", registration.scope);
-        });
-      }
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/service-worker.js?v=90").then((registration) => {
+              console.log("Service Worker registered with scope:", registration.scope);
+            });
+        }
     </script>
 </body>
 </html>
