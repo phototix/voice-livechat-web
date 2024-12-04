@@ -4,10 +4,10 @@ self.addEventListener("install", (event) => {
       return cache.addAll([
         "/",
         "/assets/css/index.css",
-        "/assets/scripts/announcement.js",
-        "/assets/scripts/app.js",
-        "/assets/scripts/loader.js",
-        "/assets/scripts/login.js",
+        "/scripts/announcement.js",
+        "/scripts/app.js",
+        "/scripts/loader.js",
+        "/scripts/login.js",
         "/manifest.json"
       ]);
     })
