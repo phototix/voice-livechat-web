@@ -1,6 +1,6 @@
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open("voicechat-cache").then((cache) => {
+    caches.open("voice-chat-cache").then((cache) => {
       return cache.addAll([
         "/index.html",
         "/explore.html",
