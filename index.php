@@ -116,7 +116,7 @@
     </script>
     <script>
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/service-worker.js?v=1").then((registration) => {
+        navigator.serviceWorker.register("/service-worker.js?v=2").then((registration) => {
           console.log("Service Worker registered with scope:", registration.scope);
         });
       }
