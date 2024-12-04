@@ -17,7 +17,7 @@
 
     // Add image to the splash screen
     const splashImage = document.createElement('img');
-    splashImage.src = '/assets/splash.jpg?version=1'; // Replace with your splash.jpg path
+    splashImage.src = '/assets/splash.png?version=1'; // Replace with your splash.jpg path
     splashImage.alt = 'Splash Screen';
     splashImage.style.width = '70%';
     splashImage.style.height = 'auto';
