@@ -2,7 +2,10 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open("voicechat-cache").then((cache) => {
       return cache.addAll([
-        "/",
+        "/index.html",
+        "/explore.html",
+        "/login.html",
+        "/room.html",
         "/assets/css/index.css",
         "/scripts/announcement.js",
         "/scripts/app.js",
