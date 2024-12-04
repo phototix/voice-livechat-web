@@ -2,6 +2,7 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open("voice-chat-cache").then((cache) => {
       return cache.addAll([
+        "/",
         "/index.html",
         "/explore.html",
         "/login.html",
@@ -12,10 +13,15 @@ self.addEventListener("install", (event) => {
         "/script/loader.js",
         "/script/login.js",
         "/manifest.json"
-      ]).catch((error) => {
-        console.error("Failed to cache resources during install:", error);
-        throw error; // Propagate error to trigger failure handling
-      });
+      ]);
+    })
+  );
+});
+
+self.addEventListener("fetch", (event) => {
+  event.respondWith(
+    caches.match(event.request).then((response) => {
+      return response || fetch(event.request);
     })
   );
 });
