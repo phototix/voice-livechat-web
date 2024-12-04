@@ -1,17 +1,16 @@
 {
   "name": "壹韶APP",
   "short_name": "壹韶",
-  "description": "壹馨一意，爱你川流不息。",
-  "start_url": "/index.html",
+  "description": "壹馨一意，爱你川流不息",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
-  "orientation": "portrait",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "/assets/logo.jpg",
-      "type": "image/jpg",
-      "sizes": "224x224"
+      "sizes": "512x512",
+      "type": "image/jpg"
     }
   ]
 }

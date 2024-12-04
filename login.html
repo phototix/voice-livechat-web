@@ -86,7 +86,7 @@
                             // Save the login state in a cookie
                             sessionStorage.setItem('userLoggedIn', 'true');
                             document.cookie = `userLoggedIn=${user.userID}; path=/; max-age=${60 * 60 * 24};`;
-                            window.location.href = "index.html";
+                            window.location.href = "explore.html";
                         } else {
                             alert("用户名或密码错误！");
                         }
