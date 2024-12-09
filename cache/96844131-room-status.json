@@ -20,9 +20,9 @@
   "users": [
     {
       "status": "offline",
-      "photo": "assets/seat-1.png?version=0.1",
-      "name": "空",
-      "frame": "",
+      "photo": "assets/xiner-profile.jpg?version=0.2",
+      "name": "馨儿",
+      "frame": "vip-01.png",
       "userid": "96844132",
       "mic": "1"
     },
