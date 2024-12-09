@@ -19,10 +19,10 @@
   },
   "users": [
     {
-      "status": "online",
-      "photo": "assets/xiner-profile.jpg?version=0.1",
-      "name": "馨儿",
-      "frame": "vip-01.png",
+      "status": "offline",
+      "photo": "assets/seat-1.png?version=0.1",
+      "name": "空",
+      "frame": "",
       "userid": "96844132",
       "mic": "1"
     },
