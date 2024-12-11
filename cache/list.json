@@ -1,0 +1,34 @@
+[
+    {
+        "id": "96844131",
+        "status": "online",
+        "category": ["音乐"],
+        "image": "assets/rooms/96844131.png?ver=1.2",
+        "alt": "壹馨一意FM",
+        "title": "壹馨一意FM"
+    },
+    {
+        "id": "2004208",
+        "status": "online",
+        "category": ["音乐"],
+        "image": "assets/rooms/2004208.jpg?ver=1.0",
+        "alt": "凪卄的房间",
+        "title": "凪卄的房间"
+    },
+    {
+        "id": "142903999",
+        "status": "online",
+        "category": ["音乐"],
+        "image": "assets/rooms/142903999.jpg?ver=1.0",
+        "alt": "糖糖专属",
+        "title": "糖糖专属"
+    },
+    {
+        "id": "1002001",
+        "status": "online",
+        "category": ["直播", "交友"],
+        "image": "assets/rooms/1002001.png?ver=1.0",
+        "alt": "音韵百魅",
+        "title": "音韵百魅"
+    }
+]

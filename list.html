@@ -56,42 +56,7 @@
         </div>
 
         <!-- Cards Section -->
-            <div class="card-container">
-                
-                <a href="room.html?id=96844131">
-                    <div class="card">
-                        <span class="badge">音乐</span>
-                        <img src="assets/rooms/96844131.png?ver=1.2" alt="壹馨一意FM">
-                        <div class="card-title">壹馨一意FM</div>
-                    </div>
-                </a>
-
-                <a href="room.html?id=2004208">
-                    <div class="card">
-                        <span class="badge">音乐</span>
-                        <img src="assets/rooms/2004208.jpg?ver=1.0" alt="凪卄的房间">
-                        <div class="card-title">凪卄的房间</div>
-                    </div>
-                </a>
-
-                <a href="room.html?id=142903999">
-                    <div class="card">
-                        <span class="badge">音乐</span>
-                        <img src="assets/rooms/142903999.jpg?ver=1.0" alt="糖糖专属">
-                        <div class="card-title">糖糖专属</div>
-                    </div>
-                </a>
-
-                <a href="room.html?id=1002001">
-                    <div class="card">
-                        <span class="badge">直播</span>
-                        <span class="badge">交友</span>
-                        <img src="assets/rooms/1002001.png?ver=1.0" alt="音韵百魅">
-                        <div class="card-title">音韵百魅</div>
-                    </div>
-                </a>
-
-            </div>
+            <div class="card-container"></div>
 
     </div>
 
@@ -118,6 +83,26 @@
               console.log("Service Worker registered with scope:", registration.scope);
             });
         }
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch("cache/list.json")
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.querySelector(".card-container");
+                    data.forEach(item => {
+                        const cardHTML = `
+                            <a href="room.html?id=${item.id}">
+                                <div class="card">
+                                    ${item.category.map(cat => `<span class="badge">${cat}</span>`).join("")}
+                                    <img src="${item.image}" alt="${item.alt}">
+                                    <div class="card-title">${item.title}</div>
+                                </div>
+                            </a>
+                        `;
+                        container.innerHTML += cardHTML;
+                    });
+                })
+                .catch(error => console.error("Error loading list.json:", error));
+        });
     </script>
 </body>
 </html>
