@@ -3,7 +3,7 @@
         "id": "96844131",
         "status": "online",
         "category": ["音乐"],
-        "image": "assets/rooms/96844131.png?ver=1.2",
+        "image": "assets/yishao-profile-3.png?ver=1.2",
         "alt": "壹馨一意FM",
         "title": "壹馨一意FM"
     },
@@ -11,9 +11,17 @@
         "id": "2004208",
         "status": "online",
         "category": ["音乐"],
-        "image": "assets/rooms/2004208.jpg?ver=1.0",
-        "alt": "凪卄的房间",
-        "title": "凪卄的房间"
+        "image": "assets/fenghuang-profile.jpg?ver=1.0",
+        "alt": "凤凰的房间",
+        "title": "凤凰的房间"
+    },
+    {
+        "id": "828027713",
+        "status": "online",
+        "category": ["音乐"],
+        "image": "assets/xiner-profile-1.jpg?ver=1.0",
+        "alt": "馨儿",
+        "title": "馨儿乐园"
     },
     {
         "id": "142903999",

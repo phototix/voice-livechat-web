@@ -1,0 +1,86 @@
+{
+  "room": {
+    "background": "assets/chatrooms/background-3.jpg",
+    "radioURL": "https://stream.zeno.fm/xiv7xayor3gvv",
+    "webhookURL": "https://workflows.brandon.my/webhook/28b88196-952c-4b5f-aef9-e68f1b744987",
+    "title": "馨儿乐园",
+    "id": "828027713",
+    "roomType": "personal",
+    "aiType": "text"
+  },
+  "host": {
+    "status": "online",
+    "photo": "assets/xiner-profile.jpg",
+    "name": "馨儿",
+    "frame": "vip-02.png",
+    "userid": "96844131",
+    "mic": "0"
+
+  },
+  "users": [
+    {
+      "status": "offline",
+      "photo": "assets/yishao-profile.png",
+      "name": "壹韶",
+      "frame": "vip-02.png",
+      "userid": "96844131",
+      "mic": "1"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-2.png",
+      "name": "空",
+      "frame": "",
+      "userid": "",
+      "mic": "2"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-3.png",
+      "name": "空",
+      "frame": "",
+      "userid": "",
+      "mic": "3"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-4.png",
+      "name": "空",
+      "frame": "",
+      "userid": "",
+      "mic": "4"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-5.png",
+      "name": "空",
+      "frame": "",
+      "userid": "",
+      "mic": "5"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-6.png",
+      "name": "空",
+      "frame": "",
+      "userid": "",
+      "mic": "6"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-7.png",
+      "name": "空",
+      "frame": "",
+      "userid": "",
+      "mic": "7"
+    },
+    {
+      "status": "offline",
+      "photo": "assets/seat-boss.png",
+      "name": "老板",
+      "frame": "",
+      "userid": "",
+      "mic": "8"
+    }
+  ]
+}
