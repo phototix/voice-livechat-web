@@ -49,29 +49,7 @@
 
         </div>
 
-        <div class="party-list">
-            
-            <a href="room.html?id=1002001">
-                <div class="party-item">
-                    <img src="assets/rooms/1002001.png?ver=1.0" alt="Party">
-                    <div class="party-details">
-                        <div class="party-title">音韵百魅 ❤️ 神秘女嘉賓出場</div>
-                        <div class="party-meta">交友 <span class="fire-icon">🔥 46</span></div>
-                    </div>
-                </div>
-            </a>
-            
-            <a href="room.html?id=142903999">
-                <div class="party-item">
-                    <img src="assets/rooms/142903999.jpg?ver=1.0" alt="Party">
-                    <div class="party-details">
-                        <div class="party-title">糖糖专属</div>
-                        <div class="party-meta">音乐 <span class="fire-icon">🔥 41</span></div>
-                    </div>
-                </div>
-            </a>
-
-        </div>
+        <div class="party-list"></div>
 
     </div>
 
@@ -82,6 +60,34 @@
         <a href="chat.html" class="chat_status"><img src="assets/apps/app-03.png" alt="訊息"><br>訊息</a>
         <a href="me.html"><img src="assets/apps/app-04.png" alt="我的"><br>我的</a>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch("cache/explore.json")
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.querySelector(".party-list");
+                    data.forEach(item => {
+                        const partyHTML = `
+                            <a href="room.html?id=${item.id}">
+                                <div class="party-item">
+                                    <img src="${item.image}" alt="${item.alt}">
+                                    <div class="party-details">
+                                        <div class="party-title">${item.title}</div>
+                                        <div class="party-meta">
+                                            ${item.meta.category} 
+                                            <span class="fire-icon">🔥 ${item.meta.fire}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        `;
+                        container.innerHTML += partyHTML;
+                    });
+                })
+                .catch(error => console.error("Error loading explore.json:", error));
+        });
+    </script>
 
 </body>
 </html>
