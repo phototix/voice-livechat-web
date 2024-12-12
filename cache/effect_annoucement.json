@@ -2,8 +2,8 @@
     "timestamp": 123456789,
     "messages": [
         {
-            "text": "欢迎壹韶来到直播间！",
-            "avatar": "/assets/yishao-profile.png"
+            "text": "欢迎壹韶APP！",
+            "avatar": "/assets/logo.jpg"
         }
     ]
 }

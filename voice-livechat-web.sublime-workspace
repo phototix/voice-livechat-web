@@ -23,86 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "cache/1002001-room-status.json",
-			"settings":
-			{
-				"buffer_size": 1842,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					9,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BwAAAEQCAAAAAAAARQIAAAAAAAAAAAAARAIAAAAAAABGAgAAAAAAAAEAAABqRAIAAAAAAABIAgAAAAAAAAIAAABqdUQCAAAAAAAASQIAAAAAAAAEAAAAanUnYkQCAAAAAAAASgIAAAAAAAAFAAAAanUnYmFEAgAAAAAAAEwCAAAAAAAABgAAAGp1J2Jhb0QCAAAAAAAARwIAAAAAAAAIAAAAanUnYmFvJ3A",
-					"AQAAAAAAAAABAAAARAIAAAAAAABEAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					13,
-					1,
-					"paste",
-					null,
-					"AgAAAEQCAAAAAAAARwIAAAAAAAAAAAAARwIAAAAAAABHAgAAAAAAAAkAAADogZrlrp3nm4Y",
-					"AQAAAAAAAAABAAAARwIAAAAAAABEAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"left_delete",
-					null,
-					"AQAAANkGAAAAAAAA2QYAAAAAAAADAAAA5Y+U",
-					"AQAAAAAAAAABAAAA2gYAAAAAAADaBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					22,
-					3,
-					"left_delete",
-					null,
-					"AwAAAEYCAAAAAAAARgIAAAAAAAADAAAA55uGRQIAAAAAAABFAgAAAAAAAAMAAADlr7ZEAgAAAAAAAEQCAAAAAAAAAwAAAOiBmg",
-					"AQAAAAAAAAABAAAARwIAAAAAAABHAgAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "room.html",
-			"settings":
-			{
-				"buffer_size": 34577,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					3,
-					1,
-					"insert",
-					{
-						"characters": "5"
-					},
-					"AgAAAKs8AAAAAAAArDwAAAAAAAAAAAAArDwAAAAAAACsPAAAAAAAAAEAAAAz",
-					"AQAAAAAAAAABAAAArDwAAAAAAACrPAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"insert",
-					{
-						"characters": "5"
-					},
-					"AgAAANs8AAAAAAAA3DwAAAAAAAAAAAAA3DwAAAAAAADcPAAAAAAAAAEAAAAz",
-					"AQAAAAAAAAABAAAA3DwAAAAAAADbPAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -140,30 +60,34 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web"
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache"
 	],
 	"file_history":
 	[
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/service-worker.js",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/room.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/list.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/list.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/explore.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/explore.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/828027713-room-status.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-room-status.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/.gitignore",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/1002001-room-status.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/service-worker.js",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/login.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/me.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/index.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/1002001-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/manifest.json",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/explore.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/chat.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/list.php",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/room.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/index.php",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script/loader.js",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/2004208-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/room.css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/142903999-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/explore.css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/index.css",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/.gitignore",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/1002001-chat-history.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/142903999-chat-history.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-user.json",
@@ -317,75 +241,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "cache/1002001-room-status.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1842,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								580,
-								580
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "room.html",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 34577,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15580,
-								15580
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3605.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -474,7 +329,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_width": 312.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
