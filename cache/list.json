@@ -9,15 +9,6 @@
         "fire": 46
     },
     {
-        "id": "2004208",
-        "status": "online",
-        "category": ["音乐"],
-        "image": "assets/fenghuang-profile.jpg?ver=1.0",
-        "alt": "凤凰的房间",
-        "title": "凤凰的房间",
-        "fire": 46
-    },
-    {
         "id": "828027713",
         "status": "online",
         "category": ["音乐"],
@@ -33,15 +24,6 @@
         "image": "assets/rooms/142903999.jpg?ver=1.0",
         "alt": "糖糖专属",
         "title": "糖糖专属",
-        "fire": 46
-    },
-    {
-        "id": "1002001",
-        "status": "online",
-        "category": ["直播", "交友"],
-        "image": "assets/rooms/1002001.png?ver=1.0",
-        "alt": "音韵百魅",
-        "title": "音韵百魅",
         "fire": 46
     }
 ]

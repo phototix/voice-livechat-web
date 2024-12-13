@@ -23,6 +23,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "cache/effect_annoucement.json",
+			"settings":
+			{
+				"buffer_size": 148,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AgAAAHsAAAAAAAAAgwAAAAAAAAAAAAAAgwAAAAAAAACDAAAAAAAAABIAAAB5aXNoYW8tcHJvZmlsZS5wbmc",
+					"AQAAAAAAAAABAAAAjQAAAAAAAAB7AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+						]
+					},
+					"BAAAAFMAAAAAAAAAVAAAAAAAAAAPAAAA5p2l5Yiw55u05pKt6Ze0UwAAAAAAAABVAAAAAAAAAAEAAABBUwAAAAAAAABWAAAAAAAAAAIAAABBUFMAAAAAAAAAVgAAAAAAAAADAAAAQVBQ",
+					"AQAAAAAAAAABAAAAWAAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -60,8 +92,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache"
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web"
 	],
 	"file_history":
 	[
@@ -241,6 +272,48 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "cache/effect_annoucement.json",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"file": "assets/logo.jpg",
+					"semi_transient": true,
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "image"
+				}
 			]
 		}
 	],
