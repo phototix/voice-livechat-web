@@ -23,38 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "cache/effect_annoucement.json",
-			"settings":
-			{
-				"buffer_size": 148,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					5,
-					1,
-					"paste",
-					null,
-					"AgAAAHsAAAAAAAAAgwAAAAAAAAAAAAAAgwAAAAAAAACDAAAAAAAAABIAAAB5aXNoYW8tcHJvZmlsZS5wbmc",
-					"AQAAAAAAAAABAAAAjQAAAAAAAAB7AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					11,
-					1,
-					"sequence",
-					{
-						"commands":
-						[
-						]
-					},
-					"BAAAAFMAAAAAAAAAVAAAAAAAAAAPAAAA5p2l5Yiw55u05pKt6Ze0UwAAAAAAAABVAAAAAAAAAAEAAABBUwAAAAAAAABWAAAAAAAAAAIAAABBUFMAAAAAAAAAVgAAAAAAAAADAAAAQVBQ",
-					"AQAAAAAAAAABAAAAWAAAAAAAAABTAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -96,11 +64,13 @@
 	],
 	"file_history":
 	[
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/effect_annoucement.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/list.json",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/explore.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/chat.html",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/explore.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/room.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/list.html",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/list.json",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/explore.json",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/explore.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/828027713-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-room-status.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/.gitignore",
@@ -110,7 +80,6 @@
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/me.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/index.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/manifest.json",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/chat.html",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/list.php",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/index.php",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script/loader.js",
@@ -123,7 +92,6 @@
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/142903999-chat-history.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/96844131-user.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script/announcement.js",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache/effect_annoucement.json",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/chat.css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/me.css",
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/assets/css/login.css",
@@ -272,48 +240,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "cache/effect_annoucement.json",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 148,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"file": "assets/logo.jpg",
-					"semi_transient": true,
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "image"
-				}
 			]
 		}
 	],

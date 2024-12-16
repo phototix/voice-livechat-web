@@ -3,10 +3,10 @@
         "id": "96844131",
         "status": "online",
         "category": ["音乐"],
-        "image": "assets/yishao-profile-3.png?ver=1.31",
+        "image": "assets/rooms/96844131_backup.png?ver=1.31",
         "alt": "壹馨一意FM",
         "title": "壹馨一意FM",
-        "fire": 46
+        "fire": 13
     },
     {
         "id": "828027713",
@@ -24,6 +24,6 @@
         "image": "assets/rooms/142903999.jpg?ver=1.0",
         "alt": "糖糖专属",
         "title": "糖糖专属",
-        "fire": 46
+        "fire": 42
     }
 ]
