@@ -23,6 +23,76 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "cache/list.json",
+			"settings":
+			{
+				"buffer_size": 665,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AgAAAHMAAAAAAAAAhgAAAAAAAAAAAAAAhgAAAAAAAACGAAAAAAAAABQAAAB5aXNoYW8tcHJvZmlsZS0zLnBuZw",
+					"AQAAAAAAAAABAAAAcwAAAAAAAACHAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "rooms/"
+					},
+					"BgAAAHMAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB1AAAAAAAAAAAAAAB1AAAAAAAAAHYAAAAAAAAAAAAAAHYAAAAAAAAAdwAAAAAAAAAAAAAAdwAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcwAAAAAAAABzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AgAAAN0AAAAAAAAA3gAAAAAAAAAAAAAA3gAAAAAAAADeAAAAAAAAAAEAAAA2",
+					"AQAAAAAAAAABAAAA3QAAAAAAAADeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AgAAAI8CAAAAAAAAkAIAAAAAAAAAAAAAkAIAAAAAAACQAgAAAAAAAAEAAAA2",
+					"AQAAAAAAAAABAAAAjwIAAAAAAACQAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AgAAANwAAAAAAAAA3QAAAAAAAAAAAAAA3QAAAAAAAADdAAAAAAAAAAEAAAA0",
+					"AQAAAAAAAAABAAAA3QAAAAAAAADcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "13"
+					},
+					"AwAAANwAAAAAAAAA3QAAAAAAAAAAAAAA3QAAAAAAAADdAAAAAAAAAAIAAAAxMd0AAAAAAAAA3gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3gAAAAAAAADcAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -60,7 +130,8 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web"
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache"
 	],
 	"file_history":
 	[
@@ -240,6 +311,41 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "cache/list.json",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
