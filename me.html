@@ -125,7 +125,7 @@
 
                     const balanceElements = document.querySelectorAll(".balance div span");
                     balanceElements[0].textContent = data.balance;
-                    balanceElements[1].textContent = data.balance;
+                    balanceElements[1].textContent = data.withdraw;
                 })
                 .catch(err => console.error("Error updating profile:", err));
         }
