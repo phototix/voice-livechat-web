@@ -39,7 +39,7 @@
 					"paste",
 					null,
 					"AgAAAHMAAAAAAAAAhgAAAAAAAAAAAAAAhgAAAAAAAACGAAAAAAAAABQAAAB5aXNoYW8tcHJvZmlsZS0zLnBuZw",
-					"AQAAAAAAAAABAAAAcwAAAAAAAACHAAAAAAAAAAAAAAAAAPC/"
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHMAAAAAAAAAhwAAAAAAAAAAAAAAAADwvw"
 				],
 				[
 					6,
@@ -49,7 +49,7 @@
 						"characters": "rooms/"
 					},
 					"BgAAAHMAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB1AAAAAAAAAAAAAAB1AAAAAAAAAHYAAAAAAAAAAAAAAHYAAAAAAAAAdwAAAAAAAAAAAAAAdwAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHkAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAcwAAAAAAAABzAAAAAAAAAAAAAAAAAPC/"
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAHMAAAAAAAAAcwAAAAAAAAAAAAAAAADwvw"
 				],
 				[
 					11,
@@ -59,7 +59,7 @@
 						"characters": "1"
 					},
 					"AgAAAN0AAAAAAAAA3gAAAAAAAAAAAAAA3gAAAAAAAADeAAAAAAAAAAEAAAA2",
-					"AQAAAAAAAAABAAAA3QAAAAAAAADeAAAAAAAAAAAAAAAAAPC/"
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAN0AAAAAAAAA3gAAAAAAAAAAAAAAAADwvw"
 				],
 				[
 					14,
@@ -69,7 +69,7 @@
 						"characters": "2"
 					},
 					"AgAAAI8CAAAAAAAAkAIAAAAAAAAAAAAAkAIAAAAAAACQAgAAAAAAAAEAAAA2",
-					"AQAAAAAAAAABAAAAjwIAAAAAAACQAgAAAAAAAAAAAAAAAPC/"
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAI8CAAAAAAAAkAIAAAAAAAAAAAAAAADwvw"
 				],
 				[
 					17,
@@ -79,7 +79,7 @@
 						"characters": "1"
 					},
 					"AgAAANwAAAAAAAAA3QAAAAAAAAAAAAAA3QAAAAAAAADdAAAAAAAAAAEAAAA0",
-					"AQAAAAAAAAABAAAA3QAAAAAAAADcAAAAAAAAAAAAAAAAAPC/"
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAN0AAAAAAAAA3AAAAAAAAAAAAAAAAADwvw"
 				],
 				[
 					22,
@@ -89,7 +89,95 @@
 						"characters": "13"
 					},
 					"AwAAANwAAAAAAAAA3QAAAAAAAAAAAAAA3QAAAAAAAADdAAAAAAAAAAIAAAAxMd0AAAAAAAAA3gAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3gAAAAAAAADcAAAAAAAAAAAAAAAAAPC/"
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAN4AAAAAAAAA3AAAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "cache/96844131-user.json",
+			"settings":
+			{
+				"buffer_size": 410,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AgAAAHYBAAAAAAAAdwEAAAAAAAAAAAAAdwEAAAAAAAB3AQAAAAAAAAEAAAAw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB3AQAAAAAAAHYBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "55"
+					},
+					"AwAAAHoBAAAAAAAAewEAAAAAAAAAAAAAewEAAAAAAAB7AQAAAAAAAAIAAAAwMHsBAAAAAAAAfAEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB8AQAAAAAAAHoBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					12,
+					2,
+					"paste",
+					null,
+					"AwAAAGEBAAAAAAAAfQEAAAAAAAAAAAAAfQEAAAAAAAB9AQAAAAAAABwAAAAsCiAgICAiYmFsYW5jZSI6ICIxLDAzMCwwNTUifQEAAAAAAACZAQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB9AQAAAAAAAGEBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "withdraw"
+					},
+					"CQAAAIQBAAAAAAAAhQEAAAAAAAAAAAAAhQEAAAAAAACFAQAAAAAAAAcAAABiYWxhbmNlhQEAAAAAAACGAQAAAAAAAAAAAACGAQAAAAAAAIcBAAAAAAAAAAAAAIcBAAAAAAAAiAEAAAAAAAAAAAAAiAEAAAAAAACJAQAAAAAAAAAAAACJAQAAAAAAAIoBAAAAAAAAAAAAAIoBAAAAAAAAiwEAAAAAAAAAAAAAiwEAAAAAAACMAQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACEAQAAAAAAAIsBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					20,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJABAAAAAAAAkAEAAAAAAAADAAAAMSww",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACTAQAAAAAAAJABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "23"
+					},
+					"AwAAAJABAAAAAAAAkQEAAAAAAAAAAAAAkQEAAAAAAACRAQAAAAAAAAIAAAAzMJEBAAAAAAAAkgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACSAQAAAAAAAJABAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "me.html",
+			"settings":
+			{
+				"buffer_size": 5362,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AgAAAMcTAAAAAAAAzxMAAAAAAAAAAAAAzxMAAAAAAADPEwAAAAAAAAcAAABiYWxhbmNl",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADHEwAAAAAAAM4TAAAAAAAAAAAAAAAA8L8"
 				]
 			]
 		}
@@ -131,7 +219,8 @@
 	"expanded_folders":
 	[
 		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web",
-		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache"
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/cache",
+		"/C/Users/brandonchong/Documents/GitHub/voice-livechat-web/script"
 	],
 	"file_history":
 	[
@@ -314,7 +403,6 @@
 				{
 					"buffer": 0,
 					"file": "cache/list.json",
-					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
@@ -340,6 +428,75 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cache/96844131-user.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								396
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "me.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5072,
+								5072
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1728.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
