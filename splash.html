@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <title>壹韶APP</title>
+
+    <!-- Link to PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f3f3;
+            text-align: center;
+        }
+
+        #splash-screen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #splash-screen img {
+            width: 70%;
+        }
+
+        #splash-screen h1 {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="splash-screen">
+        <img src="/assets/splash.png" alt="Splash Image">
+        <h1>欢迎来到 壹韶APP</h1>
+    </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then((registration) => {
+                        console.log('Service Worker registered with scope:', registration.scope);
+                    })
+                    .catch((error) => {
+                        console.log('Service Worker registration failed:', error);
+                    });
+            });
+        }
+        // Redirect to explore.html after 5 seconds
+        setTimeout(() => {
+            window.location.href = "explore.html";
+        }, 5000);
+    </script>
+</body>
+</html>
