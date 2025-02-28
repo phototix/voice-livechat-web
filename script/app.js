@@ -2,6 +2,14 @@
 
 // Function to check user login session
 function checkLoginSession() {
+    // Parse cookies to get userID
+    const cookies = document.cookie.split('; ').reduce((acc, curr) => {
+        const [key, value] = curr.split('=');
+        acc[key] = value;
+        return acc;
+    }, {});
+    const userID = cookies.userLoggedIn;
+    
     // Simulate checking session storage for a logged-in user
     const userLoggedIn = sessionStorage.getItem('userLoggedIn');
 
@@ -13,7 +21,7 @@ function checkLoginSession() {
     const currentPage = window.location.pathname.split('/').pop();
 
     // If the page is restricted and the user is not logged in
-    if (restrictedPages.includes(currentPage) && !userLoggedIn) {
+    if (restrictedPages.includes(currentPage) && !userLoggedIn && !userLoggedIn) {
         // Log and debug redirection
         console.log('Redirecting to login page');
         // Redirect to login.html if not logged in
