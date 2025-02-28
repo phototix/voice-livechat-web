@@ -18,5 +18,15 @@
             "category": "音乐",
             "fire": 41
         }
+    },
+    {
+        "id": "2004208",
+        "image": "assets/rooms/2004208.jpg?ver=1.0",
+        "alt": "Party",
+        "title": "凪卄",
+        "meta": {
+            "category": "音乐",
+            "fire": 121
+        }
     }
 ]

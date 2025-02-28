@@ -25,5 +25,23 @@
         "alt": "糖糖专属",
         "title": "糖糖专属",
         "fire": 42
+    },
+    {
+        "id": "1002001",
+        "status": "online",
+        "category": ["音乐"],
+        "image": "assets/rooms/1002001.jpg?ver=1.0",
+        "alt": "音韵🪐",
+        "title": "音韵🪐",
+        "fire": 12
+    },
+    {
+        "id": "2004208",
+        "status": "online",
+        "category": ["音乐"],
+        "image": "assets/rooms/2004208.jpg?ver=1.0",
+        "alt": "凪卄🪐",
+        "title": "凪卄🪐",
+        "fire": 12
     }
 ]
