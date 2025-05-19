@@ -2,11 +2,11 @@
   "room": {
     "background": "assets/chatrooms/comm-007-yishao-fm.jpg?ver=1.0",
     "radioURL": "https://stream.zeno.fm/xiv7xayor3gvv",
-    "webhookURL": "https://workflows.brandon.my/webhook/28b88196-952c-4b5f-aef9-e68f1b744987",
+    "webhookURL": "https://workflows.brandon.my/webhook/Brandonz-VoiceChat",
     "title": "壹馨一意FM 🌻 虚拟聊天室",
     "id": "96844131",
     "roomType": "personal",
-    "aiType": "text"
+    "aiType": "audio"
   },
   "host": {
     "status": "online",
